@@ -134,7 +134,15 @@ body {
 
 /* top-content */
 
+.top-content{
+    display: block;
+text-align: center;
+    justify-content: center;
+}
 
+.top-content p{
+    line-height: 1.5;
+}
 
 /*bottom-content */
 

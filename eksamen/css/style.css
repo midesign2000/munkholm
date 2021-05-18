@@ -1,3 +1,20 @@
+/* body background texture*/
+
+body{
+background-image: url("../images/paper_texture3.png");
+background-color: #cccccc;
+background-size: cover;
+    
+}
+
+#horizontal_line{
+    
+}
+
+
+
+
+
 /* Header navigation */
 #top-nav {
   display: flex;
@@ -41,6 +58,23 @@
 .burger-item:nth-child(1),
 .burger-item:nth-child(2) {
   margin-bottom: 0.5rem;}
+
+
+
+/* Main section */
+.head-section{
+    align-items: center;
+}
+
+#velkommen h1{
+    font-family: 'Montserrat';
+    font-size: 28px;
+    font-weight: 500;
+}
+
+
+
+
 
 /* Mobile navigation */
 
@@ -92,7 +126,9 @@
   padding: 0 0.5rem 0 0;
 }
 
-
+/* 
+Breakpoints 
+*/
 
 @media only screen and (min-width: 1000px) {
   .footer-item,

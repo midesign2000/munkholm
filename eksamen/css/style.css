@@ -120,7 +120,7 @@ body {
 }
 
 #horizontal_line {
-    text-align: center;
+    justify-self: center;
     color: #f7f5f2;
     width: 50%;
 

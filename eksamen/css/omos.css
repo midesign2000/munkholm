@@ -24,6 +24,125 @@ margin: 0%;
 
 
 
+/* head section*/
+.head-sectionmobile {
+    padding: 2%;
+}
+
+.head-sectionmobile h1 {
+    text-align: center;
+    margin: 10 10 10 10;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.5em;
+    color: #f7f5f2;
+
+}
+
+
+
+
+.top-contentmobile {
+    display: block;
+    padding-left: 2%
+}
+
+.top-contentmobile p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.8em;
+    line-height: 2.5;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.top-content img {
+    max-width: 80%;
+    height: auto;
+    position: relative;
+}
+
+
+#horizontal_line {
+    justify-self: center;
+    color: #f7f5f2;
+    width: 80%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*footer mobile*/
 

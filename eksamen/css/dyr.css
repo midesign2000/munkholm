@@ -199,18 +199,23 @@ margin-left: 11em;
 }
 
 .desktop-nav-container ul {
-  display: inline;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-evenly;
+    padding: 2em;
 }
 
 .desktop-nav-container ul li {
   display: inline;
+    font-family: 'Montserrat';
 }
 
 .desktop-nav-container ul li :last-child {
-  padding: 0 0.5rem 0 0;
+  padding: 0 2rem 0 0;
+}
+
+#sprogvalg img {
+    width: 5%;
 }
 
 
@@ -478,7 +483,8 @@ width: 100%;
        .kasse {
            width: 100%;
            display: flex;
-       }  
+       } 
+       
     
 
        
@@ -488,6 +494,7 @@ width: 100%;
 
     .billede1 img {
            width: 80%;
+        margin: 10%;
        }
 
   .billede2 {
@@ -496,6 +503,7 @@ width: 100%;
 
  .billede2 img {
            width: 80%;
+margin: 10%;
  }
     
        
@@ -509,7 +517,49 @@ width: 100%;
 }
 
 @media only screen and (min-width: 1020px) {
-  .footer-item,
+  
+#clickmenu {
+display: none;   
+}
+ 
+    #headerlogo img {
+        width: 20%;
+    }
+    
+    
+    #logo {
+        display: none;
+    }
+    
+    li a {
+        color: white;  
+    }
+    
+    ul {
+        text-align: center;
+    }
+    
+   
+    
+    .desktopsetup {
+        display: flex;
+    }
+    
+    
+    
+    
+
+    #flexkontakt {
+        font-family: 'Open Sans';
+    }
+    
+    #footerh2 {
+        margin-left: 5px;
+    }
+    
+  
+    
+    .footer-item,
   .footer-divider {
     display: unset;
   }

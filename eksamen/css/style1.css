@@ -14,6 +14,8 @@ body{
 
 /* head section*/
 .head-section {
+padding-top:10%;
+ align-items: center;
     
 }
 
@@ -32,6 +34,16 @@ hr {
     width: 90%;
     margin: 5%;
     
+}  
+
+
+#velkommen h1 {
+    font-family: 'Montserrat';
+    font-size: 28px;
+    font-weight: 500;
+    margin-top: 20%;
+}
+
 
 }
 
@@ -39,6 +51,7 @@ hr {
 
 .top-content {
     display: block;
+
     
    
  
@@ -46,9 +59,9 @@ hr {
 
 .top-content p {
     font-family: 'Open Sans', sans-serif;
-    font-size: 18px;
+    font-size: 14px;
     line-height: 2;
-  padding:5%;
+  padding:10%;
 }
 
 .top-content img {
@@ -56,9 +69,18 @@ hr {
     height: auto;
     position: relative;
     padding-left:5%;
+margin-bottom: 20%;
     
   
 }
+
+.container video {
+    position: relative;
+    width: 100%;
+    z-index: 0;
+}
+
+
 
 /*bottom-content */
 
@@ -72,17 +94,6 @@ hr {
 
 
 
-/* Main section */
-.head-section {
-    align-items: center;
-}
-
-#velkommen h1 {
-    font-family: 'Montserrat';
-    font-size: 28px;
-    font-weight: 500;
-    padding-top:5%;
-}
 
 
 #flexbokse {
@@ -118,19 +129,31 @@ width: 50%;
 
 }
 
+#fleximg1 {
+width: 50%;
+
+
+}
+
 
 #flextekst {
 font-family: 'Open Sans', sans-serif;
 font-size: 18px;
-line-height: 1em;
+line-height: 1.2em;
 width: 50%;
+color: #BE7642;
 
 }
 
 
 
 #fleximg img {
-width: 40%;
+width: 60%;
+
+}
+
+#fleximg1 img {
+width: 70%;
 
 }
 
@@ -209,6 +232,198 @@ margin-top: 20%;
 
 
 
+#desktopforside{
+width: 100%;
+    display: flex;
+text-align: center;
+}
+
+
+#velkommen {
+width: 50%;
+
+}
+
+#desktopimg{
+width: 50%;
+}
+
+#desktopimg img{
+width: 80%;
+text-align: center;
+margin: 10%;
+}
+
+
+#velkommen p {
+margin: 5%;
+line-height: 1.5em;
+text-align: left;
+font-family: 'Open Sans';
+padding-left: 10%;
+}
+
+#velkommen img {
+width: 40%;
+padding-right: 30%;
+
+}
+
+
+
+#desktopbottom {
+
+}
+
+
+
+
+
+#desktopbottom {
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+padding-top: 10%;
+padding-bottom: 10%;
+padding: 5%;
+  background-image: url(../images/natur-baggrund.png);
+    background-color: #cccccc;
+    background-size: cover;
+
+}
+              
+
+#sedyr-desktop {
+width: 90%;
+display: flex;
+text-align: center;
+border-radius: 10px;
+  box-shadow: 2px 2px 2px grey;
+background-color: #d2d5b6;
+ justify-content: center;
+    align-items: center;
+padding:5%;
+margin-top: 10%;
+
+
+}
+
+#fleximg-desktop {
+width: 50%;
+
+
+}
+
+#fleximg1-desktop {
+width: 50%;
+
+
+}
+
+
+#flextekst-desktop {
+font-family: 'Open Sans', sans-serif;
+font-size: 18px;
+line-height: 1.2em;
+width: 50%;
+color: #BE7642;
+
+}
+
+
+
+#fleximg-desktop img {
+width: 60%;
+
+}
+
+#fleximg1-desktop img {
+width: 70%;
+
+}
+
+
+
+#nyheder-desktop {
+width: 90%;
+display: flex;
+    text-align: center;
+border-radius: 10px;
+  box-shadow: 2px 2px 2px grey;
+background-color: #d2d5b6;
+ justify-content: center;
+    align-items: center;
+padding: 5%;
+margin-top: 20%;
+
+}
+
+
+
+#kort-desktop {
+width: 90%;
+display: flex;
+    text-align: center;
+border-radius: 10px;
+  box-shadow: 2px 2px 2px grey;
+background-color: #d2d5b6;
+ justify-content: center;
+    align-items: center;
+padding: 5%;
+margin-top: 20%;
+
+
+
+}
+
+
+
+#dyrepasser-desktop {
+width: 90%;
+display: flex;
+    text-align: center;
+ text-align: center;
+border-radius: 10px;
+  box-shadow: 2px 2px 2px grey;
+background-color: #d2d5b6;
+ justify-content: center;
+    align-items: center;
+padding: 5%;
+margin-top: 20%;
+
+}
+
+
+
+
+
+#herliggervi-desktop {
+width: 90%;
+display: flex;
+text-align: center;
+border-radius: 10px;
+box-shadow: 2px 2px 2px grey;
+background-color: #d2d5b6;
+justify-content: center;
+align-items: center;
+padding: 5%;
+margin-top: 20%;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -232,6 +447,7 @@ margin-top: 20%;
 footer {
 overflow: hidden;
 background-color: rgba(247, 245, 242, 0.5); /* F7F5F2 with opacity */
+
     
 }
 
@@ -369,6 +585,15 @@ footer #flexkontakt {
 }
 
 
+h4 {
+font-family: 'Open Sans';
+font-size: 1.2em;
+padding: 2%;
+margin: 0%;
+margin-top: 5%;
+}
+
+
 
 
 @media only screen and (min-width: 768px) {
@@ -381,6 +606,9 @@ footer #flexkontakt {
     font-size: 1.2em;
     }
     
+    #mobileforside {
+    display: none;
+    }
 
 }
 

@@ -32,7 +32,7 @@ background-color: rgba(247, 245, 242, 0.5); /* F7F5F2 with opacity */
     
 }
 
-footer #flexikon {
+footer #flexikonmobile {
     display: flex;
     width: 100%;
     margin: 0;
@@ -101,4 +101,38 @@ footer .footer-right img {
     padding: 2%;
     margin: 0%;
 }
+
+
+footer #flexikondesktop {
+    display: flex;
+    width: 100%;
+    margin: 0;
+}
+
+
+
+@media only screen and (min-width: 768px) {
+    
+    .kontaktinfo {
+    font-size: 1.em;
+    }
+    
+    h3 {
+    font-size: 1.2em;
+    }
+
+}
+
+
+
+@media only screen and (min-width: 1020px) {
+    
+footer #flexikonmobile {
+   display: none;
+}
+
+
+
+
+
 

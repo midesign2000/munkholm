@@ -210,6 +210,177 @@ margin-left: 11em;
 }
 
 /* 
+Footer
+*/
+
+/*footer mobile*/
+
+footer {
+overflow: hidden;
+background-color: rgba(247, 245, 242, 0.5); /* F7F5F2 with opacity */
+    
+}
+
+footer #flexikonmobile {
+    display: flex;
+    width: 100%;
+    margin: 0;
+}
+
+footer .footer-left {
+    width: 33.5%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+footer .footer-left img {
+    width: 40px;
+    max-height: 40px;
+    margin-top: 5px;
+        padding: 10px;
+
+}
+
+
+footer .footer-center {
+     width: 33.5%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-top: 10px;
+       text-align: center;
+}
+
+
+footer .footer-center img {
+    width: 40px;
+    max-height: 40px;
+    margin-top: 5px;
+    padding: 10px;
+}
+
+
+
+footer .footer-right {
+    display: flex;
+    flex-direction: column;
+    width: 33.5%;
+    padding-top: 15px;
+    padding-right: 10px;
+       text-align: center;
+}
+
+
+footer .footer-right img {
+    width: 40px;
+    max-height: 40px;
+    margin-top: 5px;
+        padding: 10px;
+
+}
+
+
+.kontaktinfo {
+  font-size: 0.8em;
+    line-height: 1.5em;
+    font-family: montserrat;
+    padding: 2%;
+    margin: 0%;
+}
+
+
+/*footer desktop*/
+
+
+footer #flexikondesktop {
+    display: none;
+    width: 100%;
+    margin: 0;
+}
+
+
+footer #flexalt {
+ display: flex;
+    width: 100%;
+    margin: 0;
+
+}
+
+.footer-centerdesktop{
+    width: 33.3%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 2%;
+    padding-top: 2%;
+       text-align: center;
+
+}
+
+footer .footer-centerdesktop img {
+    width: 40px;
+    max-height: 40px;
+    margin-top: 5px;
+    padding: 10px;
+  
+}
+
+.footer-rightdesktop {
+   width: 33.3%;
+    flex-direction: inline;
+    padding-left: 2%;
+    padding-top: 2%;
+       text-align: center;
+ 
+}
+
+
+footer .footer-rightdesktop img {
+    width: 40px;
+    max-height: 40px;
+    margin-top: 5px;
+        padding: 10px;
+    text-align: right;
+
+}
+
+
+footer #flexkontakt {
+    width: 33.3%;
+    margin: 0;
+    padding-left: 2%;
+    padding-top: 2%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
 Breakpoints 
 */
 
@@ -257,12 +428,25 @@ font-size: 22px;
         
     }
     
+
+   @media only screen and (min-width: 768px) {
+    
+    .kontaktinfo {
+    font-size: 1.em;
+    }
+    
+    h2 {
+    font-size: 1.2em;
+    }
+    
+
+} 
     
    
 
 }
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1020px) {
   .footer-item,
   .footer-divider {
     display: unset;
@@ -281,4 +465,21 @@ font-size: 22px;
   #main-footer small {
     font-size: 0.625rem;
   }
+    
+    
+  footer #flexikonmobile {
+   display: none;
+    
+}
+    
+    footer #flexikondesktop {
+    display: flex;
+        
+    }
+    
+    #kontakt{
+    display: none;
+    }  
+    
+    
 }

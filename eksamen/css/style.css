@@ -34,7 +34,7 @@
 .bottom_container .cards {
     position: relative;
     flex-direction: row;
-    width: 70%;
+    width: 75%;
     height: 5%;
     margin: 15px;
     box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
@@ -44,74 +44,61 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border-top: 1px solid rgba(255, 255, 255, 0.5);
-    border-left: 1px solid rgba(255, 255, 255, 0.5);
-
+    border-top: 1px solid rgba(255, 255, 255, 0.8);
+    border-left: 1px solid rgba(255, 255, 255, 0.8);
 }
 
-.bottom_container .cards .card_content {
-    padding: 10px;
+
+.bottom_container .cards .card_content, #card_content {
     text-align: center;
     opacity: 1;
     transition: 0.3s;
-
-}
-
-.bottom_container .cards:hover .card_content {
-    transform: scale(1.2);
 }
 
 
 
+.bottom_container .cards:hover .card_content, #card_content {
+    transform: scale(1.1);
+}
 
-.bottom_container .cards .card_content h3 {
-    font-size: 1.5em;
+
+
+
+.bottom_container .cards .card_content h4, #card_content {
     color: #f7f5f2;
-    z-index: 1;
 }
 
 .bottom_container .cards .card_content h4 img {
-    height: auto;
-    max-width: 80%;
-    padding: 5px;
+    width: 50%;
+
+    
 
 }
 
-
-
-
 .bottom_container .cards .card_content a {
-    position: relative;
-    display: inline-block;
-    padding: 30px 20px;
-    margin-top: 15px;
-    font-size: 1.8em;
+    position:relative;
+    margin-left: 0;
+    margin-right: 0;
+    font-size: 1.3em;
     font-family: 'Montserrat';
     color: #be7642;
-    border-radius: 10px;
     text-decoration: none;
-    font-weight: 500;
+    font-weight: 400;
+    margin-top: 15%;
+    margin-right: 5%;
 }
 
 .card_content {
     display: flex;
-
-}
-
-/* header background texture*/
-
-#main-header {
-    background-image: url("../images/paper_texture3.png");
-    background-color: #cccccc;
-    background-size: cover;
+    text-align: center;
 
 }
 
 
 
-/* body background texture*/
+/*  background texture*/
 
-body {
+body{
     background-image: url("../images/paper_texture3.png");
     background-color: #cccccc;
     background-size: cover;
@@ -140,10 +127,12 @@ body {
 
 }
 
-#horizontal_line {
-    justify-self: center;
+hr {
+    text-align: center;
     color: #f7f5f2;
-    width: 100%;
+    width: 90%;
+    margin: 5%;
+    
 
 }
 
@@ -159,9 +148,9 @@ body {
 .top-content p {
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
-    line-height: 2.5;
-    padding-left: 10%;
-    padding-right: 10%;
+    line-height: 2;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .top-content img {
@@ -181,7 +170,6 @@ body {
 
 
 
-
 /* Header navigation */
 #top-nav {
     display: flex;
@@ -189,13 +177,17 @@ body {
     align-items: center;
 }
 
-#main-header {
-    background-color: #8f9472;
+
+
+/* Header */
+
+header{
+    
 }
 
 
 .logo-container {
-    padding: 0.5rem 0 1rem 1rem;
+    
 
 }
 
@@ -247,6 +239,8 @@ body {
 
 
 
+
+
 /* Mobile navigation */
 
 
@@ -272,31 +266,25 @@ body {
     padding: 0 0.5rem 0 0;
 }
 
+
+
+
+
 /* 
 Breakpoints 
 */
 
 @media only screen and (min-width: 1000px) {
 
-    .footer-item,
-    .footer-divider {
-        display: unset;
-    }
+    
+    
 
-    .nav ul {
-        display: block;
-    }
-
-    .burger-container,
-    #bottom-nav {
-        display: none;
-    }
-
-    .desktop-nav-container {
-        display: unset;
-    }
-
-    #main-footer small {
-        font-size: 0.625rem;
-    }
 }
+
+
+
+@media only screen and (min-width: 320px) {
+    
+    
+}
+

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Munkholm Zoo</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/priser.css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <meta name="description" content="This is the official page for Munkholm Zoo, Zoo, Animals, Djursland, Denmark">
+    <meta name="keywords" content="Zoo, Animal, Dyr, dyreoplevelser i øjenhøjde">
+    <meta name="author" content="">
+    <link rel="icon" href=XXX>
+
+<script src="../eksamen/js/prisudregner.js"></script>
+<body>
+
+<h1>Bestil din tur til Munkholm Zoo</h1>
+
+<section id="bestillingskasse">
+
+<label for="Voksne">Antal voksen:</label>
+<select name="Voksne" id="Voksne">
+  <option value="0">0</option>
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+  <option value="4">4</option>
+</select>
+
+<br><br> 
+
+<label for="Barn">Antal børn:</label>
+<select name="Barn" id="Barn">
+ <option value="0">0</option>
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+  <option value="4">4</option>
+</select>
+
+<br><br> 
+
+<label for="Infant">Antal børn (under 2 år):</label>
+<select name="Infant" id="Infant">
+ <option value="0">0</option>
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+  <option value="4">4</option>
+</select>
+
+<br><br> 
+
+<label for="pensionist">Antal pensionister:</label>
+<select name="pensionist" id="pensionist">
+ <option value="0">0</option>
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+  <option value="4">4</option>
+</select>
+
+<br><br> 
+
+<button id="Pris" onclick="samletpris()">Udregn pris</button>
+
+<br><br> 
+
+<p>Samlet pris:</p>
+
+    <p id="result" name="result"></p></section>
+
+
+</body>
+</html>

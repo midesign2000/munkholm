@@ -478,7 +478,8 @@ width: 100%;
        .kasse {
            width: 100%;
            display: flex;
-       }  
+       } 
+       
     
 
        
@@ -488,6 +489,7 @@ width: 100%;
 
     .billede1 img {
            width: 80%;
+        margin: 10%;
        }
 
   .billede2 {
@@ -496,6 +498,7 @@ width: 100%;
 
  .billede2 img {
            width: 80%;
+margin: 10%;
  }
     
        
@@ -509,7 +512,58 @@ width: 100%;
 }
 
 @media only screen and (min-width: 1020px) {
-  .footer-item,
+  
+#clickmenu {
+display: none;
+}
+ 
+    .desktop-nav-container {
+      display: flex;  
+    }  
+    
+    #flex1 {
+        width: 33.3%;
+    }
+    
+    #flex2 {
+         width: 33.3%;
+    }
+    
+    #flex2 img {
+        width: 50%;
+    }
+    
+    #flex3 {
+         width: 33.3%;
+    }
+    
+    #logo {
+        display: none;
+    }
+    
+    #desktophead1 {
+       width: 100%;
+    }
+
+   #desktophead2 {
+        display: flex;
+    }
+
+   #desktophead3 {
+        display: flex;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    .footer-item,
   .footer-divider {
     display: unset;
   }

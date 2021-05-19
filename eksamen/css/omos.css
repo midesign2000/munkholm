@@ -90,6 +90,12 @@ h4 {
     text-align: center;
 }
 
+#munkholmbillede h3{
+    font-family: 'Montserrat';
+    color: #f7f5f2;
+    font-size: 1.2em;
+}
+
 
 
 
@@ -108,6 +114,13 @@ h4 {
 #munkholm_logo p{
     width: 80%;
     text-align: center;
+     font-family: 'Open Sans', sans-serif;
+}
+
+#munkholm_logo h3{
+    font-family: 'Montserrat';
+    color: #f7f5f2;
+    font-size: 1.2em;
 }
 
 
@@ -136,6 +149,7 @@ h4 {
 #lars p {
     width: 80%;
     text-align: center;
+     font-family: 'Open Sans', sans-serif;
 }
 
 
@@ -165,6 +179,7 @@ h4 {
 #milo p{
     width: 80%;
     text-align: center;
+     font-family: 'Open Sans', sans-serif;
 }
 
 
@@ -193,6 +208,7 @@ h4 {
 #pernille p{
     width: 80%;
     text-align: center;
+     font-family: 'Open Sans', sans-serif;
 }
 
 

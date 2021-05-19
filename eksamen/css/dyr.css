@@ -35,9 +35,19 @@ text-align: center;
     margin-left: auto 0; 
 }
 
+#clickmenu {
+    color: white;
+font-size: 30px;
+text-align: right;
+padding: 0.3em;   
+   
+}
+
 
 
 /* Burger menu */
+
+
 
 .overlay {
   height: 100%;
@@ -47,7 +57,7 @@ text-align: center;
   top: 0;
   left: 0;
   background-color: rgb(143,149,115);
-  background-color: rgba(143,149,115, 0.9);
+  background-color: rgba(143,149,115, 0.9,1);
   overflow-x: hidden;
   transition: 0.5s;
 }
@@ -63,27 +73,109 @@ text-align: center;
 .overlay a {
   padding: 8px;
   text-decoration: none;
-  font-size: 36px;
+  font-size: 30px;
   color: #f6f5f1;
   display: block;
   transition: 0.3s;
-font-family: 'Open Sans';
+font-family: 'Montserrat';
 }
 
 .overlay a:hover, .overlay a:focus {
-  color: #f1f1f1;
+  color: #f6f5f1;
 }
 
 .overlay .closebtn {
   position: absolute;
-  top: 2px;
-  right: 10px;
+  top: 0.1px;
+  right: 1px;
   font-size: 50px;
 }
 
 #clickmobil {
 color: #f6f5f1;
 }
+
+
+/*Dropdown test i menu - mobil */
+
+.navbar {
+  overflow: hidden;
+  font-family: 'Montserrat';
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+  align-content: center;
+  overflow: hidden;
+    font-family: 'Montserrat';
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 30px;
+    font-family: 'Montserrat';
+  border: none;
+  outline: none;
+  color: #f7f5f2;
+  padding: 14px 16px;
+  background-color: inherit;
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: none;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+background-color: #B6A58B;
+  width: 100%;
+    margin-bottom: 100%;
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: #f7f5f2;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+    font-family: 'Montserrat';
+font-size: 1.5em;
+    line-height: 1.5em;
+}
+
+.dropdown-content {
+    padding-bottom: 100%;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+
+
 
 
 

@@ -24,7 +24,7 @@ margin: 0%;
 
 
 
-/*footer*/
+/*footer mobile*/
 
 footer {
 overflow: hidden;
@@ -104,10 +104,62 @@ footer .footer-right img {
 
 
 footer #flexikondesktop {
-    display: flex;
+    display: none;
     width: 100%;
     margin: 0;
 }
+
+
+footer #flexalt {
+ display: flex;
+    width: 100%;
+    margin: 0;
+
+}
+
+.footer-centerdesktop{
+    width: 33.3%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-top: 10px;
+       text-align: center;
+
+}
+
+footer .footer-centerdesktop img {
+    width: 40px;
+    max-height: 40px;
+    margin-top: 5px;
+    padding: 10px;
+  
+}
+
+.footer-rightdesktop {
+   width: 33.5%;
+    flex-direction: inline;
+    padding-left: 10px;
+    padding-top: 10px;
+       text-align: center;
+ 
+}
+
+
+footer .footer-rightdesktop img {
+    width: 40px;
+    max-height: 40px;
+    margin-top: 5px;
+        padding: 10px;
+    text-align: center;
+
+}
+
+
+footer #flexkontakt {
+    width: 33.3%;
+    margin: 0;
+}
+
 
 
 
@@ -120,19 +172,31 @@ footer #flexikondesktop {
     h3 {
     font-size: 1.2em;
     }
+    
 
 }
-
 
 
 @media only screen and (min-width: 1020px) {
     
 footer #flexikonmobile {
    display: none;
+    
 }
+    
+    footer #flexikondesktop {
+    display: flex;
+        
+    }
+    
+    #kontakt{
+    display: none;
+    }
+    
+   
 
 
-
+}
 
 
 

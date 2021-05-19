@@ -91,11 +91,13 @@
     z-index: 1;
 }
 
-.bottom_container .cards .card_content p {
-    font-size: 1em;
-    color: white;
-    font-weight: 300;
+.bottom_container .cards .card_content h4 img {
+    height: auto;
+    max-width: 100%;
 }
+
+
+
 
 
 .bottom_container .cards .card_content a {

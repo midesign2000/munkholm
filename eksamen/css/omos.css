@@ -11,7 +11,7 @@ body {
 
 /* generelt */ 
 
-h2{
+h4{
  font-size: 1.0em;
     color: black;
     line-height: 1.2em;
@@ -31,7 +31,7 @@ margin: 0%;
 
 .head-sectionmobile h1 {
     text-align: center;
-    margin: 10 10 10 10;
+    margin: 10 10 10 10;   
     font-family: 'Ubuntu', sans-serif;
     font-size: 1.5em;
     color: #f7f5f2;
@@ -43,7 +43,6 @@ margin: 0%;
 
 .top-contentmobile {
     display: block;
-    padding-left: 2%
 }
 
 .top-contentmobile p {
@@ -71,7 +70,19 @@ margin: 0%;
 
 
 
+/* billeder af personale */ 
 
+#munkholmbillede {
+width: 100%;
+    text-align: center;
+}
+
+
+#munkholmbillede img {
+  
+
+
+}
 
 
 
@@ -294,7 +305,7 @@ footer #flexkontakt {
     font-size: 1.em;
     }
     
-    h2 {
+    h4 {
     font-size: 1.2em;
     }
     

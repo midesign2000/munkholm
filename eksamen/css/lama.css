@@ -1,0 +1,578 @@
+/* body background texture*/
+
+body{
+background-image: url("../images/natur-baggrund.png");   
+}
+ 
+
+h1 {
+    color: white;
+    font-family: 'Montserrat';
+font-size: 36px;
+text-align: center;
+}
+
+
+/* Header navigation */
+#top-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#main-header {
+  background-color: none;
+}
+
+
+.logo-container {
+  padding: 0.5rem 0 1rem 1rem;
+    
+}
+.logo-container img{
+    width: 30%;
+    height: 30%;
+    margin-right: auto 0;
+    margin-left: auto 0; 
+}
+
+#clickmenu {
+    color: white;
+font-size: 30px;
+text-align: right;
+padding: 0.3em;   
+   
+}
+
+#ipadflex {
+    display: none;
+}
+
+
+
+/* Burger menu */
+
+.dropbtn img {
+    width: 1.5em;
+}
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(143,149,115);
+  background-color: rgba(143,149,115, 0.9,1);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 30px;
+  color: #f6f5f1;
+  display: block;
+  transition: 0.3s;
+font-family: 'Montserrat';
+}
+
+
+.overlay a:hover, .overlay a:focus {
+  color: #f6f5f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 0.1px;
+  right: 1px;
+  font-size: 50px;
+}
+
+#clickmobil {
+color: #f6f5f1;
+}
+
+
+/*Dropdown test i menu - mobil */
+
+.navbar {
+  overflow: hidden;
+  font-family: 'Montserrat';
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+  align-content: center;
+  overflow: hidden;
+    font-family: 'Montserrat';
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 30px;
+    font-family: 'Montserrat';
+  border: none;
+  outline: none;
+  color: #f7f5f2;
+  padding: 14px 16px;
+  background-color: inherit;
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: none;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+background-color: #B6A58B;
+  width: 100%;
+    margin-bottom: 100%;
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: #f7f5f2;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+    font-family: 'Montserrat';
+font-size: 1.5em;
+    line-height: 1.5em;
+}
+
+.dropdown-content {
+    padding-bottom: 100%;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+#bestilboks {
+    background-color: #be7743;
+    border-radius: 10px;
+  margin-right: 11em;
+margin-left: 11em;
+}
+
+
+
+
+
+
+/* Desktop navigation */
+
+.desktop-nav-container {
+  display: none;
+}
+
+.desktop-nav-container ul {
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+    padding: 2em;
+}
+
+.desktop-nav-container ul li {
+  display: inline;
+    font-family: 'Montserrat';
+}
+
+.desktop-nav-container ul li :last-child {
+  padding: 0 2rem 0 0;
+}
+
+#sprogvalg img {
+    width: 5%;
+}
+
+
+
+
+
+
+/* 
+Footer
+*/
+
+/*footer mobile*/
+
+footer {
+overflow: hidden;
+background-color: rgba(247, 245, 242, 0.5); /* F7F5F2 with opacity */
+    
+}
+
+#footerh4 {
+    font-family: 'Montserrat';
+font-size: 1em;
+    text-align: left;
+padding: 0.5em;
+}
+
+footer #flexikonmobile {
+    display: flex;
+    width: 100%;
+    margin: 0;
+}
+
+
+
+footer .footer-left {
+    width: 33.5%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+footer .footer-left img {
+    width: 30px;
+    margin-top: 5px;
+        padding: 10px;
+
+}
+
+
+footer .footer-center {
+     width: 33.5%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-top: 10px;
+       text-align: center;
+}
+
+
+footer .footer-center img {
+    width: 30px;
+    margin-top: 5px;
+    padding: 10px;
+}
+
+
+
+footer .footer-right {
+    display: flex;
+    flex-direction: column;
+    width: 33.5%;
+    padding-top: 15px;
+    padding-right: 10px;
+       text-align: center;
+}
+
+
+footer .footer-right img {
+    width: 2em;
+    margin-top: 5px;
+        padding: 10px;
+
+}
+
+
+.kontaktinfo {
+  font-size: 0.8em;
+    line-height: 1.5em;
+    font-family: 'Open Sans';
+    padding: 2%;
+    margin: 0%;
+    text-align: left;
+}
+
+
+/*footer desktop*/
+
+
+footer #flexikondesktop {
+    display: none;
+    width: 100%;
+    margin: 0;
+}
+
+
+footer #flexalt {
+ display: flex;
+    width: 100%;
+    margin: 0;
+
+}
+
+.footer-centerdesktop{
+    width: 33.3%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 2%;
+    padding-top: 2%;
+       text-align: center;
+
+}
+
+footer .footer-centerdesktop img {
+    width: 40px;
+    max-height: 40px;
+    margin-top: 5px;
+    padding: 10px;
+  
+}
+
+.footer-rightdesktop {
+   width: 33.3%;
+    flex-direction: inline;
+    padding-left: 2%;
+    padding-top: 2%;
+       text-align: center;
+ 
+}
+
+
+footer .footer-rightdesktop img {
+    width: 40px;
+    max-height: 40px;
+    margin-top: 5px;
+        padding: 10px;
+    text-align: right;
+
+}
+
+
+footer #flexkontakt {
+    width: 33.3%;
+    margin: 0;
+    padding-left: 2%;
+    padding-top: 2%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+Breakpoints 
+*/
+
+
+@media only screen and (min-width: 320px) {
+
+  
+    #hvidlama {
+       width: 100%;
+    }
+    
+    #hvidlama img {
+        width: 50%;
+
+    }
+  
+    
+ 
+    
+
+    
+  
+    
+  
+    
+    
+
+    
+
+   @media only screen and (min-width: 768px) {
+    
+    .kontaktinfo {
+    font-size: 1.em;
+    }
+    
+    h2 {
+    font-size: 1.2em;
+    }
+    
+       #clickmenu {
+font-size: 50px;
+padding: 0.3em;   
+   
+}
+
+       #logo img {
+           width: 30%;
+       }
+       
+       .dyrene {
+           display: none;
+       }
+       
+    #ipadflex {
+        display: block;
+width: 100%;
+}
+
+       .kasse {
+           width: 100%;
+           display: flex;
+       } 
+       
+    
+
+       
+ .billede1 {
+           width: 50%;
+       }
+
+    .billede1 img {
+           width: 80%;
+        margin: 10%;
+       }
+
+  .billede2 {
+           width: 50%;
+       }
+
+ .billede2 img {
+           width: 80%;
+margin: 10%;
+ }
+    
+       
+       
+   
+
+ 
+    
+   
+
+}
+
+@media only screen and (min-width: 1020px) {
+  
+#clickmenu {
+display: none;   
+}
+ 
+    #headerlogo img {
+        width: 20%;
+    }
+    
+    
+    #logo {
+        display: none;
+    }
+    
+    li a {
+        color: white;  
+    }
+    
+    ul {
+        text-align: center;
+    }
+    
+   
+    
+    .desktopsetup {
+        display: flex;
+    }
+    
+    
+    
+    
+
+    #flexkontakt {
+        font-family: 'Open Sans';
+    }
+    
+    #footerh2 {
+        margin-left: 5px;
+    }
+    
+  
+    
+    .footer-item,
+  .footer-divider {
+    display: unset;
+  }
+  .nav ul {
+    display: block;
+  }
+  .burger-container,
+  #bottom-nav {
+    display: none;
+  }
+  .desktop-nav-container {
+    display: unset;
+  }
+
+  #main-footer small {
+    font-size: 0.625rem;
+  }
+    
+    
+  footer #flexikonmobile {
+   display: none;
+    
+}
+    
+    footer #flexikondesktop {
+    display: flex;
+        
+    }
+    
+    #kontakt{
+    display: none;
+    }  
+    
+    
+}

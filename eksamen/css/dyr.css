@@ -199,18 +199,23 @@ margin-left: 11em;
 }
 
 .desktop-nav-container ul {
-  display: inline;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-evenly;
+    padding: 2em;
 }
 
 .desktop-nav-container ul li {
   display: inline;
+    font-family: 'Montserrat';
 }
 
 .desktop-nav-container ul li :last-child {
-  padding: 0 0.5rem 0 0;
+  padding: 0 2rem 0 0;
+}
+
+#sprogvalg img {
+    width: 5%;
 }
 
 
@@ -514,54 +519,45 @@ margin: 10%;
 @media only screen and (min-width: 1020px) {
   
 #clickmenu {
-display: none;
+display: none;   
 }
  
-    .desktop-nav-container {
-      display: flex;  
-    }  
-    
-    #flex1 {
-        width: 33.3%;
+    #headerlogo img {
+        width: 20%;
     }
     
-    #flex2 {
-         width: 33.3%;
-    }
-    
-    #flex2 img {
-        width: 50%;
-    }
-    
-    #flex3 {
-         width: 33.3%;
-    }
     
     #logo {
         display: none;
     }
     
-    #desktophead1 {
-       width: 100%;
+    li a {
+        color: white;  
     }
-
-   #desktophead2 {
+    
+    ul {
+        text-align: center;
+    }
+    
+   
+    
+    .desktopsetup {
         display: flex;
     }
+    
+    
+    
+    
 
-   #desktophead3 {
-        display: flex;
+    #flexkontakt {
+        font-family: 'Open Sans';
     }
     
+    #footerh2 {
+        margin-left: 5px;
+    }
     
-    
-    
-    
-    
-    
-    
-    
-    
+  
     
     .footer-item,
   .footer-divider {

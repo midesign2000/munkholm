@@ -214,7 +214,8 @@ margin-left: 11em;
 
 .inner_desktopmenu li:nth-child(1){
    float: left;
-    
+margin-left: 1em;
+   
 }
 .inner_desktopmenu li:nth-child(2){
    float: left;
@@ -227,7 +228,10 @@ margin-left: 2em;
 
 
 .inner_desktopmenu li:nth-child(4){
-   margin-right: 7.8em;
+   margin-right: 3em;
+top: -34px;
+position: relative;
+
 }
 
 .inner_desktopmenu li:nth-child(5){
@@ -236,11 +240,18 @@ margin-left: 2em;
 
 .inner_desktopmenu li:nth-child(5) img{
    width: 40px;
-    position: relative;
+    top: -34px;
+
+position: relative;
+ margin-right: 0.5em;
+   
 }
 
 .inner_desktopmenu li:nth-child(6){
    margin-right: 2em;
+top: -34px;
+position: relative;
+
 }
 
 .inner_desktopmenu ul li a {
@@ -255,7 +266,7 @@ display: block;
 }
 
 .inner_desktopmenu ul li a:hover {
-   color: orange;
+   color: #be7642;
 }
 
 #header_logo {
@@ -266,7 +277,7 @@ position: relative; }
 width: 300px;
     height: 300px;
     position: absolute;
-    left: 43%;
+    left: 45%;
     top: 0;
     content: ""
 margin-left: -150px;
@@ -733,12 +744,18 @@ display: none;
     
     #topnavigation {
         background-color: rgba(143, 149, 115, 0.9);
-    
-        
-     
-        padding-bottom: 2em;
     }
     
     
     
 }
+    
+@media only screen and (min-width: 1500px) {
+    
+     
+        .inner_desktopmenu li:nth-child(1){
+   float: left;
+margin-left: 1em;
+   
+}
+    }

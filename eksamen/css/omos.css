@@ -2,9 +2,8 @@
 
 body {
     background-image: url("../images/paper_texture3.png");
-
     background-color: #cccccc;
-    background-size: cover;
+    background-size: repeat;
 
 }
 
@@ -36,8 +35,6 @@ h4 {
     color: #f7f5f2;
 
 }
-
-
 
 
 .top-contentmobile {
@@ -78,8 +75,8 @@ ipad content
     font-family: 'Open Sans', sans-serif;
     font-size: 1em;
     line-height: 2.5;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 2%;
+    padding-right: 2%;
 }
 
 .top-content-ipad img {
@@ -427,22 +424,34 @@ footer #flexkontakt {
         text-align: center;
 
     }
+    
+    .container{
+        display: flex;
+        margin-top: 2%;
+        align-content: space-between;
+    }
+    .container p{
+        margin-top: 8%;
+    }
 
 
     #munkholmbillede-ipad img {
-        display: block;
+       display: block;
         position: relative;
-        max-width: 80%;
+       width: 100%;
+        height: auto;
     }
-
+    #munkholmbillede-ipad p{
+        
+    }
    
 
     #munkholm_logo-ipad img {
-       
+        display: block;
         position: relative;
-        max-width: 80%;
+        width: 100%;
         height: auto;
-        margin-left: 50%;
+       
         margin-right: 5%;
     }
     
@@ -511,6 +520,11 @@ footer #flexkontakt {
         display: block;
     }
 
+    .container{
+        display: flex;
+        margin-top: 2%;
+    }
+
 
 
 
@@ -518,14 +532,16 @@ footer #flexkontakt {
         display: block;
         position: relative;
         max-width: 80%;
+        height: auto;
     }
 
 
     #munkholm_logo-ipad img {
         display: block;
         position: relative;
-        max-width: 80%;
-        margin-left: 70%;
+        width: 100%;
+        height: auto;
+       
     }
 
     #lars-ipad video {
@@ -539,7 +555,7 @@ footer #flexkontakt {
         display: block;
         position: relative;
         max-width: 80%;
-        margin-left: 70%;
+        height: auto;    
     }
 
     #pernille-ipad img {

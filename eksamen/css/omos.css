@@ -557,6 +557,7 @@ footer #flexkontakt {
         display: block;
         position: absolute;
         text-align: end;
+        z-index: 10;
     }
 
 
@@ -569,6 +570,7 @@ footer #flexkontakt {
         margin-left: 60%;
             max-width: 100%;
             height: auto;
+    z-index: 10;
     }
 
 
@@ -609,6 +611,7 @@ footer #flexkontakt {
             display: block;
             position: absolute;
             text-align: end;
+            z-index: 10;
         }
 
 
@@ -620,6 +623,7 @@ footer #flexkontakt {
             margin-left: 60%;
             max-width: 100%;
             height: auto;
+             z-index: 10;
         }
 
 

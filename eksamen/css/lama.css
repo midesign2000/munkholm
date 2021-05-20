@@ -1,19 +1,77 @@
 /* body background texture*/
 
 body{
-background-image: url("../images/paper_texture3.png");   
+background-image: url("../images/natur-baggrund.png"); 
+background-size: cover;  
 }
 
-#lama {
-    width: 50%;
+#topbillede img {
+    width: 100%;
+    padding-bottom: 1em;
 }
+
+#lamainfo {
+    background-color: rgb(247, 245, 242, 0.8);
+border-radius: 10px;
+    width: 90%;
+    margin: 1em;
+    padding-bottom: 0.5em;
+}
+
+
+#lamainfo p {
+    font-family: 'open sans';
+    font-size: 16px;
+    margin: 2em;
+padding: 0.2em;
+    
+}
+
+
 
 h1 {
-    color: white;
+    color: black;
     font-family: 'Montserrat';
-font-size: 36px;
+font-size: 30px;
 text-align: center;
+    padding-top: 0.5em;
 }
+
+
+/* knapperne */
+
+.kasse1 {
+    display: flex;
+}
+
+.kasse2 {
+    display: flex;
+}
+
+
+.boks {
+    background-color: rgb(247, 245, 242, 0.8);
+    width: 40%;
+    padding: 1em;
+    margin: 1em;
+    
+}
+
+
+.boks img {
+    width: 70%;
+}
+
+.knapper {
+    margin: 1em;
+}
+
+
+
+
+
+
+
 
 
 /* Header navigation */
@@ -43,13 +101,11 @@ text-align: center;
     color: white;
 font-size: 30px;
 text-align: right;
-padding: 0.3em;   
+padding: 0.3em; 
    
 }
 
-#ipadflex {
-    display: none;
-}
+
 
 
 
@@ -107,7 +163,9 @@ color: #f6f5f1;
 }
 
 
-/*Dropdown test i menu - mobil */
+
+
+/*Dropdown menu - mobil */
 
 .navbar {
   overflow: hidden;
@@ -195,8 +253,7 @@ margin-left: 11em;
 
 
 
-
-/* Desktop navigation Nyt forsøg*/
+/* Desktop navigation med logo i midten */
 
 
 .inner_desktopmenu {
@@ -298,12 +355,6 @@ width: 12em;
 }
 
 
-
-
-
-
-
-
     #desktopmenu{
         display: block;
     }
@@ -317,48 +368,9 @@ width: 12em;
 
 
 
+/* Footer */
 
-
-
-
-
-/* Desktop navigation */
-
-
-.desktop-nav-container {
-  display: none;
-}
-
-.desktop-nav-container ul {
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-evenly;
-    padding: 2em;
-}
-
-.desktop-nav-container ul li {
-  display: inline;
-    font-family: 'Montserrat';
-}
-
-.desktop-nav-container ul li :last-child {
-  padding: 0 2rem 0 0;
-}
-
-#sprogvalg img {
-    width: 5%;
-}
-
-
-
-
-
-
-/* 
-Footer
-*/
-
-/*footer mobile*/
+/*Footer mobile*/
 
 footer {
 overflow: hidden;
@@ -509,77 +521,10 @@ footer #flexkontakt {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* 
-Breakpoints 
-*/
+/* Breakpoints */
 
 
 @media only screen and (min-width: 320px) {
-
-    
-hr { 
-width: 90%;
-color: white
-}
-  
-    #logo {
-        width: 100%;
-        text-align: center;
-    }  
-    
- #logo img {
-    width: 60%;
-     
-}   
-    
-    .dyrene {
-        width: 100%;
-  text-align: center;
-    }
-    
-    .dyrene img {
-        width: 90%;
-        border-radius: 10px;
-        margin-top: 1em;
-        border: 4px solid #f7f5f2;
-    }
-    
-  
-    
-    
-    .dyrene h3 {
-        text-align: center;
-        color: white;
-        font-family: 'open sans';
-        margin-top: 6px;
-        padding-top: 1em;
-padding-bottom: 1em;
-font-size: 22px;
-        
-    }
     
     #desktopmenu{
         display: none;
@@ -589,68 +534,24 @@ font-size: 22px;
         display: none;
     }    
 
-   @media only screen and (min-width: 768px) {
+    
+    
+@media only screen and (min-width: 768px) {
     
     .kontaktinfo {
     font-size: 1.em;
     }
     
-    h2 {
-    font-size: 1.2em;
-    }
-    
+
        #clickmenu {
 font-size: 50px;
 padding: 0.3em;   
    
 }
 
-       #logo img {
-           width: 30%;
-       }
-       
-       .dyrene {
-           display: none;
-       }
-       
     #ipadflex {
-        display: block;
-width: 100%;
-}
-
-       .kasse {
-           width: 100%;
-           display: flex;
-       } 
-       
-    
-
-       
- .billede1 {
-           width: 50%;
-       }
-
-    .billede1 img {
-           width: 80%;
-        margin: 10%;
-       }
-
-  .billede2 {
-           width: 50%;
-       }
-
- .billede2 img {
-           width: 80%;
-margin: 10%;
- }
-    
-       
-       
-   
-
- 
-    
-   
+        display: flex;
+    }
 
 }
 
@@ -664,6 +565,27 @@ display: none;
         width: 20%;
     }
     
+    #topbillede {
+        display: none;
+    } 
+    
+    body {
+        background-image: url(../images/Lamabillede.jpg);
+        background-size: cover;   
+    }
+    
+    #lamainfo {
+        width: 35%;
+       margin-left: 39em;
+        margin-top: 6em;
+    }
+    
+    .boks {
+        width: 30%;
+    }
+    
+
+/* desktop menu bar */
     
     #logo {
         display: none;
@@ -678,10 +600,10 @@ display: none;
     }
     
    
-    
     .desktopsetup {
         display: flex;
     }
+    
     
     
     

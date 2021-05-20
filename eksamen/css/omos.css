@@ -186,7 +186,7 @@ ipad content
     border-radius: 10px;
     margin-top: 1em;
     border: 4px solid #f7f5f2;
-    
+
 }
 
 #milo h3 {
@@ -382,15 +382,20 @@ footer #flexkontakt {
 
 
 @media only screen and (min-width: 320px) {
-    
- 
 
-    .top-content-ipad{
+
+
+    .top-content-ipad {
         display: none;
     }
+
+    top-content-desktop {}
     
-    top-content-desktop{
-        
+     .info-tekst p {
+        width: 70%;
+        margin: auto;
+        text-align: center;
+
     }
 
 }
@@ -411,57 +416,86 @@ footer #flexkontakt {
     .top-contentmobile {
         display: none;
     }
-    .top-content-ipad{
+
+    .top-content-ipad {
         display: block;
     }
-    #info-tekst p{ 
+
+    .info-tekst p {
         width: 70%;
         margin: auto;
-    text-align: center;
+        text-align: center;
 
     }
-    
-    
-     #munkholmbillede-ipad img {
-        display:block;
+
+
+    #munkholmbillede-ipad img {
+        display: block;
         position: relative;
         max-width: 80%;
     }
 
+   
 
     #munkholm_logo-ipad img {
-        display:block;
+       
         position: relative;
         max-width: 80%;
+        height: auto;
         margin-left: 50%;
+        margin-right: 5%;
     }
+    
+   
 
-    #lars-ipad img {
-         display:block;
+    #lars-ipad video {
+        display: block;
         position: relative;
         max-width: 80%;
         margin-left: 5%;
+        border: 20px solid #f7f5f2;
+        border-radius: 5px;
     }
 
-    #milo-ipad img {
-         display:block;
+    #lars-ipad p {
+        width: 20%;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+
+    #milo-ipad video {
+        display: block;
         position: relative;
         max-width: 80%;
         margin-left: 60%;
+        border: 20px solid #f7f5f2;
+        border-radius: 5px;
+    }
+
+    #milo-ipad p {
+        width: 20%;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        margin-left: 65%;
     }
 
     #pernille-ipad img {
-        display:block;
+        display: block;
         position: relative;
         max-width: 80%;
         margin-left: 2%;
     }
-    
+
     #munkholmbillede-ipad p {
-    width: 80%;
-    text-align: center;
-}
-    
+        width: 80%;
+        text-align: center;
+    }
+
+     #pernille-ipad p {
+        width: 20%;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
 }
 
 
@@ -469,52 +503,52 @@ footer #flexkontakt {
 
 @media only screen and (min-width: 1020px) {
 
-      .top-contentmobile {
+    .top-contentmobile {
         display: none;
     }
-    
-    .top-content-ipad{
+
+    .top-content-ipad {
         display: block;
     }
-    
-    
-    
-    
+
+
+
+
     #munkholmbillede-ipad img {
-        display:block;
+        display: block;
         position: relative;
         max-width: 80%;
     }
 
 
     #munkholm_logo-ipad img {
-        display:block;
+        display: block;
         position: relative;
         max-width: 80%;
-        margin-left: 50%;
+        margin-left: 70%;
     }
 
-    #lars-ipad img {
-         display:block;
+    #lars-ipad video {
+        display: block;
         position: relative;
         max-width: 80%;
         margin-left: 5%;
     }
 
-    #milo-ipad img {
-         display:block;
+    #milo-ipad video {
+        display: block;
         position: relative;
         max-width: 80%;
-        margin-left: 60%;
+        margin-left: 70%;
     }
 
     #pernille-ipad img {
-        display:block;
+        display: block;
         position: relative;
         max-width: 80%;
         margin-left: 2%;
     }
-    
-    
-    
+
+
+
 }

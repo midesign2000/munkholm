@@ -608,51 +608,61 @@ footer #flexkontakt {
     }
 
 
-    /* Dyre poter styling - ipad */
+    /* Dyre poter styling - ipad - start */
 
     #ulve_poter img {
-        display: block;
         position: absolute;
-        text-align: center;
-
         margin-left: auto;
         margin-right: auto;
+        left: 0;
+        right: 0;
+        text-align: center;
         width: 50%;
     }
 
     #fugle_aftryk img {
-        display: block;
-        position: absolute;
-        text-align: end;
-        right: auto;
-
+      position: absolute;
         margin-left: auto;
         margin-right: auto;
+        left: 0;
+        right: 0;
+        text-align: center;
         width: 50%;
     }
 
 
     #klov_aftryk {
-        display: block;
         position: absolute;
-        text-align: end;
-        right: auto;
-
         margin-left: auto;
         margin-right: auto;
+        left: 0;
+        right: 0;
+        text-align: center;
         width: 50%;
     }
-    
-    #hunde_poter{
-        display: block;
-        position: absolute;
-        text-align: end;
-        right: auto;
 
+    #hunde_poter {
+       position: absolute;
         margin-left: auto;
         margin-right: auto;
+        left: 0;
+        right: 0;
+        text-align: center;
         width: 50%;
     }
+
+
+    #hestesko_aftryk {
+       position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        text-align: center;
+        width: 50%;
+    }
+
+    /* Dyre poter styling - ipad -  slut*/
 
 
     @media only screen and (min-width: 1020px) {

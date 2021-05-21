@@ -502,12 +502,18 @@ display: table-column;
 width: 50%;
 }
 
+
+
+
+
+
+
+
 .dyrebokse-desktop-container {
-    display: none;
     height: 500px;
     margin-left: auto;
     margin-right: auto;
-    padding-bottom: 10%;
+    padding-bottom: 15%;
     align-content: space-between;
     background-image: url(../images/natur-baggrund.png);
     background-color: #cccccc;
@@ -586,8 +592,6 @@ width: 50%;
 
 div#nyheder-desktop:hover {
     background: -webkit-linear-gradient(#d2d5b6, #be7642);
-
-
 }
 
 #kort-desktop {
@@ -787,7 +791,7 @@ footer .footer-right img {
 .kontaktinfo {
     font-size: 0.8em;
     line-height: 1.5em;
-    font-family: montserrat;
+    font-family: 'Open Sans';
     padding: 2%;
     margin: 0%;
 }
@@ -816,7 +820,6 @@ footer #flexalt {
     width: 33.3%;
     display: flex;
     flex-direction: column;
-    padding-left: 2%;
     padding-top: 2%;
     text-align: center;
 
@@ -844,8 +847,8 @@ footer .footer-rightdesktop img {
     width: 40px;
     max-height: 40px;
     margin-top: 5px;
-    padding: 10px;
     text-align: right;
+margin-left: 15%;
 
 }
 
@@ -854,7 +857,8 @@ footer #flexkontakt {
     width: 33.3%;
     margin: 0;
     padding-left: 2%;
-    padding-top: 2%;
+    font-family: 'Open Sans';
+    margin-bottom: 2%;
 }
 
 
@@ -914,16 +918,12 @@ h4 {
     .dyrebokse-ipad-container {
         display: block;
         width: 100%;
-
-
     }
 
     
  #velkommentekst-desktop h1 {
-            font-size: 24px;
+    font-size: 24px;
     line-height: 1.5em;
-
-
 
         }
     

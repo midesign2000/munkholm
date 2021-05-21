@@ -31,8 +31,8 @@ h4 {
     text-align: center;
     margin: 10 10 10 10;
     font-family: 'Ubuntu', sans-serif;
-    font-size: 1.5em;
-    color: #f7f5f2;
+    font-size: 1.8em;
+    color: #474747;
 
 }
 
@@ -59,8 +59,9 @@ h4 {
 
 #horizontal_line {
     justify-self: center;
-    color: #f7f5f2;
+    color: #474747;
     width: 80%;
+    border: 1px solid #474747;
 
 }
 
@@ -308,7 +309,7 @@ footer .footer-right img {
 .kontaktinfo {
     font-size: 0.8em;
     line-height: 1.5em;
-    font-family: montserrat;
+    font-family: 'montserrat';
     padding: 2%;
     margin: 0%;
 }
@@ -513,9 +514,10 @@ footer #flexkontakt {
         margin-top: auto;
         margin-bottom: auto;
         font-size: 0.8em;
-
-
     }
+    
+    
+  
 
     #milo-ipad {
         display: flex;
@@ -542,6 +544,19 @@ footer #flexkontakt {
         margin-bottom: auto;
         font-size: 0.8em;
     }
+    
+    
+    #polaroidtext h3{
+        display: block;
+        text-align: center;
+        font-family: 'montserrat';
+        font-size: 1.1em;
+        margin-left: auto;
+        margin-right: auto;
+        font-weight: 800;
+    }
+    
+    
 
     #pernille-ipad {
         display: flex;
@@ -649,6 +664,7 @@ footer #flexkontakt {
         right: 0;
         text-align: center;
         width: 50%;
+        
     }
 
 

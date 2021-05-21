@@ -496,12 +496,12 @@ footer #flexkontakt {
 
     #lars-ipad video {
         position: relative;
-        width: 350px;
-        height: 200px;
         margin-left: auto;
         border: 20px solid #f7f5f2;
         border-radius: 5px;
-        object-fit: cover;
+        max-width: 30%;
+        border-bottom: 80px solid #f7f5f2;
+        
     }
 
     #lars-ipad p {
@@ -513,6 +513,7 @@ footer #flexkontakt {
         margin-top: auto;
     margin-bottom: auto;
        font-size: 0.8em;
+        
      
     }
 
@@ -523,11 +524,12 @@ footer #flexkontakt {
 
     #milo-ipad video {
         position: relative;
-        max-width: 50%;
+        max-width: 30%;
         margin-left: auto;
         margin-right: auto;
         border: 20px solid #f7f5f2;
         border-radius: 5px;
+        border-bottom: 80px solid #f7f5f2;
     }
 
     #milo-ipad p {
@@ -700,8 +702,11 @@ footer #flexkontakt {
 
         #lars-ipad video {
             position: relative;
-            max-width: 80%;
-            margin-left: 5%;
+        margin-left: auto;
+        border: 20px solid #f7f5f2;
+        border-radius: 5px;
+        max-width: 30%;
+        border-bottom: 80px solid #f7f5f2;
         }
 
 
@@ -720,11 +725,11 @@ footer #flexkontakt {
 
         #milo-ipad video {
             position: relative;
-            max-width: 50%;
-            margin-right: 1%;
+            max-width: 30%;
+            margin-right: auto;
             border: 20px solid #f7f5f2;
             border-radius: 5px;
-
+            border-bottom: 80px solid #f7f5f2;
             z-index: 0;
             right: auto;
         }

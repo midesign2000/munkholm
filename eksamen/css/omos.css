@@ -614,22 +614,35 @@ footer #flexkontakt {
         display: block;
         position: absolute;
         text-align: center;
-      
+
         margin-left: auto;
         margin-right: auto;
         width: 50%;
     }
 
-#fugle_aftryk img {
+    #fugle_aftryk img {
         display: block;
         position: absolute;
         text-align: end;
-    right: auto;
-       
+        right: auto;
+
         margin-left: auto;
         margin-right: auto;
         width: 50%;
     }
+
+
+    #klov_aftryk {
+        display: block;
+        position: absolute;
+        text-align: end;
+        right: auto;
+
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+
 
     @media only screen and (min-width: 1020px) {
 

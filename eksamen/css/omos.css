@@ -746,6 +746,16 @@ footer #flexkontakt {
 
     }
 
+        #logo {
+            display: block;
+        width: 100%;
+        text-align: center;
+    }  
+    
+ #logo img {
+    width: 60%;
+     
+}   
 
 
     #tape1 {
@@ -1122,6 +1132,9 @@ display: none;
 navstyle slut
 */
         
+        #logo {
+        display: none;
+    }
         
 
         .top-contentmobile {

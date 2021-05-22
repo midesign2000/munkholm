@@ -1,24 +1,19 @@
 
-// Audio på lamaen //
-const LAMA = new Audio("audio/lama_lyd.m4a");
+                            const LAMA = new Audio("audio/lama_lyd.m4a");
 
-LAMA.pause();
+                            LAMA.pause();
 
-const PLAY = document.getElementById("spil");
-PLAY.addEventListener("click",
-    function () {
-        if (LAMA.paused) {
-            LAMA.play()
-        } else {
-            LAMA.pause()
-        }
-    });
+                            const PLAY = document.getElementById("spil");
+                            PLAY.addEventListener("click",
+                                function() {
+                                    if (LAMA.paused) {
+                                        LAMA.play()
+                                    } else {
+                                        LAMA.pause()
+                                    }
+                                });
 
-
-// Audio på lamaen slut//
-
-
-
+    
 
 
 

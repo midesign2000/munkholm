@@ -510,10 +510,8 @@ hr {
 
 
 .dyrebokse-desktop-container {
-    height: 500px;
     margin-left: auto;
     margin-right: auto;
-    padding-bottom: 15%;
     align-content: space-between;
     background-image: url(../images/natur-baggrund.png);
     background-color: #cccccc;
@@ -715,6 +713,7 @@ div#herliggervi-desktop:hover {
 
 
 
+/* Footer */
 
 
 /*footer mobile*/
@@ -726,6 +725,14 @@ footer {
 
 
 }
+
+#footerh4 {
+    font-family: 'Montserrat';
+font-size: 1em;
+    text-align: left;
+padding: 0.5em;
+}
+
 
 footer #flexikonmobile {
     display: flex;
@@ -980,7 +987,7 @@ h4 {
 
     .dyrebokse-desktop-container {
         display: flex;
-
+        padding-bottom: 10%;
     }
 
 

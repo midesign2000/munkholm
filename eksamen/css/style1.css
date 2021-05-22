@@ -1,0 +1,1003 @@
+/* body baggrund billede*/
+
+body {
+    background-image: url("../images/paper_texture3.png");
+    background-color: #cccccc;
+    background-size: cover;
+}
+
+
+/* body baggrund billede slut*/
+
+
+
+/* hoved section*/
+.hoved-mobile {
+    padding-top: 10%;
+    align-items: center;
+
+}
+
+.hoved-mobile h1 {
+    text-align: center;
+    margin: 10 10 10 10;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.0em;
+    color: #f7f5f2;
+
+}
+
+hr {
+    text-align: center;
+    color: #f7f5f2;
+    width: 90%;
+    margin: 5%;
+
+}
+
+
+
+
+/* hoved section slut*/
+
+
+
+
+
+
+/* Velkommen tekst mobile */
+
+
+#velkommen-mobile h1 {
+    font-family: 'Montserrat';
+    font-size: 28px;
+    font-weight: 500;
+    margin-top: 20%;
+}
+
+
+.velkommentekst-mobile {
+    display: block;
+
+
+}
+
+.velkommentekst-mobile p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 2;
+    padding: 5%;
+}
+
+.velkommentekst-mobile img {
+    max-width: 60%;
+    height: auto;
+    position: relative;
+    padding-left: 5%;
+    margin-bottom: 10%;
+
+
+}
+
+
+/* velkommen tekst mobile slut */
+
+
+
+
+/*dyre bokse mobile */
+
+.dyrebokse-mobile {
+    background-image: url(../images/natur-baggrund.png);
+    background-color: #cccccc;
+    background-size: cover;
+    display: block;
+
+
+}
+
+
+
+#flexbokse-mobile {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding: 5%;
+
+}
+
+
+#sedyr-mobile {
+    width: 90%;
+    display: flex;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px grey;
+    background-color: #d2d5b6;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    margin-top: 20%;
+
+
+}
+
+#fleximg-mobile {
+    width: 50%;
+
+
+}
+
+#fleximg1-mobile {
+    width: 50%;
+
+
+}
+
+
+#flextekst-mobile {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 1.2em;
+    width: 50%;
+    color: #BE7642;
+
+}
+
+
+
+#fleximg-mobile img {
+    width: 60%;
+
+}
+
+#fleximg1-mobile img {
+    width: 70%;
+
+}
+
+
+
+#nyheder-mobile {
+    width: 90%;
+    display: flex;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px grey;
+    background-color: #d2d5b6;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    margin-top: 20%;
+
+}
+
+
+
+#kort-mobile {
+    width: 90%;
+    display: flex;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px grey;
+    background-color: #d2d5b6;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    margin-top: 20%;
+
+
+
+}
+
+
+#dyrepasser-mobile {
+    width: 90%;
+    display: flex;
+    text-align: center;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px grey;
+    background-color: #d2d5b6;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    margin-top: 20%;
+
+}
+
+
+
+#herliggervi-mobile {
+    width: 90%;
+    display: flex;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px grey;
+    background-color: #d2d5b6;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    margin-top: 20%;
+    margin-bottom: 20%;
+
+
+}
+
+
+/*dyre bokse mobile slut */
+
+
+/*dyre bokse ipad  */
+
+.dyrebokse-ipad-container {
+    display: none;
+    padding-bottom: 10%;
+    align-content: space-between;
+    background-image: url(../images/natur-baggrund.png);
+    background-color: #cccccc;
+    background-size: cover;
+
+}
+
+
+
+.dyrebokse-ipad-container div {
+    width: 100px;
+}
+
+
+#flexipadboks2 {
+    display: flex;
+    width: 100%;
+
+}
+
+
+#flexipadboks1 {
+    display: flex;
+    width: 100%;
+    text-align: center;
+}
+
+
+#fleximg-ipad img {
+    width: 70%;
+    text-align: center;
+
+
+}
+
+
+
+
+#fleximg-ipad {
+    width: 100%;
+    text-align: center;
+
+}
+
+
+
+#flextekst-ipad {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    line-height: 1.5em;
+    color: #BE7642;
+    width: 100%;
+    text-align: center;
+    margin-top: 20%;
+
+}
+
+
+
+
+#nyheder-ipad {
+    width: 30%;
+    height: 400px;
+    display: table-column;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px grey;
+    background-color: #d2d5b6;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    margin-top: 10%;
+    margin: 5%;
+
+
+}
+
+
+
+#kort-ipad {
+    width: 30%;
+    height: 400px;
+    display: table-column;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px grey;
+    background-color: #d2d5b6;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    margin-top: 10%;
+    margin: 5%;
+
+
+}
+
+
+
+#dyrepasser-ipad {
+    width: 30%;
+    height: 400px;
+    display: table-column;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px grey;
+    background-color: #d2d5b6;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    margin-top: 10%;
+    margin: 5%;
+
+
+
+
+
+}
+
+
+
+#herliggervi-ipad {
+    width: 30%;
+    height: 400px;
+    display: table-column;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px grey;
+    background-color: #d2d5b6;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    margin-top: 10%;
+    margin: 5%;
+
+}
+
+/*dyre bokse ipad slut */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Velkommen tekst desktop  */
+
+#velkommentekst-desktop h1 {
+    font-family: 'Montserrat';
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 20%;
+    color: white;
+    padding-left: 10%;
+
+
+}
+
+
+
+#velkommentekst-desktop p {
+    line-height: 2.0em;
+    text-align: left;
+    font-family: 'Open Sans';
+    padding-left: 10%;
+    margin-left: 2%;
+    margin-top: 5%;
+}
+
+#velkommentekst-desktop img {
+
+    max-width: 60%;
+    height: auto;
+    position: relative;
+    margin-bottom: 10%;
+    margin-right: 15%;
+
+}
+
+
+#velkommentekst-desktop {
+    width: 50%;
+
+}
+
+
+
+/* Velkommen tekst desktop slut */
+
+
+
+
+
+/*dyre bokse desktop */
+
+
+#desktopforside {
+    width: 100%;
+    display: none;
+    text-align: center;
+}
+
+
+#desktopimg {
+    width: 100%;
+}
+
+
+
+
+
+#desktopimg img {
+    width: 85%;
+    text-align: center;
+    margin-top: 30%;
+}
+
+
+#button-desktop {
+    width: 100%;
+    margin-top: 15%;
+    text-align: center;
+
+}
+
+
+
+#button-desktop button {
+    height: 60px;
+    width: 200px;
+    border-radius: 25px;
+    font-size: 20px;
+    font-family: 'Open Sans';
+    background-image: url("../images/paper_texture3.png");
+    background-color: #cccccc;
+    background-size: cover;
+    border-color: 5px solid #be7642);
+    color: white;
+
+}
+
+
+#flex2billeder {
+    display: table-column;
+    width: 50%;
+}
+
+
+
+
+
+
+
+
+.dyrebokse-desktop-container {
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 15%;
+    align-content: space-between;
+    background-image: url(../images/natur-baggrund.png);
+    background-color: #cccccc;
+    background-size: cover;
+
+}
+
+
+
+
+
+.dyrebokse-desktop-container div {
+    width: 100px;
+
+
+
+
+}
+
+
+#fleximg-desktop img {
+    width: 100px;
+    text-align: center;
+    margin-left: 2%;
+
+
+}
+
+#fleximg1-desktop img {
+    width: 100%;
+    text-align: center;
+
+
+}
+
+
+
+#flextekst-desktop {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 1.2em;
+    color: #BE7642;
+    width: 100%;
+
+}
+
+
+
+#fleximg-desktop img {
+    width: 100%;
+    text-align: center;
+
+}
+
+#fleximg1-desktop img {
+    width: 100%;
+    text-align: center;
+
+}
+
+
+
+#nyheder-desktop {
+    width: 104px;
+    height: 300px;
+    display: table-column;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px grey;
+    background-color: #d2d5b6;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    margin-top: 10%;
+
+}
+
+
+div#nyheder-desktop:hover {
+    background: -webkit-linear-gradient(#d2d5b6, #be7642);
+}
+
+#kort-desktop {
+    width: 104px;
+    height: 300px;
+    display: table-column;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px grey;
+    background-color: #d2d5b6;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    margin-top: 10%;
+
+}
+
+
+div#kort-desktop:hover {
+    background: -webkit-linear-gradient(#d2d5b6, #be7642);
+
+}
+
+
+#dyrepasser-desktop {
+    width: 104px;
+    height: 300px;
+    display: table-column;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px grey;
+    background-color: #d2d5b6;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    margin-top: 10%;
+
+}
+
+
+div#dyrepasser-desktop:hover {
+    background: -webkit-linear-gradient(#d2d5b6, #be7642);
+
+}
+
+
+#herliggervi-desktop {
+    width: 104px;
+    height: 300px;
+    display: table-column;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px grey;
+    background-color: #d2d5b6;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    margin-top: 10%;
+
+}
+
+div#herliggervi-desktop:hover {
+    background: -webkit-linear-gradient(#d2d5b6, #be7642);
+
+}
+
+
+
+/*dyre bokse desktop slut */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* velkommen video ipad og desktop */
+
+.container video {
+    display: none;
+    position: relative;
+    width: 100%;
+    z-index: 0;
+}
+
+/* velkommen video ipad og desktop slut */
+
+
+
+
+
+
+
+
+
+/*footer mobile*/
+
+footer {
+    overflow: hidden;
+    background-color: rgba(247, 245, 242, 0.5);
+    /* F7F5F2 med opacity */
+
+
+}
+
+footer #flexikonmobile {
+    display: flex;
+    width: 100%;
+    margin: 0;
+}
+
+footer .footer-left {
+    width: 33.5%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+footer .footer-left img {
+    width: 40px;
+    max-height: 40px;
+    margin-top: 5px;
+    padding: 10px;
+
+}
+
+
+footer .footer-center {
+    width: 33.5%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+
+footer .footer-center img {
+    width: 40px;
+    max-height: 40px;
+    margin-top: 5px;
+    padding: 10px;
+}
+
+
+
+footer .footer-right {
+    display: flex;
+    flex-direction: column;
+    width: 33.5%;
+    padding-top: 15px;
+    padding-right: 10px;
+    text-align: center;
+}
+
+
+footer .footer-right img {
+    width: 40px;
+    max-height: 40px;
+    margin-top: 5px;
+    padding: 10px;
+
+}
+
+
+.kontaktinfo {
+    font-size: 0.8em;
+    line-height: 1.5em;
+    font-family: 'Open Sans';
+    padding: 2%;
+    margin: 0%;
+}
+
+/*footer mobile slut*/
+
+
+/*footer desktop*/
+
+
+footer #flexikondesktop {
+    display: none;
+    width: 100%;
+    margin: 0;
+}
+
+
+footer #flexalt {
+    display: flex;
+    width: 100%;
+    margin: 0;
+
+}
+
+.footer-centerdesktop {
+    width: 33.3%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 2%;
+    text-align: center;
+
+}
+
+footer .footer-centerdesktop img {
+    width: 40px;
+    max-height: 40px;
+    margin-top: 5px;
+    padding: 10px;
+
+}
+
+.footer-rightdesktop {
+    width: 33.3%;
+    flex-direction: inline;
+    padding-left: 2%;
+    padding-top: 2%;
+    text-align: center;
+
+}
+
+
+footer .footer-rightdesktop img {
+    width: 40px;
+    max-height: 40px;
+    margin-top: 5px;
+    text-align: right;
+    margin-left: 15%;
+
+}
+
+
+footer #flexkontakt {
+    width: 33.3%;
+    margin: 0;
+    padding-left: 2%;
+    font-family: 'Open Sans';
+    margin-bottom: 2%;
+}
+
+
+h4 {
+    font-family: 'Open Sans';
+    font-size: 1.2em;
+    padding: 2%;
+    margin: 0%;
+    margin-top: 5%;
+}
+
+
+/*footer desktop slut*/
+
+
+
+
+
+/*media queries*/
+
+
+
+
+@media only screen and (min-width: 320x) {
+
+ 
+    
+}
+
+
+
+@media only screen and (min-width: 768px) {
+
+    .kontaktinfo {
+        font-size: 1.em;
+    }
+
+    h4 {
+        font-size: 1.2em;
+    }
+
+    #mobileforside {
+        display: none;
+    }
+
+
+
+
+    #desktopbottom {
+        display: block;
+    }
+
+
+
+    .container video {
+        display: block;
+    }
+
+
+
+    #desktopforside {
+        display: inline-flex;
+
+    }
+
+    .dyrebokse-ipad-container {
+        display: block;
+        width: 100%;
+    }
+
+
+    #velkommentekst-desktop h1 {
+        font-size: 24px;
+        line-height: 1.5em;
+
+    }
+    
+    
+    .dyrebokse-desktop-container {
+    display: none;
+    }
+
+
+
+}
+
+
+
+
+
+@media only screen and (min-width: 1020px) {
+
+    footer #flexikonmobile {
+        display: none;
+
+    }
+
+    footer #flexikondesktop {
+        display: flex;
+
+    }
+
+    #kontakt {
+        display: none;
+    }
+
+    #velkommentekst-desktop h1 {
+        font-size: 35px;
+
+
+
+    }
+
+    .dyrebokse-desktop-container div {
+        margin: 25px;
+    }
+
+
+    .dyrebokse-desktop-container {
+        display: flex;
+
+    }
+
+
+    .dyrebokse-ipad-container {
+        display: none;
+
+    }
+
+
+
+    #button-desktop {
+        margin: 5%;
+
+    }
+}
+
+
+
+
+/*media queries slut*/

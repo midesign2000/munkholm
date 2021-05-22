@@ -710,7 +710,7 @@ footer #flexkontakt {
         #tape1 {
             display: block;
             position: absolute;
-            text-align: end;
+            text-align: start;
             z-index: 10;
         }
 

@@ -19,268 +19,347 @@
 <header>
 
 
-<div id="myNav" class="overlay">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <div class="overlay-content">
-  
-  <div class="dropdown">
-    <button class="dropbtn">Vores Dyr
-    </button>
-    <div class="dropdown-content">
-      <a href="#">Se & lær om dyrene</a>
-      <a href="#">Galleri</a>
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+
+            <div class="dropdown">
+                <button class="dropbtn">Vores Dyr
+                </button>
+                <div class="dropdown-content">
+                    <a href="#">Se & lær om dyrene</a>
+                    <a href="#">Galleri</a>
+                </div>
+            </div>
+
+            <div class="dropdown">
+                <button class="dropbtn">Aktiviteter
+                </button>
+                <div class="dropdown-content">
+                    <a href="#">Oplev parken</a>
+                    <a href="#">Børnefødselsdag</a>
+                    <a href="#">Dyrepasser for en dag</a>
+                </div>
+            </div>
+
+            <div class="dropdown">
+                <button class="dropbtn">Information
+                </button>
+                <div class="dropdown-content">
+                    <a href="#">Kort over parken</a>
+                    <a href="#">Nyheder</a>
+                    <a href="#">Åbningstider</a>
+                    <a href="#">Priser</a>
+                    <a href="#">Spisemuligheder</a>
+                    <a href="#">Covid 19</a>
+                </div>
+            </div>
+
+            <div class="dropdown">
+                <button class="dropbtn">Om os
+                </button>
+                <div class="dropdown-content">
+                    <a href="#">Hvem er vi?</a>
+                    <a href="#">Kontakt</a>
+                    <a href="#">Job i Munkholm Zoo</a>
+                </div>
+            </div>
+
+            <div class="dropdown">
+                <button class="dropbtn"><img src="images/flag.png" alt="flag">
+                </button>
+                <div class="dropdown-content">
+                    <a href="#">Engelsk</a>
+                    <a href="#">Tysk</a>
+                    <a href="#">Svensk</a>
+                    <a href="#">Norsk</a>
+                </div>
+            </div>
+
+            <div id="bestilboks"><a href="#">Bestil</a></div>
+        </div>
     </div>
-  </div>
-  
-  <div class="dropdown">
-    <button class="dropbtn">Aktiviteter
-    </button>
-    <div class="dropdown-content">
-      <a href="#">Oplev parken</a>
-      <a href="#">Børnefødselsdag</a>
-<a href="#">Dyrepasser for en dag</a>
+
+
+
+    <div id="clickmenu" onclick="openNav()">&#9776;</div>
+
+
+
+    <script>
+        function openNav() {
+            document.getElementById("myNav").style.width = "100%";
+        }
+
+        function closeNav() {
+            document.getElementById("myNav").style.width = "0%";
+        }
+
+    </script>
+
+
+    <div id="topnavigation">
+
+        <div id="header_logo">
+            <div class="logo_område">
+                <a href=""><img src="../eksamen/images/Munkholm%20Logo.png" alt="Desktop logo"></a>
+            </div>
+        </div>
+
+
+
+        <div id="desktopmenu">
+            <div class="inner_desktopmenu">
+                <ul>
+                    <li><a href="">Vores Dyr</a></li>
+                    <li><a href="">Aktiviteter</a></li>
+                    <li><a href="">Information</a></li>
+                    <li><a href="">Om os</a></li>
+                    <li><a href=""><img src="images/flag_tilt.png"></a></li>
+                    <li><a href="">Bestil</a></li>
+                </ul>
+
+            </div>
+        </div>
     </div>
-  </div>
 
-  <div class="dropdown">
-    <button class="dropbtn">Information
-    </button>
-    <div class="dropdown-content">
-      <a href="#">Kort over parken</a>
-      <a href="#">Nyheder</a>
-<a href="#">Åbningstider</a>
-<a href="#">Priser</a>
-<a href="#">Spisemuligheder</a>
-<a href="#">Covid 19</a>
-    </div>
-  </div>
-
-  <div class="dropdown">
-    <button class="dropbtn">Om os
-    </button>
-    <div class="dropdown-content">
-      <a href="#">Hvem er vi?</a>
-      <a href="#">Kontakt</a>
-<a href="#">Job i Munkholm Zoo</a>
-    </div>
-  </div>
-
-  <div class="dropdown">
-    <button class="dropbtn"><img src="images/flag.png" alt="flag">
-    </button>
-    <div class="dropdown-content">
-      <a href="#">Engelsk</a>
-      <a href="#">Tysk</a>
-<a href="#">Svensk</a>
-<a href="#">Norsk</a>
- </div>
- </div>
-
-      <div id="bestilboks"><a href="#">Bestil</a></div>
-</div>
-  </div>
-
-   
-
-    <div id="clickmenu"onclick="openNav()">&#9776;</div>
-
-
-
-<script>
-function openNav() {
-  document.getElementById("myNav").style.width = "100%";
-}
-
-function closeNav() {
-  document.getElementById("myNav").style.width = "0%";
-}
-</script>
-        
-
- <div id="topnavigation"> 
-                   
- <div id="header_logo">
-<div class="logo_område">
-<a href=""><img src="../eksamen/images/Munkholm%20Logo.png" alt="Desktop logo"></a>
-</div></div>                     
-                             
-  
-                    
-    <div id="desktopmenu">
-    <div class="inner_desktopmenu">
-<ul>
-<li><a href="">Vores Dyr</a></li>
-<li><a href="">Aktiviteter</a></li>
-<li><a href="">Information</a></li>
-<li><a href="">Om os</a></li>
-<li><a href=""><img src="images/flag_tilt.png"></a></li>
-<li><a href="">Bestil</a></li>
-</ul>
-        
-    </div>
-</div>   
-    </div>             
-                    
 
     <div id="topbillede">
-                    <img src="images/Lamabillede.jpg" alt="hvid lama">
-                <div></div>
-    
-</div></header>
-        
-    
+        <img src="images/Lamabillede.jpg" alt="hvid lama">
+        <div></div>
+
+    </div>
+</header>
+
+
 
 <body>
 
-<article id="lamainfo">
-   <h1>Bjarne Lama</h1>
-    <p>
-        Vores sjove Lama Bjarne, blev en del af Munkholm Zoo familien tilbage i 2018, og han elsker når gæsterne kommer ind for at hilse på i indhegningen.<br><br> 
+    <article id="lamainfo">
+        <h1>Bjarne Lama</h1>
+        <p>
+            Vores sjove Lama Bjarne, blev en del af Munkholm Zoo familien tilbage i 2018, og han elsker når gæsterne kommer ind for at hilse på i indhegningen.<br><br>
 
-Han bliver særlig glad hvis du har godbidder med, og husk at fodre ham med flad hånd. Bjarne kan godt blive rigtig ivrig når han får snacks og vi vil så nødig at han komme til at nappe din finger.<br><br>
+            Han bliver særlig glad hvis du har godbidder med, og husk at fodre ham med flad hånd. Bjarne kan godt blive rigtig ivrig når han får snacks og vi vil så nødig at han komme til at nappe din finger.<br><br>
 
-Bjarne bor sammen der 4 andre Lama’er: Dennis, Leila og Esmaralda, samt æsler, får og strudsen Sindy. <br><br>
+            Bjarne bor sammen der 4 andre Lama’er: Dennis, Leila og Esmaralda, samt æsler, får og strudsen Sindy. <br><br>
 
-Klik på knapperne her under og lær mere om lamaerne
-    </p>
-</article>   
-
-
+            Klik på knapperne her under og lær mere om lamaerne
+        </p>
+    </article>
 
 
 
-<section class="knapper">
-   <div id="ipadflex">
-    <div class="kasse1">
-    
-   <div class="boks"><img src="images/ikonkamera.png" alt="billeder af dyr"></div>
-        <div class="boks"><img src="images/ikonhoejtaler.png" alt="læs højt"></div></div>
 
- <div class="kasse1">
-    
-     <div class="boks"><img src="images/ikonlys.png" alt="information om dyr"></div>
-     <div class="boks"><img src="images/ikonsmiley.png" alt="fun facts om dyr"></div></div></div>
-   
-<div id="ipadflex"> 
-  <div class="kasse1">
-    
-    <div class="boks"><img src="images/ikonhistoriebog.png" alt="historien om lamaen"></div>
-    <div class="boks"><img src="images/ikongulerod.png" alt="hvad spiser lamaen"></div></div>   
 
-    
-     <div class="kasse1">
-    
-    <div class="boks"><img src="images/ikonjorden.png" alt="hvor kommer lamaen fra">
-         
-         
-         
-         
-         
-</div>
-         <div class="boks">
-             
-             
-            <div id="lamalyd">
-                <i class="lamaplay" id="spil"><img src="images/ikonnode.png" alt="lyden af en lama"></i>
+    <section class="knapper">
+        <div id="ipadflex">
+            <div class="kasse1">
 
-                <script>
-                    const LAMA = new Audio("audio/bird.mp3");
 
-                    LAMA.pause();
 
-                    const PLAY = document.getElementById("spil");
-                    PLAY.addEventListener("click",
-                        function() {
-                            if (LAMA.paused) {
-                                LAMA.play()
-                            } else {
-                                LAMA.pause()
-                            }
-                        });
+                <!-- Trigger/Open The Modal -->
+        <div class="container">
+                <div class="boks">
+                    <button id="myBtn"><img src="images/ikonkamera.png" alt="billeder af dyr"></button>
+                </div>
+            <div class="overlaylama">
+    <div class="text">Se lamaen</div></div>
+            
+                </div>
 
-                </script>
+                <!-- The Modal -->
+                <div id="myModal" class="modal">
+
+                    <!-- Modal indhold - billede af lama -->
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <img src="images/lama.jpg" alt="lamalækker" width="100%">
+                    </div>
+
+                </div>
+
+
+<div class="container">
+                <div class="boks">
+                    <img src="images/ikonhoejtaler.png" alt="læs højt" class="image">
+                 <div class="overlaylama">
+    <div class="text">Læs op</div></div>
+  </div>
+                
+                </div>
             </div>
-    
-         
-</div></div></div>
-</section>
+
 
     
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!–– Ipad information ––>        
+            
+            
+            
         
 
- 
+            <div class="kasse1">
+                
+<div class="container">
+    <div class="boks"><img src="images/ikonlys.png" alt="information om dyr">
+     <div class="overlaylama">
+    <div class="text">Info om lamaen</div></div>
+    
+    </div>                  
+    </div>
+    
+                
+                
+    <div class="container">
+                <div class="boks"><img src="images/ikonsmiley.png" alt="fun facts om dyr"></div>
+         <div class="overlaylama">
+    <div class="text">Fun fact</div></div>
+            </div>
+        </div>
+        </div>
+        
+        
+        
+        
+        
+
+        <div id="ipadflex">
+            <div class="kasse1">
+                
+    <div class="container">
+    <div class="boks"><img src="images/ikonhistoriebog.png" alt="historien om lamaen"></div>
+                 <div class="overlaylama">
+    <div class="text">Historien om lamaen</div></div>
+                </div>
+                
+                
+    <div class="container">
+    <div class="boks"><img src="images/ikongulerod.png" alt="hvad spiser lamaen"></div>
+        <div class="overlaylama">
+<div class="text">Hvad spiser lamaen</div></div>
+                
+            </div>
+            </div>
 
 
-            
-               
-                  
-                     
-                           
+            <div class="kasse1">
+
+                <div class="container">
+                <div class="boks"><img src="images/ikonjorden.png" alt="hvor kommer lamaen fra"></div>
+                <div class="overlaylama">
+    <div class="text">Hvor kommer lamaen fra</div></div>
+                </div>
+
+
+            <div class="container">
+                <div class="boks">
+                    <div id="lamalyd">
+                        <i class="lamaplay" id="spil"><img src="images/ikonnode.png" alt="lyden af en lama"> <div class="overlaylama">
+    <div class="text">Lyden af lamaen</div></div>
+                        
+                        
+                        
+                        
+                        </i>
+
+                        <script>
+                            const LAMA = new Audio("audio/bird.mp3");
+
+                            LAMA.pause();
+
+                            const PLAY = document.getElementById("spil");
+                            PLAY.addEventListener("click",
+                                function() {
+                                    if (LAMA.paused) {
+                                        LAMA.play()
+                                    } else {
+                                        LAMA.pause()
+                                    }
+                                });
+
+                        </script>
+                    </div>
+
+
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+    <!–– Ipad information ––>
+
+
+
+
+
+
+
+
+
+
 </body>
 
 <footer>
 
-        <div id="kontakt">
+    <div id="kontakt">
 
-            <h4 id="footerh4">Kontakt</h4>
-            <p class="kontaktinfo"> Email: Info@munkholmzoo.dk <br> Tlf: +45 42 20 94 94 <br> Adresse: Munkholmvej 5, 8444 Balle </p>
+        <h4 id="footerh4">Kontakt</h4>
+        <p class="kontaktinfo"> Email: Info@munkholmzoo.dk <br> Tlf: +45 42 20 94 94 <br> Adresse: Munkholmvej 5, 8444 Balle </p>
+    </div>
+
+
+
+
+    <div id="flexikonmobile">
+        <div class="footer-left">
+            <a href="#"><img src="images/fb-ikon.png" alt="SoMe Facebook ikon"></a>
         </div>
-    
-
-
-
-        <div id="flexikonmobile">
-            <div class="footer-left">
-                <a href="#"><img src="images/fb-ikon.png" alt="SoMe Facebook ikon"></a>
-            </div>
-            <div class="footer-center">
-                <a href="#"><img src="images/ig-ikon.png" alt="SoMe Instagram ikon"></a>
-            </div>
-            <div class="footer-right">
-                <a href="#"><img src="images/opknap.png" alt="Op ikon"></a>
-            </div>
-
-
+        <div class="footer-center">
+            <a href="#"><img src="images/ig-ikon.png" alt="SoMe Instagram ikon"></a>
+        </div>
+        <div class="footer-right">
+            <a href="#"><img src="images/opknap.png" alt="Op ikon"></a>
         </div>
 
-<div id="flexalt">
+
+    </div>
+
+    <div id="flexalt">
 
         <div id="flexikondesktop">
-            
+
             <div id="flexkontakt">
- <h2 id="footerh2">Kontakt</h2>
-            <p class="kontaktinfo"> Email: Info@munkholmzoo.dk <br> Tlf: +45 42 20 94 94 <br> Adresse: Munkholmvej 5, 8444 Balle </p></div>
+                <h2 id="footerh2">Kontakt</h2>
+                <p class="kontaktinfo"> Email: Info@munkholmzoo.dk <br> Tlf: +45 42 20 94 94 <br> Adresse: Munkholmvej 5, 8444 Balle </p>
+            </div>
 
             <div class="footer-centerdesktop">
-                <a href="omos.html"><img src="images/opknap.png" alt="Op ikon"></a>
+                <a href="lama.html"><img src="images/opknap.png" alt="Op ikon"></a>
             </div>
 
 
-            <div class="footer-rightdesktop"> 
+            <div class="footer-rightdesktop">
                 <a href="#"><img src="images/fb-ikon.png" alt="SoMe Facebook ikon"></a>
                 <a href="#"><img src="images/ig-ikon.png" alt="SoMe Instagram ikon"></a>
                 <a href="#"><img src="images/pilhen.png" alt="Pil ikon"></a>
 
- </div>
-    </div>   
+            </div>
+        </div>
     </div>
-    </footer>
+
+
+    <script src="js/lama.js"></script>
+
+</footer>
 
 
 </html>

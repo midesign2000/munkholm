@@ -90,7 +90,37 @@ ipad content
 }
 
 
+.polaroid{
+    background-color: #f7f5f2;
+    margin-left: auto;
+    border: 20px solid #f7f5f2;
+    border-radius: 5px;
+    max-width: 30%;
+    
+}
 
+.polaroid-right{
+    transform: translateX(-150px);
+}
+
+.polaroid video{
+    max-width: 100%;
+}
+
+.polaroidtext{
+    
+    padding: 20px;
+}
+
+.polaroidtext h3 {
+    display: block;
+    text-align: center;
+    font-family: 'montserrat';
+    font-size: 1.1em;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 800;
+}
 
 
 
@@ -465,7 +495,7 @@ footer #flexkontakt {
     #munkholmbillede-ipad img {
         display: block;
         position: relative;
-        max-width: 50%;
+        width: 50%;
         height: auto;
     }
 
@@ -478,9 +508,8 @@ footer #flexkontakt {
     #munkholm_logo-ipad img {
         display: block;
         position: relative;
-        max-width: 50%;
+        width: 50%;
         height: auto;
-
         margin-right: auto;
     }
 
@@ -496,11 +525,7 @@ footer #flexkontakt {
 
     #lars-ipad video {
         position: relative;
-        margin-left: auto;
-        border: 20px solid #f7f5f2;
-        border-radius: 5px;
-        max-width: 30%;
-        border-bottom: 80px solid #f7f5f2;
+       
 
     }
 
@@ -525,12 +550,7 @@ footer #flexkontakt {
 
     #milo-ipad video {
         position: relative;
-        max-width: 30%;
-        margin-left: auto;
-        margin-right: auto;
-        border: 20px solid #f7f5f2;
-        border-radius: 5px;
-        border-bottom: 80px solid #f7f5f2;
+       
     }
 
     #milo-ipad p {
@@ -544,16 +564,7 @@ footer #flexkontakt {
         font-size: 1.1em;
     }
 
-
-    #polaroidtext h3 {
-        display: block;
-        text-align: center;
-        font-family: 'montserrat';
-        font-size: 1.1em;
-        margin-left: auto;
-        margin-right: auto;
-        font-weight: 800;
-    }
+    
 
 
 
@@ -680,10 +691,13 @@ footer #flexkontakt {
         text-align: center;
         width: 50%;
         z-index: -10;
+        transform: translateY(-100px);
     }
 
     /* Dyre poter styling - ipad -  slut*/
 
+
+    
 
     @media only screen and (min-width: 1020px) {
 
@@ -754,7 +768,7 @@ footer #flexkontakt {
         #munkholm_logo-ipad img {
             display: block;
             position: relative;
-            width: 100%;
+            width: 50%;
             height: auto;
 
         }
@@ -775,13 +789,14 @@ footer #flexkontakt {
             font-size: 1.1em;
         }
 
+        
+
+
+        
+
         #lars-ipad video {
             position: relative;
-            margin-left: auto;
-            border: 20px solid #f7f5f2;
-            border-radius: 5px;
-            max-width: 30%;
-            border-bottom: 80px solid #f7f5f2;
+            
         }
 
 
@@ -800,11 +815,6 @@ footer #flexkontakt {
 
         #milo-ipad video {
             position: relative;
-            max-width: 30%;
-            margin-right: auto;
-            border: 20px solid #f7f5f2;
-            border-radius: 5px;
-            border-bottom: 80px solid #f7f5f2;
             z-index: 0;
             right: auto;
         }

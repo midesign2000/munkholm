@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5be2e3204a485496acad80c51f5c3738f754e6da
 /* body baggrund billede*/
 
 body {
@@ -94,6 +97,7 @@ hr {
     background-size: cover;
     display: block;
 
+<<<<<<< HEAD
 =======
 body {
     font-family: 'Lato', sans-serif;
@@ -124,11 +128,16 @@ font-size: 1.0em;
 font-family: 'Lato', sans-serif;
 padding: 2%;
 >>>>>>> fce933e0ba9c82575c7a87dfef7f99952057b185
+=======
+>>>>>>> 5be2e3204a485496acad80c51f5c3738f754e6da
 
 }
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5be2e3204a485496acad80c51f5c3738f754e6da
 
 #flexbokse-mobile {
     text-align: center;
@@ -413,6 +422,7 @@ padding: 2%;
 
 
 
+<<<<<<< HEAD
 =======
 h3 {
     font-size: 1.5em;
@@ -566,6 +576,12 @@ h4 {
 
 
 <<<<<<< HEAD
+=======
+
+
+
+
+>>>>>>> 5be2e3204a485496acad80c51f5c3738f754e6da
 
 
 
@@ -835,6 +851,7 @@ div#dyrepasser-desktop:hover {
 div#herliggervi-desktop:hover {
     background: -webkit-linear-gradient(#d2d5b6, #be7642);
 
+<<<<<<< HEAD
 =======
 /* Main */
 
@@ -977,6 +994,12 @@ padding-top: 5em;
 
 
 <<<<<<< HEAD
+=======
+}
+
+
+
+>>>>>>> 5be2e3204a485496acad80c51f5c3738f754e6da
 /*dyre bokse desktop slut */
 
 
@@ -1085,6 +1108,7 @@ footer .footer-center img {
     max-height: 40px;
     margin-top: 5px;
     padding: 10px;
+<<<<<<< HEAD
 =======
 button.omos.btn {
     padding: 10px 12px;
@@ -1104,11 +1128,16 @@ footer {
      height: auto;
     background-color: darkgray;
 >>>>>>> fce933e0ba9c82575c7a87dfef7f99952057b185
+=======
+>>>>>>> 5be2e3204a485496acad80c51f5c3738f754e6da
 }
 
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5be2e3204a485496acad80c51f5c3738f754e6da
 footer .footer-right {
     display: flex;
     flex-direction: column;
@@ -1226,6 +1255,7 @@ h4 {
 
  
     
+<<<<<<< HEAD
 =======
 .kontaktinfo {
   font-size: 1.5em;
@@ -1288,6 +1318,12 @@ input[type=submit]:hover {
 
 
 <<<<<<< HEAD
+=======
+}
+
+
+
+>>>>>>> 5be2e3204a485496acad80c51f5c3738f754e6da
 @media only screen and (min-width: 768px) {
 
     .kontaktinfo {
@@ -1341,6 +1377,7 @@ input[type=submit]:hover {
 
 
 
+<<<<<<< HEAD
 =======
 
 
@@ -1360,6 +1397,8 @@ input[type=submit]:hover {
     }
     
 >>>>>>> fce933e0ba9c82575c7a87dfef7f99952057b185
+=======
+>>>>>>> 5be2e3204a485496acad80c51f5c3738f754e6da
 }
 
 
@@ -1367,6 +1406,9 @@ input[type=submit]:hover {
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5be2e3204a485496acad80c51f5c3738f754e6da
 @media only screen and (min-width: 1020px) {
 
     footer #flexikonmobile {
@@ -1418,8 +1460,11 @@ input[type=submit]:hover {
 
 
 /*media queries slut*/
+<<<<<<< HEAD
 =======
 
 
 
 >>>>>>> fce933e0ba9c82575c7a87dfef7f99952057b185
+=======
+>>>>>>> 5be2e3204a485496acad80c51f5c3738f754e6da

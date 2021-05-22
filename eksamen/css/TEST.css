@@ -312,8 +312,6 @@ width: 12em;
 
 
 
-
-
 /* Breakpoints */
 
 
@@ -410,49 +408,6 @@ display: none;
     
     
 
-    #flexkontakt {
-        font-family: 'Open Sans';
-    }
-    
-    #footerh2 {
-        margin-left: 5px;
-    }
-    
-  
-    
-    .footer-item,
-  .footer-divider {
-    display: unset;
-  }
-  .nav ul {
-    display: block;
-  }
-  .burger-container,
-  #bottom-nav {
-    display: none;
-  }
-  .desktop-nav-container {
-    display: unset;
-  }
-
-  #main-footer small {
-    font-size: 0.625rem;
-  }
-    
-    
-  footer #flexikonmobile {
-   display: none;
-    
-}
-    
-    footer #flexikondesktop {
-    display: flex;
-        
-    }
-    
-    #kontakt{
-    display: none;
-    }  
     
     
     

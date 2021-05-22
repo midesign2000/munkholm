@@ -7,6 +7,322 @@ body {
 
 }
 
+
+/* 
+navigation 
+*/
+
+
+.logo_område {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+/* Header navigation */
+#top-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#main-header {
+  background-color: none;
+}
+
+
+.logo-container {
+  padding: 0.5rem 0 1rem 1rem;
+    
+}
+.logo-container img{
+    width: 30%;
+    height: 30%;
+    margin-right: auto 0;
+    margin-left: auto 0; 
+}
+
+#clickmenu {
+    color: white;
+font-size: 30px;
+text-align: right;
+padding: 0.3em; 
+   
+}
+
+
+
+
+
+/* Burger menu */
+
+.dropbtn img {
+    width: 1.5em;
+}
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(143,149,115);
+  background-color: rgba(143,149,115, 0.9,1);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 30px;
+  color: #f6f5f1;
+  display: block;
+  transition: 0.3s;
+font-family: 'Montserrat';
+}
+
+
+.overlay a:hover, .overlay a:focus {
+  color: #f6f5f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 0.1px;
+  right: 1px;
+  font-size: 50px;
+}
+
+#clickmobil {
+color: #f6f5f1;
+}
+
+
+
+
+/* Mobil dropdown */
+
+.navbar {
+  overflow: hidden;
+  font-family: 'Montserrat';
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+  align-content: center;
+  overflow: hidden;
+    font-family: 'Montserrat';
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 30px;
+    font-family: 'Montserrat';
+  border: none;
+  outline: none;
+  color: #f7f5f2;
+  padding: 14px 16px;
+  background-color: inherit;
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: none;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+background-color: #B6A58B;
+  width: 100%;
+    margin-bottom: 100%;
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: #f7f5f2;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+    font-family: 'Montserrat';
+font-size: 1.5em;
+    line-height: 1.5em;
+}
+
+.dropdown-content {
+    padding-bottom: 100%;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+#bestilboks {
+    background-color: #be7743;
+    border-radius: 10px;
+  margin-right: 11em;
+margin-left: 11em;
+}
+
+
+
+
+
+/* Desktop navigation med logo i midten */
+
+
+.inner_desktopmenu {
+    margin: 0 auto;
+    width: 1020px;
+}
+
+.inner_desktopmenu ul {
+    margin: 0;
+    padding 80px;
+    list-style: none;
+    text-align: right;
+}
+
+.inner_desktopmenu ul li{
+    float: none;
+    display: inline-block;
+}
+
+.inner_desktopmenu li:nth-child(1){
+   float: left;
+margin-left: 1em;
+   
+}
+.inner_desktopmenu li:nth-child(2){
+   float: left;
+margin-left: 2em;
+}
+.inner_desktopmenu li:nth-child(3){
+   float: left;
+margin-left: 2em;
+}
+
+
+.inner_desktopmenu li:nth-child(4){
+   margin-right: 3em;
+top: -34px;
+position: relative;
+
+}
+
+.inner_desktopmenu li:nth-child(5){
+   margin-right: 2em;
+}
+
+.inner_desktopmenu li:nth-child(5) img{
+   width: 40px;
+    top: -34px;
+
+position: relative;
+ margin-right: 0.5em;
+   
+}
+
+.inner_desktopmenu li:nth-child(6){
+   margin-right: 2em;
+top: -34px;
+position: relative;
+
+}
+
+.inner_desktopmenu ul li a {
+   color: white;
+font-size: 20px;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    line-height: 3px;
+display: block;
+    padding: 1px;
+    margin: 7px; 
+}
+
+.inner_desktopmenu ul li a:hover {
+   color: #be7642;
+}
+
+#header_logo {
+width: 100%;
+position: relative; }
+
+.logo_område {
+width: 300px;
+    height: 300px;
+    position: absolute;
+    left: 45%;
+    top: 0;
+    content: ""
+margin-left: -150px;
+    text-align: center;
+    
+}
+
+.logo_område img {
+width: 12em;
+}
+
+.head-section {
+    margin-top: 7em;
+}
+
+
+    #desktopmenu{
+        display: block;
+    }
+    
+    .logo_område img{
+        display: block;
+    }  
+
+
+
+
+
+/* 
+navigation slut 
+*/
+
+
 /* generelt */
 
 h4 {
@@ -443,7 +759,21 @@ footer #flexkontakt {
         display: none;
 
     }
+    
+    
+    
+    
+    /* 
+navigation breakpoint
+*/
 
+     #desktopmenu{
+        display: none;
+    }
+    
+    .logo_område img{
+        display: none;
+    }  
 
 
 }
@@ -453,9 +783,27 @@ footer #flexkontakt {
 
 @media only screen and (min-width: 768px) {
 
-    .kontaktinfo {
-        font-size: 1.em;
+    
+        .kontaktinfo {
+    font-size: 1.em;
     }
+    
+
+       #clickmenu {
+font-size: 50px;
+padding: 0.3em;   
+   
+}
+
+
+    
+#topbillede img {
+    width: 100%;
+    padding-bottom: 1em;
+}
+    
+    
+
 
     h4 {
         font-size: 1.2em;
@@ -700,6 +1048,78 @@ footer #flexkontakt {
     
 
     @media only screen and (min-width: 1020px) {
+        
+        
+        /* 
+navigation desktop
+*/
+            
+#clickmenu {
+display: none;   
+}
+ 
+    #headerlogo img {
+        width: 20%;
+    }
+    
+    #topbillede {
+        display: none;
+    } 
+    
+  
+    
+ 
+    
+/* desktop menu bar */
+    
+    .logo_område {
+    display: block;
+}
+
+    
+    #logo {
+        display: none;
+    }
+    
+    li a {
+        color: white;  
+    }
+    
+    ul {
+        text-align: center;
+    }
+    
+   
+    .desktopsetup {
+        display: flex;
+    }
+    
+    
+    
+ 
+    
+    
+        #desktopmenu{
+        display: block;
+            padding-top: 50px;
+    }
+    
+            #desktopmenu ul{
+       margin: 3px;
+    }
+    
+    .logo_område img{
+        display: block;
+    }  
+    
+    #topnavigation {
+        background-color: rgba(143, 149, 115, 0.9);
+    }
+    
+        
+        
+        
+        
 
         .top-contentmobile {
             display: none;

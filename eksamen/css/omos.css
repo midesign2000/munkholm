@@ -465,7 +465,7 @@ footer #flexkontakt {
     #munkholmbillede-ipad img {
         display: block;
         position: relative;
-        max-width: 50%;
+        width: 50%;
         height: auto;
     }
 
@@ -478,9 +478,8 @@ footer #flexkontakt {
     #munkholm_logo-ipad img {
         display: block;
         position: relative;
-        max-width: 50%;
+        width: 50%;
         height: auto;
-
         margin-right: auto;
     }
 
@@ -754,7 +753,7 @@ footer #flexkontakt {
         #munkholm_logo-ipad img {
             display: block;
             position: relative;
-            width: 100%;
+            width: 50%;
             height: auto;
 
         }

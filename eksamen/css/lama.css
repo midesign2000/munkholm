@@ -419,7 +419,8 @@ width: 12em;
 
 #myBtn {
 
-
+background: none;
+border:none;
 }
 
 

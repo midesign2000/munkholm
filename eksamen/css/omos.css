@@ -416,7 +416,6 @@ footer #flexkontakt {
 
 
 
-
 }
 
 
@@ -445,9 +444,8 @@ footer #flexkontakt {
         width: 70%;
         margin: auto;
         text-align: center;
-        font-size: 0.8em;
+        font-size: 1.1em;
     }
-
 
 
     .container {
@@ -459,7 +457,8 @@ footer #flexkontakt {
     .container p {
         margin-top: auto;
         margin-bottom: auto;
-        font-size: 0.8em;
+        font-size: 1.1em;
+        font-family: 'Open Sans', sans-serif;
     }
 
 
@@ -513,11 +512,11 @@ footer #flexkontakt {
         margin-right: auto;
         margin-top: auto;
         margin-bottom: auto;
-        font-size: 0.8em;
+        font-size: 1.1em;
     }
-    
-    
-  
+
+
+
 
     #milo-ipad {
         display: flex;
@@ -542,11 +541,11 @@ footer #flexkontakt {
         margin-right: auto;
         margin-top: auto;
         margin-bottom: auto;
-        font-size: 0.8em;
+        font-size: 1.1em;
     }
-    
-    
-    #polaroidtext h3{
+
+
+    #polaroidtext h3 {
         display: block;
         text-align: center;
         font-family: 'montserrat';
@@ -555,8 +554,8 @@ footer #flexkontakt {
         margin-right: auto;
         font-weight: 800;
     }
-    
-    
+
+
 
     #pernille-ipad {
         display: flex;
@@ -577,10 +576,10 @@ footer #flexkontakt {
     }
 
     #pernille-ipad p {
-        width: 20%;
+
         text-align: center;
         font-family: 'Open Sans', sans-serif;
-        font-size: 0.8em;
+        font-size: 1.1em;
         margin-left: auto;
         margin-right: auto;
         margin-top: auto;
@@ -633,16 +632,18 @@ footer #flexkontakt {
         right: 0;
         text-align: center;
         width: 50%;
+        z-index: -10;
     }
 
     #fugle_aftryk img {
-      position: absolute;
+        position: absolute;
         margin-left: auto;
         margin-right: auto;
         left: 0;
         right: 0;
         text-align: center;
         width: 50%;
+        z-index: -10;
     }
 
 
@@ -654,28 +655,31 @@ footer #flexkontakt {
         right: 0;
         text-align: center;
         width: 50%;
+        z-index: -10;
     }
 
     #hunde_poter {
-       position: absolute;
+        position: absolute;
         margin-left: auto;
         margin-right: auto;
         left: 0;
         right: 0;
         text-align: center;
         width: 50%;
-        
+        z-index: -10;
+
     }
 
 
     #hestesko_aftryk {
-       position: relative;
+        position: relative;
         margin-left: auto;
         margin-right: auto;
         left: 0;
         right: 0;
         text-align: center;
         width: 50%;
+        z-index: -10;
     }
 
     /* Dyre poter styling - ipad -  slut*/
@@ -710,7 +714,7 @@ footer #flexkontakt {
         #tape1 {
             display: block;
             position: absolute;
-            text-align: end;
+            text-align: start;
             z-index: 10;
         }
 
@@ -761,10 +765,14 @@ footer #flexkontakt {
         }
 
         #lars-ipad p {
-            position: relative;
-            margin-top: 3%;
-            margin-left: 8%;
-            font-size: 0.8em;
+            width: 30%;
+            text-align: center;
+            font-family: 'Open Sans', sans-serif;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: auto;
+            margin-bottom: auto;
+            font-size: 1.1em;
         }
 
         #lars-ipad video {
@@ -785,7 +793,7 @@ footer #flexkontakt {
         #milo-ipad p {
             position: relative;
             margin-top: 8%;
-            font-size: 0.8em;
+            font-size: 1.1em;
 
         }
 
@@ -812,7 +820,7 @@ footer #flexkontakt {
             width: 30%;
             text-align: center;
             font-family: 'Open Sans', sans-serif;
-            font-size: 0.8em;
+            font-size: 1.1em;
             margin-left: auto;
             margin-right: auto;
             margin-top: auto;

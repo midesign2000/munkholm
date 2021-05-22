@@ -514,9 +514,9 @@ footer #flexkontakt {
         margin-bottom: auto;
         font-size: 1.1em;
     }
-    
-    
-  
+
+
+
 
     #milo-ipad {
         display: flex;
@@ -543,9 +543,9 @@ footer #flexkontakt {
         margin-bottom: auto;
         font-size: 1.1em;
     }
-    
-    
-    #polaroidtext h3{
+
+
+    #polaroidtext h3 {
         display: block;
         text-align: center;
         font-family: 'montserrat';
@@ -554,8 +554,8 @@ footer #flexkontakt {
         margin-right: auto;
         font-weight: 800;
     }
-    
-    
+
+
 
     #pernille-ipad {
         display: flex;
@@ -576,7 +576,7 @@ footer #flexkontakt {
     }
 
     #pernille-ipad p {
-        
+
         text-align: center;
         font-family: 'Open Sans', sans-serif;
         font-size: 1.1em;
@@ -636,13 +636,14 @@ footer #flexkontakt {
     }
 
     #fugle_aftryk img {
-      position: absolute;
+        position: absolute;
         margin-left: auto;
         margin-right: auto;
         left: 0;
         right: 0;
         text-align: center;
         width: 50%;
+        z-index: -10;
     }
 
 
@@ -654,28 +655,31 @@ footer #flexkontakt {
         right: 0;
         text-align: center;
         width: 50%;
+        z-index: -10;
     }
 
     #hunde_poter {
-       position: absolute;
+        position: absolute;
         margin-left: auto;
         margin-right: auto;
         left: 0;
         right: 0;
         text-align: center;
         width: 50%;
-        
+        z-index: -10;
+
     }
 
 
     #hestesko_aftryk {
-       position: relative;
+        position: relative;
         margin-left: auto;
         margin-right: auto;
         left: 0;
         right: 0;
         text-align: center;
         width: 50%;
+        z-index: -10;
     }
 
     /* Dyre poter styling - ipad -  slut*/
@@ -762,13 +766,13 @@ footer #flexkontakt {
 
         #lars-ipad p {
             width: 30%;
-    text-align: center;
-    font-family: 'Open Sans', sans-serif;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: auto;
-    margin-bottom: auto;
-    font-size: 1.1em;
+            text-align: center;
+            font-family: 'Open Sans', sans-serif;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: auto;
+            margin-bottom: auto;
+            font-size: 1.1em;
         }
 
         #lars-ipad video {

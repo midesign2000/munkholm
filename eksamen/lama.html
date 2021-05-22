@@ -170,13 +170,42 @@ Klik på knapperne her under og lær mere om lamaerne
     
      <div class="kasse1">
     
-    <div class="boks"><img src="images/ikonjorden.png" alt="hvor kommer lamaen fra"></div>
-         <div class="boks"><img src="images/ikonnode.png" alt="lyden af en lama"></div></div></div>
+    <div class="boks"><img src="images/ikonjorden.png" alt="hvor kommer lamaen fra">
+         
+         
+         
+         
+         
+</div>
+         <div class="boks">
+             
+             
+            <div id="lamalyd">
+                <i class="lamaplay" id="spil"><img src="images/ikonnode.png" alt="lyden af en lama"></i>
+
+                <script>
+                    const LAMA = new Audio("audio/bird.mp3");
+
+                    LAMA.pause();
+
+                    const PLAY = document.getElementById("spil");
+                    PLAY.addEventListener("click",
+                        function() {
+                            if (LAMA.paused) {
+                                LAMA.play()
+                            } else {
+                                LAMA.pause()
+                            }
+                        });
+
+                </script>
+            </div>
     
+         
+</div></div></div>
 </section>
 
-
-
+    
 
 
 

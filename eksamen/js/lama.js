@@ -1,4 +1,4 @@
-
+// lama lyd //
                             const LAMA = new Audio("audio/lama_lyd.m4a");
 
                             LAMA.pause();
@@ -14,6 +14,21 @@
                                 });
 
     
+//lama lyd slut//
+
+
+// læs højt //
+
+
+
+
+
+
+// læs højt slut //
+
+
+
+
 
 
 

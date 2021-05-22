@@ -1,0 +1,1425 @@
+<<<<<<< HEAD
+/* body baggrund billede*/
+
+body {
+    background-image: url("../images/paper_texture3.png");
+    background-color: #cccccc;
+    background-size: cover;
+}
+
+
+/* body baggrund billede slut*/
+
+
+
+/* hoved section*/
+.hoved-mobile {
+    padding-top: 10%;
+    align-items: center;
+
+}
+
+.hoved-mobile h1 {
+    text-align: center;
+    margin: 10 10 10 10;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.0em;
+    color: #f7f5f2;
+
+}
+
+hr {
+    text-align: center;
+    color: #f7f5f2;
+    width: 90%;
+    margin: 5%;
+
+}
+
+
+
+
+/* hoved section slut*/
+
+
+
+
+
+
+/* Velkommen tekst mobile */
+
+
+#velkommen-mobile h1 {
+    font-family: 'Montserrat';
+    font-size: 28px;
+    font-weight: 500;
+    margin-top: 20%;
+}
+
+
+.velkommentekst-mobile {
+    display: block;
+
+
+}
+
+.velkommentekst-mobile p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 2;
+    padding: 5%;
+}
+
+.velkommentekst-mobile img {
+    max-width: 60%;
+    height: auto;
+    position: relative;
+    padding-left: 5%;
+    margin-bottom: 10%;
+
+
+}
+
+
+/* velkommen tekst mobile slut */
+
+
+
+
+/*dyre bokse mobile */
+
+.dyrebokse-mobile {
+    background-image: url(../images/natur-baggrund.png);
+    background-color: #cccccc;
+    background-size: cover;
+    display: block;
+
+=======
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #e2e4dd;
+}
+
+/*header*/
+
+
+
+
+.wrapper {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 5px;
+    font-family:  'Lato', sans-serif;
+    font-size: 0.9rem;
+     background-color: #e2e4dd;
+}
+
+html {
+    font-size: 100%;
+}
+
+
+h1 {
+font-size: 1.0em;
+font-family: 'Lato', sans-serif;
+padding: 2%;
+>>>>>>> fce933e0ba9c82575c7a87dfef7f99952057b185
+
+}
+
+
+<<<<<<< HEAD
+
+#flexbokse-mobile {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding: 5%;
+
+}
+
+
+#sedyr-mobile {
+    width: 90%;
+    display: flex;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px grey;
+    background-color: #d2d5b6;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    margin-top: 20%;
+
+
+}
+
+#fleximg-mobile {
+    width: 50%;
+
+
+}
+
+#fleximg1-mobile {
+    width: 50%;
+
+
+}
+
+
+#flextekst-mobile {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 1.2em;
+    width: 50%;
+    color: #BE7642;
+
+}
+
+
+
+#fleximg-mobile img {
+    width: 60%;
+
+}
+
+#fleximg1-mobile img {
+    width: 70%;
+
+}
+
+
+
+#nyheder-mobile {
+    width: 90%;
+    display: flex;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px grey;
+    background-color: #d2d5b6;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    margin-top: 20%;
+
+}
+
+
+
+#kort-mobile {
+    width: 90%;
+    display: flex;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px grey;
+    background-color: #d2d5b6;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    margin-top: 20%;
+
+
+
+}
+
+
+#dyrepasser-mobile {
+    width: 90%;
+    display: flex;
+    text-align: center;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px grey;
+    background-color: #d2d5b6;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    margin-top: 20%;
+
+}
+
+
+
+#herliggervi-mobile {
+    width: 90%;
+    display: flex;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px grey;
+    background-color: #d2d5b6;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    margin-top: 20%;
+    margin-bottom: 20%;
+
+
+}
+
+
+/*dyre bokse mobile slut */
+
+
+/*dyre bokse ipad  */
+
+.dyrebokse-ipad-container {
+    display: none;
+    padding-bottom: 10%;
+    align-content: space-between;
+    background-image: url(../images/natur-baggrund.png);
+    background-color: #cccccc;
+    background-size: cover;
+
+}
+
+
+
+.dyrebokse-ipad-container div {
+    width: 100px;
+}
+
+
+#flexipadboks2 {
+    display: flex;
+    width: 100%;
+
+}
+
+
+#flexipadboks1 {
+    display: flex;
+    width: 100%;
+    text-align: center;
+}
+
+
+#fleximg-ipad img {
+    width: 70%;
+    text-align: center;
+
+
+}
+
+
+
+
+#fleximg-ipad {
+    width: 100%;
+    text-align: center;
+
+}
+
+
+
+#flextekst-ipad {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    line-height: 1.5em;
+    color: #BE7642;
+    width: 100%;
+    text-align: center;
+    margin-top: 20%;
+
+}
+
+
+
+
+#nyheder-ipad {
+    width: 30%;
+    height: 400px;
+    display: table-column;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px grey;
+    background-color: #d2d5b6;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    margin-top: 10%;
+    margin: 5%;
+
+
+}
+
+
+
+#kort-ipad {
+    width: 30%;
+    height: 400px;
+    display: table-column;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px grey;
+    background-color: #d2d5b6;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    margin-top: 10%;
+    margin: 5%;
+
+
+}
+
+
+
+#dyrepasser-ipad {
+    width: 30%;
+    height: 400px;
+    display: table-column;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px grey;
+    background-color: #d2d5b6;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    margin-top: 10%;
+    margin: 5%;
+
+
+
+
+
+}
+
+
+
+#herliggervi-ipad {
+    width: 30%;
+    height: 400px;
+    display: table-column;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px grey;
+    background-color: #d2d5b6;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    margin-top: 10%;
+    margin: 5%;
+
+}
+
+/*dyre bokse ipad slut */
+
+
+
+
+
+
+
+
+
+
+
+
+=======
+h3 {
+    font-size: 1.5em;
+    text-align: center;
+    color: black;
+    line-height: 1.2;
+    padding-top: 2%;
+    font-family: mostra-nuova, sans-serif;
+}
+
+
+h4 {
+    font-size: 1.8em;
+    color: #ffffff;
+    line-height: 1.2;
+    margin: 2%;
+    font-family: mostra-nuova, sans-serif, bold;
+}
+
+
+/* LOG PÅ KNAP !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+#logind button {
+    background-color: #e2e4dd;
+    color: #ed8633;
+    font-weight: 700;
+    padding: 1em 1.2em;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    float: right;
+}
+
+#logind button:hover {
+    opacity: 0.8;
+}
+
+#logind #login {
+    margin: 0;
+    background-color: #ed8633;
+    color: white;
+    padding: 2%;
+}
+
+/* Center the image and position the close button */
+#logind .imgcontainer {
+    text-align: center;
+    margin: 2em 0 1em 0;
+    position: relative;
+}
+
+
+#logind .container {
+    padding: 1.2em;
+}
+
+#logind #glemtadgangskode {
+    padding: 1.2em;
+    text-align: right;
+}
+
+#logind #glemtadgangskode a:any-link {
+    color: #486040;
+}
+
+/* Full-width input fields */
+#logind input[type=text],
+#logind input[type=password] {
+    width: 100%;
+    padding: 1em 2em;
+    margin: 1em 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* The Modal (background) */
+#logind .modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    /* Enable scroll if needed */
+    padding-top: 60px;
+}
+
+/* Modal Content/Box */
+#logind .modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto;
+    border: none;
+    width: 80%;
+    max-width: 20em;
+}
+
+
+/* The Close Button (x) */
+#logind .close {
+    position: absolute;
+    right: 1em;
+    top: 0;
+    color: #000;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+#logind .close:hover,
+#logind .close:focus {
+    color: #b55039;
+    cursor: pointer;
+}
+
+
+/* Add Zoom Animation */
+#logind .animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+
+#logind @-webkit-keyframes animatezoom {
+    from {
+        -webkit-transform: scale(0)
+    }
+
+    to {
+        -webkit-transform: scale(1)
+    }
+}
+
+#logind @keyframes animatezoom {
+    from {
+        transform: scale(0)
+    }
+
+    to {
+        transform: scale(1)
+    }
+}
+
+/*LOG PÅ KNAP FÆRDIG !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+>>>>>>> fce933e0ba9c82575c7a87dfef7f99952057b185
+
+
+
+
+<<<<<<< HEAD
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Velkommen tekst desktop  */
+
+#velkommentekst-desktop h1 {
+    font-family: 'Montserrat';
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 20%;
+    color: white;
+    padding-left: 10%;
+
+
+}
+
+
+
+#velkommentekst-desktop p {
+    line-height: 2.0em;
+    text-align: left;
+    font-family: 'Open Sans';
+    padding-left: 10%;
+    margin-left: 2%;
+    margin-top: 5%;
+}
+
+#velkommentekst-desktop img {
+
+    max-width: 60%;
+    height: auto;
+    position: relative;
+    margin-bottom: 10%;
+    margin-right: 15%;
+
+}
+
+
+#velkommentekst-desktop {
+    width: 50%;
+
+}
+
+
+
+/* Velkommen tekst desktop slut */
+
+
+
+
+
+/*dyre bokse desktop */
+
+
+#desktopforside {
+    width: 100%;
+    display: none;
+    text-align: center;
+}
+
+
+#desktopimg {
+    width: 100%;
+}
+
+
+
+
+
+#desktopimg img {
+    width: 85%;
+    text-align: center;
+    margin-top: 30%;
+}
+
+
+#button-desktop {
+    width: 100%;
+    margin-top: 15%;
+    text-align: center;
+
+}
+
+
+
+#button-desktop button {
+    height: 60px;
+    width: 200px;
+    border-radius: 25px;
+    font-size: 20px;
+    font-family: 'Open Sans';
+    background-image: url("../images/paper_texture3.png");
+    background-color: #cccccc;
+    background-size: cover;
+    border-color: 5px solid #be7642);
+    color: white;
+
+}
+
+
+#flex2billeder {
+    display: table-column;
+    width: 50%;
+}
+
+
+
+
+
+
+
+
+.dyrebokse-desktop-container {
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 15%;
+    align-content: space-between;
+    background-image: url(../images/natur-baggrund.png);
+    background-color: #cccccc;
+    background-size: cover;
+
+}
+
+
+
+
+
+.dyrebokse-desktop-container div {
+    width: 100px;
+
+
+
+
+}
+
+
+#fleximg-desktop img {
+    width: 100px;
+    text-align: center;
+    margin-left: 2%;
+
+
+}
+
+#fleximg1-desktop img {
+    width: 100%;
+    text-align: center;
+
+
+}
+
+
+
+#flextekst-desktop {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 1.2em;
+    color: #BE7642;
+    width: 100%;
+
+}
+
+
+
+#fleximg-desktop img {
+    width: 100%;
+    text-align: center;
+
+}
+
+#fleximg1-desktop img {
+    width: 100%;
+    text-align: center;
+
+}
+
+
+
+#nyheder-desktop {
+    width: 104px;
+    height: 300px;
+    display: table-column;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px grey;
+    background-color: #d2d5b6;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    margin-top: 10%;
+
+}
+
+
+div#nyheder-desktop:hover {
+    background: -webkit-linear-gradient(#d2d5b6, #be7642);
+}
+
+#kort-desktop {
+    width: 104px;
+    height: 300px;
+    display: table-column;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px grey;
+    background-color: #d2d5b6;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    margin-top: 10%;
+
+}
+
+
+div#kort-desktop:hover {
+    background: -webkit-linear-gradient(#d2d5b6, #be7642);
+
+}
+
+
+#dyrepasser-desktop {
+    width: 104px;
+    height: 300px;
+    display: table-column;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px grey;
+    background-color: #d2d5b6;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    margin-top: 10%;
+
+}
+
+
+div#dyrepasser-desktop:hover {
+    background: -webkit-linear-gradient(#d2d5b6, #be7642);
+
+}
+
+
+#herliggervi-desktop {
+    width: 104px;
+    height: 300px;
+    display: table-column;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px grey;
+    background-color: #d2d5b6;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    margin-top: 10%;
+
+}
+
+div#herliggervi-desktop:hover {
+    background: -webkit-linear-gradient(#d2d5b6, #be7642);
+
+=======
+/* Main */
+
+
+.login {
+    margin-right: 5px;
+}
+
+
+.billed_sektion {
+    background-image: url('../img/car-1835506_1920.jpg');
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.formular {
+    position: relative;
+    top: 100px;
+    width: 450px;
+    height: 245px;
+    background-color: #e2e4dd;
+    padding: 15px;
+    margin-left: 15px;
+}
+
+.formular_overskrift {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    font-size: 1.4rem;
+    padding: 2%;
+    
+}
+
+.formular_felter {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#afhentning,
+#aflevering,
+#personer {
+    width: 9.5rem;
+    text-align: right;
+    padding: 5px;
+}
+
+#kufferter {
+    width: 9.5rem;
+    padding: 5px;
+}
+
+.etiket {
+    margin: 15px 0 5px;
+    display: block;
+}
+
+.formular_knap {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.knap {
+    cursor: pointer;
+    border: 1px solid black;
+    padding: 5px 40px;
+    background-color: #ed8633
+
+}
+
+.bil_sektion {
+    padding: 10px 0;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.bil {
+    border: 1px solid black;
+    padding: 15px;
+    margin: 15px 0;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  font-size: 30px;
+  text-align: center;
+padding: 2%;
+}
+
+.flex-item-left {
+background-image: url('../img/suzukiny1.png');
+height: 300px;
+  background-color: #f1f1f1;
+  padding: 10px;
+  flex: 50%;
+border-radius: 5px;
+}
+
+.flex-item-right {
+
+  padding: 10px;
+  flex: 50%;
+border-radius: 5px;
+}
+
+.flex-item-center {
+  padding: 10px;
+  flex: 50%;
+    border-radius: 5px;
+margin: 2%;
+}
+
+
+.biltekst {
+font-family:  'Lato', sans-serif;
+font-size: 0.6em;
+line-height: 1.6;
+
+}
+
+.pris {
+ font-family:  'Lato', sans-serif;
+font-size: 0.7em;
+line-height: 1.6;
+padding-top: 5em;
+    
+>>>>>>> fce933e0ba9c82575c7a87dfef7f99952057b185
+}
+
+
+
+<<<<<<< HEAD
+/*dyre bokse desktop slut */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* velkommen video ipad og desktop */
+
+.container video {
+    display: none;
+    position: relative;
+    width: 100%;
+    z-index: 0;
+}
+
+/* velkommen video ipad og desktop slut */
+
+
+
+
+
+
+
+
+
+/*footer mobile*/
+
+footer {
+    overflow: hidden;
+    background-color: rgba(247, 245, 242, 0.5);
+    /* F7F5F2 med opacity */
+
+
+}
+
+footer #flexikonmobile {
+    display: flex;
+    width: 100%;
+    margin: 0;
+}
+
+footer .footer-left {
+    width: 33.5%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+footer .footer-left img {
+    width: 40px;
+    max-height: 40px;
+    margin-top: 5px;
+    padding: 10px;
+
+}
+
+
+footer .footer-center {
+    width: 33.5%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+
+footer .footer-center img {
+    width: 40px;
+    max-height: 40px;
+    margin-top: 5px;
+    padding: 10px;
+=======
+button.omos.btn {
+    padding: 10px 12px;
+    font-size: 12px;
+    background-color: #ed8633;
+    border-radius: 5px;
+ 
+}
+
+
+
+/* Footer
+-----------------------------------------------------------------------------*/
+
+footer {
+    overflow: hidden;
+     height: auto;
+    background-color: darkgray;
+>>>>>>> fce933e0ba9c82575c7a87dfef7f99952057b185
+}
+
+
+
+<<<<<<< HEAD
+footer .footer-right {
+    display: flex;
+    flex-direction: column;
+    width: 33.5%;
+    padding-top: 15px;
+    padding-right: 10px;
+    text-align: center;
+}
+
+
+footer .footer-right img {
+    width: 40px;
+    max-height: 40px;
+    margin-top: 5px;
+    padding: 10px;
+
+}
+
+
+.kontaktinfo {
+    font-size: 0.8em;
+    line-height: 1.5em;
+    font-family: 'Open Sans';
+    padding: 2%;
+    margin: 0%;
+}
+
+/*footer mobile slut*/
+
+
+/*footer desktop*/
+
+
+footer #flexikondesktop {
+    display: none;
+    width: 100%;
+    margin: 0;
+}
+
+
+footer #flexalt {
+    display: flex;
+    width: 100%;
+    margin: 0;
+
+}
+
+.footer-centerdesktop {
+    width: 33.3%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 2%;
+    text-align: center;
+
+}
+
+footer .footer-centerdesktop img {
+    width: 40px;
+    max-height: 40px;
+    margin-top: 5px;
+    padding: 10px;
+
+}
+
+.footer-rightdesktop {
+    width: 33.3%;
+    flex-direction: inline;
+    padding-left: 2%;
+    padding-top: 2%;
+    text-align: center;
+
+}
+
+
+footer .footer-rightdesktop img {
+    width: 40px;
+    max-height: 40px;
+    margin-top: 5px;
+    text-align: right;
+    margin-left: 15%;
+
+}
+
+
+footer #flexkontakt {
+    width: 33.3%;
+    margin: 0;
+    padding-left: 2%;
+    font-family: 'Open Sans';
+    margin-bottom: 2%;
+}
+
+
+h4 {
+    font-family: 'Open Sans';
+    font-size: 1.2em;
+    padding: 2%;
+    margin: 0%;
+    margin-top: 5%;
+}
+
+
+/*footer desktop slut*/
+
+
+
+
+
+/*media queries*/
+
+
+
+
+@media only screen and (min-width: 320x) {
+
+ 
+    
+=======
+.kontaktinfo {
+  font-size: 1.5em;
+    line-height: 1.5em;
+    font-family: mostra-nuova, sans-serif;
+    padding: 2%;
+    text-align: center;
+    color: #ffffff;
+    margin: 0%;
+}
+
+
+/* Nyhedsbrev Footer
+-----------------------------------------------------------------------------*/
+
+.nyhedsbrevcontainer {
+    padding: 20px;
+    background-color: #fefefe;
+    text-align: center;
+}
+
+p.nyhedsbrev {
+text-align: center;
+}
+
+input[type=text],
+input[type=submit] {
+    width: 50%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 10px; 
+}
+
+
+input[type=submit] {
+    background-color: #e2e4dd;
+    border: none;
+    border-radius: 10px;
+
+}
+
+input[type=submit]:hover {
+    opacity: 0.8;
+}
+
+/* Nyhedsbrev Footer slut
+-----------------------------------------------------------------------------*/
+
+
+/* Responsive layout - makes a one column-layout instead of two-column layout */
+@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
+  }
+>>>>>>> fce933e0ba9c82575c7a87dfef7f99952057b185
+}
+
+
+
+<<<<<<< HEAD
+@media only screen and (min-width: 768px) {
+
+    .kontaktinfo {
+        font-size: 1.em;
+    }
+
+    h4 {
+        font-size: 1.2em;
+    }
+
+    #mobileforside {
+        display: none;
+    }
+
+
+
+
+    #desktopbottom {
+        display: block;
+    }
+
+
+
+    .container video {
+        display: block;
+    }
+
+
+
+    #desktopforside {
+        display: inline-flex;
+
+    }
+
+    .dyrebokse-ipad-container {
+        display: block;
+        width: 100%;
+    }
+
+
+    #velkommentekst-desktop h1 {
+        font-size: 24px;
+        line-height: 1.5em;
+
+    }
+    
+    
+    .dyrebokse-desktop-container {
+    display: none;
+    }
+
+
+
+=======
+
+
+
+
+
+
+@media only screen and (max-width: 410px) {
+    .billed_sektion {
+        height: 475px;
+    }
+    
+    .formular {
+        width: 310px;
+        margin-left: 0;
+        height: 375px;
+    }
+    
+>>>>>>> fce933e0ba9c82575c7a87dfef7f99952057b185
+}
+
+
+
+
+
+<<<<<<< HEAD
+@media only screen and (min-width: 1020px) {
+
+    footer #flexikonmobile {
+        display: none;
+
+    }
+
+    footer #flexikondesktop {
+        display: flex;
+
+    }
+
+    #kontakt {
+        display: none;
+    }
+
+    #velkommentekst-desktop h1 {
+        font-size: 35px;
+
+
+
+    }
+
+    .dyrebokse-desktop-container div {
+        margin: 25px;
+    }
+
+
+    .dyrebokse-desktop-container {
+        display: flex;
+
+    }
+
+
+    .dyrebokse-ipad-container {
+        display: none;
+
+    }
+
+
+
+    #button-desktop {
+        margin: 5%;
+
+    }
+}
+
+
+
+
+/*media queries slut*/
+=======
+
+
+
+>>>>>>> fce933e0ba9c82575c7a87dfef7f99952057b185

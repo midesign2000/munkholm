@@ -445,9 +445,8 @@ footer #flexkontakt {
         width: 70%;
         margin: auto;
         text-align: center;
-        font-size: 0.8em;
+        font-size: 1.1em;
     }
-
 
 
     .container {
@@ -459,7 +458,8 @@ footer #flexkontakt {
     .container p {
         margin-top: auto;
         margin-bottom: auto;
-        font-size: 0.8em;
+        font-size: 1.1em;
+        font-family: 'Open Sans', sans-serif;
     }
 
 

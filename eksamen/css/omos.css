@@ -416,7 +416,6 @@ footer #flexkontakt {
 
 
 
-
 }
 
 
@@ -513,7 +512,7 @@ footer #flexkontakt {
         margin-right: auto;
         margin-top: auto;
         margin-bottom: auto;
-        font-size: 0.8em;
+        font-size: 1.1em;
     }
     
     
@@ -542,7 +541,7 @@ footer #flexkontakt {
         margin-right: auto;
         margin-top: auto;
         margin-bottom: auto;
-        font-size: 0.8em;
+        font-size: 1.1em;
     }
     
     
@@ -577,10 +576,10 @@ footer #flexkontakt {
     }
 
     #pernille-ipad p {
-        width: 20%;
+        
         text-align: center;
         font-family: 'Open Sans', sans-serif;
-        font-size: 0.8em;
+        font-size: 1.1em;
         margin-left: auto;
         margin-right: auto;
         margin-top: auto;
@@ -762,9 +761,9 @@ footer #flexkontakt {
 
         #lars-ipad p {
             position: relative;
-            margin-top: 3%;
+            margin-top: 8%;
             margin-left: 8%;
-            font-size: 0.8em;
+            font-size: 1.1em;
         }
 
         #lars-ipad video {
@@ -785,7 +784,7 @@ footer #flexkontakt {
         #milo-ipad p {
             position: relative;
             margin-top: 8%;
-            font-size: 0.8em;
+            font-size: 1.1em;
 
         }
 
@@ -812,7 +811,7 @@ footer #flexkontakt {
             width: 30%;
             text-align: center;
             font-family: 'Open Sans', sans-serif;
-            font-size: 0.8em;
+            font-size: 1.1em;
             margin-left: auto;
             margin-right: auto;
             margin-top: auto;

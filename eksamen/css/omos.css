@@ -1,7 +1,7 @@
 /* body background texture*/
 
 body {
-    background-image: url("../images/paper_texture3.png");
+    background-image: url("../images/paper_texture3.jpg");
     background-color: #cccccc;
     
 
@@ -347,7 +347,7 @@ h4 {
     text-align: center;
     margin: 10 10 10 10;
     font-family: 'Ubuntu', sans-serif;
-    font-size: 1.8em;
+        font-size: 2.2em;
     color: #474747;
 
 }
@@ -743,6 +743,7 @@ footer #flexkontakt {
         width: 70%;
         margin: auto;
         text-align: center;
+        font-family: 'Montserrat';
 
     }
 
@@ -827,11 +828,11 @@ padding: 0.3em;
     }
 
     .info-tekst p {
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Montserrat';
         width: 70%;
         margin: auto;
         text-align: center;
-        font-size: 1.1em;
+        font-size: 1.6em;
     }
 
 
@@ -1002,7 +1003,7 @@ padding: 0.3em;
         text-align: center;
         width: 50%;
         z-index: -10;
-        transform: translateY(-100px);
+        transform: translateY(-150px);
     }
 
     #fugle_aftryk img {
@@ -1052,7 +1053,7 @@ padding: 0.3em;
         text-align: center;
         width: 50%;
         z-index: -10;
-        transform: translateY(-100px);
+        transform: translateY(-200px);
     }
 
     /* Dyre poter styling - ipad -  slut*/

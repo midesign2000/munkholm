@@ -268,7 +268,7 @@ position: relative;
 
 .inner_desktopmenu ul li a {
    color: white;
-font-size: 20px;
+font-size: 16px;
     text-decoration: none;
     font-family: 'Montserrat';
     line-height: 3px;
@@ -753,7 +753,7 @@ footer #flexkontakt {
     }  
     
  #logo img {
-    width: 60%;
+    width: 40%;
      
 }   
 
@@ -1159,7 +1159,7 @@ navstyle slut
         }
         
                h1{
-    margin-top: 10%;
+    margin-top: 5%;
    
 }
         

@@ -347,7 +347,7 @@ h4 {
     text-align: center;
     margin: 10 10 10 10;
     font-family: 'Ubuntu', sans-serif;
-    font-size: 1.8em;
+        font-size: 2.2em;
     color: #474747;
 
 }
@@ -743,6 +743,7 @@ footer #flexkontakt {
         width: 70%;
         margin: auto;
         text-align: center;
+        font-family: 'Montserrat';
 
     }
 
@@ -827,11 +828,11 @@ padding: 0.3em;
     }
 
     .info-tekst p {
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Montserrat';
         width: 70%;
         margin: auto;
         text-align: center;
-        font-size: 1.1em;
+        font-size: 1.6em;
     }
 
 

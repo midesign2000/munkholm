@@ -3,7 +3,7 @@
 body {
     background-image: url("../images/paper_texture3.png");
     background-color: #cccccc;
-    background-size: repeat;
+    
 
 }
 
@@ -33,7 +33,7 @@ navigation
 }
 
 #main-header {
-  background-color: none;
+  
 }
 
 
@@ -44,8 +44,8 @@ navigation
 .logo-container img{
     width: 30%;
     height: 30%;
-    margin-right: auto 0;
-    margin-left: auto 0; 
+    margin-right: auto ;
+    margin-left: auto ; 
 }
 
 #clickmenu {
@@ -74,7 +74,7 @@ padding: 0.3em;
   top: 0;
   left: 0;
   background-color: rgb(143,149,115);
-  background-color: rgba(143,149,115, 0.9,1);
+  background-color: rgba(143,149,115, 0.9,1,0);
   overflow-x: hidden;
   transition: 0.5s;
 }

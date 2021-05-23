@@ -1,3 +1,6 @@
+// modal bokse på alle knapper til lamasiden//
+
+
 // Get the modal
 let modal = document.getElementById("myModal");
 
@@ -119,3 +122,50 @@ window.onclick = function (event) {
         //Tilføjet af Morten
     }
 };
+
+
+
+// modal bokse på alle knapper til lamasiden slut//
+
+
+
+// lyd på modal bokse//
+const LAMALYD = new Audio("audio/lama_lyd.m4a");
+
+LAMALYD.pause();
+
+const PLAYLYD = document.getElementById("spillyd");
+PLAYLYD.addEventListener("click",
+    function () {
+        if (LAMALYD.paused) {
+            LAMALYD.play()
+        } else {
+            LAMALYD.pause()
+        }
+    });
+
+
+
+
+
+
+
+
+const LAMA = new Audio("audio/take 3.m4a");
+
+LAMA.pause();
+
+const PLAY = document.getElementById("spilhoj");
+
+PLAY.addEventListener("click", function () {
+    if (LAMA.paused) {
+
+
+        LAMA.play()
+    } else {
+        LAMA.pause()
+    }
+});
+
+
+// lyd på model bokse slut//

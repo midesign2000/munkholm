@@ -366,7 +366,7 @@ h4 {
 }
 
 .top-content img {
-    max-width: 80%;
+    
     height: auto;
     position: relative;
 }
@@ -478,7 +478,6 @@ ipad content
 
 #munkholm_logo img {
     width: 80%;
-   
     border-radius: 10px;
     margin-top: 1em;
     border: 4px solid #f7f5f2;
@@ -853,8 +852,8 @@ padding: 0.3em;
     #munkholmbillede-ipad img {
         display: block;
         position: relative;
-        width: 50%;
-        height: auto;
+         width: 50%;
+  height: auto;
     }
 
     #munkholmbillede-ipad {
@@ -866,8 +865,8 @@ padding: 0.3em;
     #munkholm_logo-ipad img {
         display: block;
         position: relative;
-        width: 50%;
-        height: auto;
+          width:50%;
+  height: auto;
         margin-right: auto;
     }
 

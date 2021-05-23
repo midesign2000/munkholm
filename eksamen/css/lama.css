@@ -43,7 +43,7 @@ text-align: center;
 
 .kasse1 {
     display: flex;
-margin-left: 5%; 
+margin-left: 7%; 
 }
 
 
@@ -111,8 +111,7 @@ border-radius: 10px;
     color: white;
 font-size: 30px;
 text-align: right;
-position: absolute;
-margin-left: 90%;
+padding: 0.3em; 
    
 }
 
@@ -171,7 +170,6 @@ font-family: 'Montserrat';
 
 #clickmobil {
 color: #f6f5f1;
-
 }
 
 
@@ -260,6 +258,7 @@ font-size: 1.5em;
   margin-right: 11em;
 margin-left: 11em;
 }
+
 
 
 
@@ -379,7 +378,7 @@ width: 12em;
 /* Modal /*
 
 
-/* The Modal (baggrund) */
+/* The Modal (background) */
 .modal {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
@@ -391,8 +390,8 @@ width: 12em;
   height: 100%; /* Full height */
   overflow: auto; /* Enable scroll if needed */
   background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity 
-*/
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    
 }
 
 
@@ -403,6 +402,9 @@ width: 12em;
   width: 100%;
 padding-bottom: 10%;
 }
+.modal-content img{
+    width: 100%;
+}
 
 /* The Close Button */
 .close {
@@ -410,7 +412,6 @@ padding-bottom: 10%;
   float: right;
   font-size: 35px;
   font-weight: bold;
-margin-right: 5%;
 }
 
 .close:hover,
@@ -428,24 +429,15 @@ border:none;
 }
 
 
-#myBtn1 {
+
+#myBtn-funfact {
 
 background: none;
 border:none;
 }
 
 
-
-/* Modal  slut*/
-
-
-
-
-/* Modal fun fact /*
-
-
-/* The Modal fun fact (baggrund) */
-.modallama {
+.modalFunfact {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
@@ -456,41 +448,139 @@ border:none;
   height: 100%; /* Full height */
   overflow: auto; /* Enable scroll if needed */
   background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity 
-*/
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    
+}
+#myModalFunfact{
+display: none;    
+
 }
 
 
-/* Modal Content */
-.modal-content-lama {
-  background-color: #fefefe;
-  margin: 0;
-  width: 100%;
-padding-bottom: 10%;
-}
-
-/* The Close Button */
-.close {
-  color: #be7743;
-  float: right;
-  font-size: 35px;
-  font-weight: bold;
-margin-right: 5%;
-}
-
-.close:hover,
-.close:focus {
-  color: #000;
-  text-decoration: none;
-  cursor: pointer;
-}
 
 
-#myBtnlama {
+
+#myBtn-historie {
 
 background: none;
 border:none;
 }
+
+.modalHistorie {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    
+}
+#myModalHistorie{
+display: none;    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+#myBtn-mad {
+
+background: none;
+border:none;
+}
+
+
+.modalMad {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    
+}
+#myModalMad{
+display: none;    
+
+}
+
+
+
+
+
+#myBtn-land {
+
+background: none;
+border:none;
+}
+
+
+
+.modalLand {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    
+}
+#myModalLand{
+display: none;    
+
+}
+
+
+
+
+#myBtn-info {
+
+background: none;
+border:none;
+}
+
+
+.modalInfo {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    
+}
+#myModalInfo{
+display: none;    
+
+}
+
 
 
 
@@ -503,34 +593,11 @@ border:none;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Hover effekt på knapperne, så man kan se hvad symbolerne er/kan -> brugervenlighed
-
-Inspiration fra We3school: Link: https://www.w3schools.com/howto/howto_css_image_overlay.asp
-*/
+/* Hover effekt på knapperne, så man kan se hvad symbolerne er/kan - brugervenlighed*/
 
 .container {
   position: relative;
-  width: 100%;
+  width: 50%;
 }
 
 .image {
@@ -541,12 +608,12 @@ Inspiration fra We3school: Link: https://www.w3schools.com/howto/howto_css_image
 
 .overlaylama {
   position: absolute;
-  top: 10%;
+  top: 0;
   bottom: 0;
-  left: 7%;
+  left: 0;
   right: 0;
-  height: 80%;
-  width: 80%;
+  height: 100%;
+  width: 100%;
   opacity: 0;
   transition: .5s ease;
   background-color: #be7743;
@@ -572,7 +639,8 @@ border-radius: 25px;
 
 
 
-/* Hover effekt slut */
+
+
 
 
 
@@ -591,17 +659,16 @@ border-radius: 25px;
 
 footer {
 overflow: hidden;
-background-color: rgba(247, 245, 242, 0.5); /* F7F5F2 med opacity */
+background-color: rgba(247, 245, 242, 0.5); /* F7F5F2 with opacity */
     
 }
 
-h4 {
-    font-family: 'Open Sans';
-    font-size: 1.2em;
-    padding: 2%;
-    margin: 0%;
-    margin-top: 5%;
-} 
+#footerh4 {
+    font-family: 'Montserrat';
+font-size: 1em;
+    text-align: left;
+padding: 0.5em;
+}
 
 footer #flexikonmobile {
     display: flex;
@@ -621,8 +688,7 @@ footer .footer-left {
 }
 
 footer .footer-left img {
-    width: 40px;
-    max-height: 40px;
+    width: 30px;
     margin-top: 5px;
         padding: 10px;
 
@@ -640,8 +706,7 @@ footer .footer-center {
 
 
 footer .footer-center img {
-    width: 40px;
-    max-height: 40px;
+    width: 30px;
     margin-top: 5px;
     padding: 10px;
 }
@@ -659,10 +724,9 @@ footer .footer-right {
 
 
 footer .footer-right img {
-    width: 40px;
-    max-height: 40px;
+    width: 2em;
     margin-top: 5px;
-    padding: 10px;
+        padding: 10px;
 
 }
 
@@ -673,10 +737,8 @@ footer .footer-right img {
     font-family: 'Open Sans';
     padding: 2%;
     margin: 0%;
+    text-align: left;
 }
-
-
-/*Footer mobile slut*/
 
 
 /*footer desktop*/
@@ -700,6 +762,7 @@ footer #flexalt {
     width: 33.3%;
     display: flex;
     flex-direction: column;
+    padding-left: 2%;
     padding-top: 2%;
        text-align: center;
 
@@ -729,7 +792,6 @@ footer .footer-rightdesktop img {
     margin-top: 5px;
         padding: 10px;
     text-align: right;
-    margin-left: 15%;
 
 }
 
@@ -738,9 +800,7 @@ footer #flexkontakt {
     width: 33.3%;
     margin: 0;
     padding-left: 2%;
-    font-family: 'Open Sans';
-    margin-bottom: 2%;
-    
+    padding-top: 2%;
 }
 
 
@@ -762,7 +822,11 @@ footer #flexkontakt {
 
  @media only screen and (min-width: 480px) {
     
-  
+   .kasse1 {
+    margin-left: 20%;
+margin-right: 20%;
+}
+
 .boks {
     width: 85px;
 height: 70px;
@@ -772,22 +836,9 @@ height: 70px;
      #lamainfo {
          margin-left: 1.5em;
      }
-     
-    .overlaylama {
-    width: 95%;
-    height: 80%;
-    left: 8%;
-     }
 
 
-     .kasse1 {
-    margin-left: 10%;
-     }  
-     
-     
-     
-     
-    }
+
     
 @media only screen and (min-width: 768px) {
     
@@ -804,7 +855,7 @@ padding: 0.3em;
 
     #ipadflex {
         display: flex;
-        width: 100%;
+        width: 90%;
     }
 
  
@@ -831,13 +882,6 @@ height: 118px;
         margin-left: auto;
         margin-right: auto;
     }
-    
-    
- .overlaylama {
-    width: 85%;
-    height: 85%;
-    
-     }
     
 
 }
@@ -872,7 +916,6 @@ display: none;
         width: 40%;
        margin-left: 2em;
         margin-top: 6em;
-        margin-bottom: 15%;
     }
     
     .boks {
@@ -891,7 +934,11 @@ height: 70px;
     }
 
 
-  
+   .boks {
+    width: 50px;
+height: 50px;
+   
+} 
 
     .kasse1 {
         display: block;
@@ -994,18 +1041,6 @@ height: 70px;
     }
     
     
-    
- .overlaylama {
-    width: 100%;
-    height: 100%;
-    
-     }
-    
-    
-.container {
-margin-bottom: 30%;
-    
-    }
     
 }
     

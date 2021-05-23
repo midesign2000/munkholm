@@ -1002,7 +1002,7 @@ padding: 0.3em;
         text-align: center;
         width: 50%;
         z-index: -10;
-        transform: translateY(-100px);
+        transform: translateY(-150px);
     }
 
     #fugle_aftryk img {

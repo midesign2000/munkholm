@@ -1,7 +1,7 @@
 /* body background texture*/
 
 body{
-background-image: url("../images/natur-baggrund.png");   
+background-image: url("../images/natur-baggrund.webp");   
 }
 
 h1 {
@@ -626,6 +626,7 @@ width: 100%;
     .billede1 img {
            width: 80%;
         margin: 10%;
+        border-radius: 10px;
        }
 
  .billede1 img:hover {
@@ -639,6 +640,7 @@ width: 100%;
  .billede2 img {
            width: 80%;
 margin: 10%;
+     border-radius: 10px;
  }
     
 .billede2 img:hover {

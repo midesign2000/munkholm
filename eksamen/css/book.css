@@ -6,6 +6,7 @@ background-image: url("../images/natur-baggrund.png");
     margin-top: 25px;
     display: flex;
     flex-wrap: wrap;
+  
 }
 
 #valg {
@@ -150,5 +151,16 @@ line-height: 1.5;
 padding:2%;
 margin-bottom: 5%;    
 font-family: 'Open Sans'
+
+}
+
+
+#takTekst {
+ text-align: center;
+    font-family: 'Ubuntu regular', sans-serif;
+    font-size: 25px;
+    line-height: 1.5;
+       color: white;
+ margin-top:5%;
 
 }

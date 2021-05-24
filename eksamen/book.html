@@ -15,26 +15,55 @@
 <body>
     
     
-<h1>Dine booking oplysninger</h1>
  
+  <div class="billed_sektion"></div>
+    <div class="hovedindhold">
+        <aside id="lejeoplysninger" class="lejeoplysninger">
+            <h2>Dine booking oplysninger</h2>
+        </aside>
+        <section class="dineoplysninger">
+            <h1>Indtast dine oplysninger</h1>
+            <form class="formular" id="formular">
+         
+                <div class="flexsektion">
+                    <input type="text" id="fornavn" class="formfelt" placeholder="Indtast dit navn">
+                    
+                    <input type="text" id="efternavn" class="formfelt" placeholder="Indtast dit efternavn">
+                    
+                    <input type="text" id="email" class="formfelt" placeholder="Indtast din email">
+                    
+                    <input type="text" id="adresse" class="formfelt" placeholder="Indtast din adresse">
+                    
+                
+                    <input type="text" id="postnr" name="postal" class="formfelt" list="postnummer" placeholder="Indtast dit postnr og by">
+                    <datalist id="postnummer"></datalist>
+                   
+                </div>
+ 
+
+
+                <div class="flexsektion">
+                    <h2>Vælg betaling</h2><br><br>
+                    <input type="radio" id="bvedafhentning" name="betaling">Betal ved afhentning<br>
+
+                    <input type="radio" id="bnu" name="betaling">Betal nu
+
+
+                </div>
+
+                <a href="kvittering.html" class="videreknap" id="bookknap">Bestil nu</a>
+          
+            </form>
+        </section>
+           
     
     
     
     
+    </div>
     
+
     
-    
-    
-<h1>Indtast dine oplysninger</h1>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+
     </body>
 </html>

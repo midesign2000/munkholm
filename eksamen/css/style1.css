@@ -21,8 +21,8 @@ body {
 .hoved-mobile h1 {
     text-align: center;
     margin: 10 10 10 10;
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 2.0em;
+    font-family: 'Ubuntu regular', sans-serif;
+    font-size: 35px;
     color: #f7f5f2;
 
 }
@@ -50,7 +50,7 @@ hr {
 
 #velkommen-mobile h1 {
     font-family: 'Montserrat';
-    font-size: 28px;
+    font-size: 25px;
     font-weight: 500;
     margin-top: 20%;
 }
@@ -64,8 +64,8 @@ hr {
 
 .velkommentekst-mobile p {
     font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
-    line-height: 2;
+    font-size: 15px;
+    line-height: 1.5;
     padding: 5%;
 }
 
@@ -111,7 +111,6 @@ hr {
 
 
 
-
 #sedyr-mobile {
     width: 90%;
     display: flex;
@@ -147,9 +146,9 @@ div#sedyr-mobile:hover {
 
 
 #flextekst-mobile {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'montserrat', sans-serif;
     font-size: 18px;
-    line-height: 1.2em;
+    line-height: 1.5em;
     width: 50%;
     color: #BE7642;
 
@@ -309,16 +308,15 @@ div#herliggervi-mobile:hover {
 
 
 #flextekst-ipad {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 24px;
-    line-height: 1.5em;
+    font-family: 'montserrat', sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
     color: #BE7642;
     width: 100%;
     text-align: center;
     margin-top: 20%;
 
 }
-
 
 
 
@@ -412,28 +410,6 @@ div#herliggervi-ipad:hover {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Velkommen tekst desktop  */
 
 #velkommentekst-desktop h1 {
@@ -449,8 +425,10 @@ div#herliggervi-ipad:hover {
 
 
 
+
+
 #velkommentekst-desktop p {
-    line-height: 2.0em;
+    line-height: 1.5;
     text-align: left;
     font-family: 'Open Sans';
     padding-left: 10%;
@@ -525,7 +503,7 @@ div#button-desktop a{
 #button-desktop button {
     height: 60px;
     width: 200px;
-    border-radius: 25px;
+    border-radius: 15px;
     font-size: 20px;
     font-family: 'Open Sans';
     background-image: url("../images/paper_texture3.png");
@@ -541,9 +519,6 @@ div#button-desktop a{
     display: table-column;
     width: 50%;
 }
-
-
-
 
 
 
@@ -593,7 +568,7 @@ div#button-desktop a{
 #flextekst-desktop {
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
-    line-height: 1.2em;
+    line-height: 1.5;
     color: #BE7642;
     width: 100%;
 
@@ -698,37 +673,6 @@ div#herliggervi-desktop:hover {
 
 
 /*dyre bokse desktop slut */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

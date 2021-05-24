@@ -79,10 +79,10 @@ border-radius: 10px;
 
 
 
-
-
-
-
+*{
+    margin: 0;
+    padding: 0;
+}
 
 
 /* Header navigation */
@@ -265,116 +265,6 @@ margin-left: 11em;
 
 
 
-/* Desktop navigation med logo i midten */
-
-
-.inner_desktopmenu {
-    margin: 0 auto;
-    width: 1020px;
-}
-
-.inner_desktopmenu ul {
-    margin: 0;
-    padding 80px;
-    list-style: none;
-    text-align: right;
-}
-
-.inner_desktopmenu ul li{
-    float: none;
-    display: inline-block;
-}
-
-.inner_desktopmenu li:nth-child(1){
-   float: left;
-margin-left: 1em;
-   
-}
-.inner_desktopmenu li:nth-child(2){
-   float: left;
-margin-left: 2em;
-}
-.inner_desktopmenu li:nth-child(3){
-   float: left;
-margin-left: 2em;
-}
-
-
-.inner_desktopmenu li:nth-child(4){
-   margin-right: 3em;
-top: -34px;
-position: relative;
-
-}
-
-.inner_desktopmenu li:nth-child(5){
-   margin-right: 2em;
-}
-
-.inner_desktopmenu li:nth-child(5) img{
-   width: 40px;
-    top: -34px;
-
-position: relative;
- margin-right: 0.5em;
-   
-}
-
-.inner_desktopmenu li:nth-child(6){
-   margin-right: 2em;
-top: -34px;
-position: relative;
-
-}
-
-.inner_desktopmenu ul li a {
-   color: white;
-font-size: 20px;
-    text-decoration: none;
-    font-family: 'Montserrat';
-    line-height: 3px;
-display: block;
-    padding: 1px;
-    margin: 7px; 
-}
-
-.inner_desktopmenu ul li a:hover {
-   color: #be7642;
-}
-
-#header_logo {
-width: 100%;
-position: relative; }
-
-.logo_område {
-width: 300px;
-    height: 300px;
-    position: absolute;
-    left: 45%;
-    top: 0;
-    content: ""
-margin-left: -150px;
-    text-align: center;
-    
-}
-
-.logo_område img {
-width: 12em;
-}
-
-.head-section {
-    margin-top: 7em;
-}
-
-
-    #desktopmenu{
-        display: block;
-    }
-    
-    .logo_område img{
-        display: block;
-    }  
-
 
 
 /* Modal /*
@@ -397,7 +287,7 @@ width: 12em;
 }
 
 
-/* Modal Content */
+/* Modal Content generelt*/
 .modal-content {
   background-color: #fefefe;
   margin: 0;
@@ -430,6 +320,10 @@ background: none;
 border:none;
 }
 
+/* Modal Content generelt slut*/
+
+
+/* Modal fun fact */
 
 
 #myBtn-funfact {
@@ -457,10 +351,12 @@ border:none;
 display: none;    
 
 }
+/* Modal fun fact slut*/
 
 
 
 
+/* Modal historie */
 
 #myBtn-historie {
 
@@ -487,6 +383,7 @@ display: none;
 
 }
 
+/* Modal historie slut*/
 
 
 
@@ -495,6 +392,7 @@ display: none;
 
 
 
+/* Modal mad*/
 
 
 #myBtn-mad {
@@ -502,7 +400,6 @@ display: none;
 background: none;
 border:none;
 }
-
 
 .modalMad {
   display: none; /* Hidden by default */
@@ -523,8 +420,12 @@ display: none;
 
 }
 
+/* Modal mad slut*/
 
 
+
+
+/* Modal land*/
 
 
 #myBtn-land {
@@ -532,7 +433,6 @@ display: none;
 background: none;
 border:none;
 }
-
 
 
 .modalLand {
@@ -555,7 +455,12 @@ display: none;
 }
 
 
+/* Modal land slut*/
 
+
+
+
+/* Modal info*/
 
 #myBtn-info {
 
@@ -583,7 +488,7 @@ display: none;
 
 }
 
-/* Modal  slut*/
+/* Modal  slut info*/
 
 
 
@@ -757,6 +662,12 @@ footer #flexkontakt {
         display: none;
     }    
 
+    
+ 
+
+    
+    
+}
 
  @media only screen and (min-width: 480px) {
     
@@ -775,9 +686,17 @@ height: 70px;
          margin-left: 1.5em;
      }
 
+  
+     
+    
+    }
 
 
     
+     
+     
+     
+     
 @media only screen and (min-width: 768px) {
     
     .kontaktinfo {
@@ -820,10 +739,93 @@ height: 118px;
         margin-right: auto;
     }
     
+ 
+    
 
 }
+     
+     
+    
+
+
 
 @media only screen and (min-width: 1020px) {
+    
+/* headerdesktop */
+    
+nav{
+    width: 100%;
+    height: 130px;
+    background-color: #8f9472;
+}
+    nav ul{
+        padding-top: 30px;
+    }
+nav ul li{
+    float: left;
+    list-style: none;
+    position: relative;
+}
+
+nav ul li a {
+    display: block;
+    font-size: 20px;
+    font-family: 'Montserrat';
+    color: #fff;
+    padding: 24px 14px;
+    text-decoration: none;
+
+}
+nav ul li ul {
+    display: none;
+    position: absolute;
+    background-color: #8f9472;
+    padding: 10px;
+    border-radius: 0px 0px 4px 4px;
+}
+nav ul li:hover ul {
+    display: block;
+}
+
+nav ul li ul li {
+    width: 250px;
+    border-radius: 4px;
+}
+
+nav ul li ul li a:hover {
+    background-color: orange;
+}
+nav ul li ul li a {
+    padding: 12px 20px;
+    text-align: center
+}
+
+.logo{
+    width: 170px;
+    position: absolute;
+    left: 50%;
+}
+
+header{
+    display: flex;
+    background-color: #8f9472;
+    position: relative;
+}
+    
+    .right ul{
+        float: right;
+        padding-right: 15%;
+        
+    }
+    .left ul{
+        padding-left: 5%;
+    }
+
+    }
+
+/* headerdesktop slut */
+
+
 
     #lamainfo {
       margin-left: 50em;
@@ -885,35 +887,16 @@ height: 50px;
     
     
     
-/* desktop menu bar */
-    
-    .logo_område {
-    display: block;
-}
 
-    
-    #logo {
-        display: none;
-    }
-    
-    li a {
-        color: white;  
-    }
-    
-    ul {
-        text-align: center;
-    }
-    
-   
-    .desktopsetup {
-        display: flex;
-    }
     
     
     
     
     
 
+
+    
+    
     #flexkontakt {
         font-family: 'Open Sans';
     }

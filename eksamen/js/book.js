@@ -1,3 +1,48 @@
+
+window.onload = function() {
+document.getElementById("pris").innerHTML = "Pris " + window.sessionStorage.getItem("SamletPris");
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 const BOOKKNAP = document.getElementById("bookknap");
 
 BOOKKNAP.addEventListener("click", function () {
@@ -7,7 +52,7 @@ BOOKKNAP.addEventListener("click", function () {
     sessionStorage.setItem("adresse", document.getElementById("adresse").value);
     sessionStorage.setItem("postnummer", document.getElementById("postnummer").value);
 })
-
+*/
 
 
 fetch("https://api.dataforsyningen.dk/postnumre/")

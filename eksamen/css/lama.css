@@ -663,8 +663,11 @@ footer #flexkontakt {
     }    
 
     
+ 
+
     
     
+}
 
  @media only screen and (min-width: 480px) {
     
@@ -683,6 +686,10 @@ height: 70px;
          margin-left: 1.5em;
      }
 
+  
+     
+    
+    }
 
 
     
@@ -731,6 +738,8 @@ height: 118px;
         margin-left: auto;
         margin-right: auto;
     }
+    
+ 
     
 
 }

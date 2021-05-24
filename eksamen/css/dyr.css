@@ -6,9 +6,10 @@ background-image: url("../images/natur-baggrund.webp");
 
 h1 {
     color: white;
-    font-family: 'Montserrat';
-font-size: 36px;
+    font-family: 'ubuntu regular';
+font-size: 35px;
 text-align: center;
+line-height: 1.5;
 }
 
 
@@ -79,11 +80,11 @@ padding: 0.3em;
 .overlay a {
   padding: 8px;
   text-decoration: none;
-  font-size: 30px;
+  font-size: 35px;
   color: #f6f5f1;
   display: block;
   transition: 0.3s;
-font-family: 'Montserrat';
+font-family: 'ubuntu regular';
 }
 
 
@@ -292,11 +293,6 @@ width: 12em;
     margin-top: 7em;
 }
 
-
-
-
-
- 
     
     .logo_område img{
         display: block;

@@ -110,6 +110,8 @@ hr {
 }
 
 
+
+
 #sedyr-mobile {
     width: 90%;
     display: flex;
@@ -123,6 +125,12 @@ hr {
     margin-top: 20%;
 
 
+}
+
+
+
+div#sedyr-mobile:hover {
+    background: -webkit-linear-gradient(#d2d5b6, #be7642);
 }
 
 #fleximg-mobile {
@@ -146,6 +154,7 @@ hr {
     color: #BE7642;
 
 }
+
 
 
 
@@ -176,6 +185,11 @@ hr {
 }
 
 
+div#nyheder-mobile:hover {
+    background: -webkit-linear-gradient(#d2d5b6, #be7642);
+}
+
+
 
 #kort-mobile {
     width: 90%;
@@ -188,11 +202,13 @@ hr {
     align-items: center;
     padding: 5%;
     margin-top: 20%;
-
-
-
 }
 
+
+
+div#kort-mobile:hover {
+    background: -webkit-linear-gradient(#d2d5b6, #be7642);
+}
 
 #dyrepasser-mobile {
     width: 90%;
@@ -210,6 +226,11 @@ hr {
 }
 
 
+div#dyrepasser-mobile:hover {
+    background: -webkit-linear-gradient(#d2d5b6, #be7642);
+}
+
+
 
 #herliggervi-mobile {
     width: 90%;
@@ -223,9 +244,14 @@ hr {
     padding: 5%;
     margin-top: 20%;
     margin-bottom: 20%;
-
-
 }
+
+
+div#herliggervi-mobile:hover {
+    background: -webkit-linear-gradient(#d2d5b6, #be7642);
+}
+
+
 
 
 /*dyre bokse mobile slut */
@@ -308,10 +334,11 @@ hr {
     padding: 5%;
     margin-top: 10%;
     margin: 5%;
-
-
 }
 
+div#nyheder-ipad:hover {
+    background: -webkit-linear-gradient(#d2d5b6, #be7642);
+}
 
 
 #kort-ipad {
@@ -326,10 +353,11 @@ hr {
     padding: 5%;
     margin-top: 10%;
     margin: 5%;
-
-
 }
 
+div#kort-ipad:hover {
+    background: -webkit-linear-gradient(#d2d5b6, #be7642);
+}
 
 
 #dyrepasser-ipad {
@@ -345,10 +373,11 @@ hr {
     margin-top: 10%;
     margin: 5%;
 
+}
 
 
-
-
+div#dyrepasser-ipad:hover {
+    background: -webkit-linear-gradient(#d2d5b6, #be7642);
 }
 
 
@@ -366,6 +395,11 @@ hr {
     margin-top: 10%;
     margin: 5%;
 
+}
+
+
+div#herliggervi-ipad:hover {
+    background: -webkit-linear-gradient(#d2d5b6, #be7642);
 }
 
 /*dyre bokse ipad slut */
@@ -463,7 +497,9 @@ hr {
 }
 
 
-
+button#bestil-desktop:hover {
+    background: -webkit-linear-gradient(#d2d5b6, #be7642);
+}
 
 
 #desktopimg img {
@@ -480,6 +516,10 @@ hr {
 
 }
 
+div#button-desktop a{
+ color: white;
+
+}
 
 
 #button-desktop button {
@@ -490,11 +530,11 @@ hr {
     font-family: 'Open Sans';
     background-image: url("../images/paper_texture3.png");
     background-color: #cccccc;
-    background-size: cover;
-    border-color: 5px solid #be7642);
-    color: white;
+    color: #be7642;
+    border: 5px solid;
 
 }
+
 
 
 #flex2billeder {
@@ -510,6 +550,7 @@ hr {
 
 
 .dyrebokse-desktop-container {
+    display: none;
     margin-left: auto;
     margin-right: auto;
     align-content: space-between;
@@ -1003,7 +1044,6 @@ h4 {
 
     }
 }
-
 
 
 

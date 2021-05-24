@@ -5,7 +5,7 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Munkholm Zoo - Lær om Lamaen</title>
+    <title>Munkholm Zoo - Lær om parkens Lama</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/lama.css">
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
@@ -27,18 +27,18 @@
                 <button class="dropbtn">Vores Dyr
                 </button>
                 <div class="dropdown-content">
-                    <a href="dyr.html">Se & lær om dyrene</a>
-                    <a href="404.html">Galleri</a>
+                    <a href="#">Se & lær om dyrene</a>
+                    <a href="#">Galleri</a>
                 </div>
             </div>
 
             <div class="dropdown">
-                <button class="dropbtn">Arrangementer
+                <button class="dropbtn">Aktiviteter
                 </button>
                 <div class="dropdown-content">
-                    <a href="404.html">Oplev parken</a>
-                    <a href="404.html">Børnefødselsdag</a>
-                    <a href="404.html">Dyrepasser for en dag</a>
+                    <a href="#">Oplev parken</a>
+                    <a href="#">Børnefødselsdag</a>
+                    <a href="#">Dyrepasser for en dag</a>
                 </div>
             </div>
 
@@ -46,12 +46,12 @@
                 <button class="dropbtn">Information
                 </button>
                 <div class="dropdown-content">
-                    <a href="404.html">Kort over parken</a>
-                    <a href="404.html">Nyheder</a>
-                    <a href="404.html">Åbningstider</a>
-                    <a href="404.html">Priser</a>
-                    <a href="404.html">Spisemuligheder</a>
-                    <a href="404.html">Covid 19</a>
+                    <a href="#">Kort over parken</a>
+                    <a href="#">Nyheder</a>
+                    <a href="#">Åbningstider</a>
+                    <a href="#">Priser</a>
+                    <a href="#">Spisemuligheder</a>
+                    <a href="#">Covid 19</a>
                 </div>
             </div>
 
@@ -59,9 +59,9 @@
                 <button class="dropbtn">Om os
                 </button>
                 <div class="dropdown-content">
-                    <a href="omos.html">Hvem er vi?</a>
-                    <a href="404.html">Kontakt</a>
-                    <a href="404.html">Job i Munkholm Zoo</a>
+                    <a href="#">Hvem er vi?</a>
+                    <a href="#">Kontakt</a>
+                    <a href="#">Job i Munkholm Zoo</a>
                 </div>
             </div>
 
@@ -69,14 +69,14 @@
                 <button class="dropbtn"><img src="images/flag.png" alt="flag">
                 </button>
                 <div class="dropdown-content">
-                    <a href="404.html">Engelsk</a>
-                    <a href="404.html">Tysk</a>
-                    <a href="404.html">Svensk</a>
-                    <a href="404.html">Norsk</a>
+                    <a href="#">Engelsk</a>
+                    <a href="#">Tysk</a>
+                    <a href="#">Svensk</a>
+                    <a href="#">Norsk</a>
                 </div>
             </div>
 
-            <div id="bestilboks"><a href="priser.html">Bestil</a></div>
+            <div id="bestilboks"><a href="#">Bestil</a></div>
         </div>
     </div>
 
@@ -94,7 +94,6 @@
         function closeNav() {
             document.getElementById("myNav").style.width = "0%";
         }
-
     </script>
 
 
@@ -102,7 +101,7 @@
 
         <div id="header_logo">
             <div class="logo_område">
-                <a href="index.html"><img src="../eksamen/images/Munkholm%20Logo.png" alt="Desktop logo"></a>
+                <a href=""><img src="../eksamen/images/Munkholm%20Logo.png" alt="Desktop logo"></a>
             </div>
         </div>
 
@@ -111,12 +110,12 @@
         <div id="desktopmenu">
             <div class="inner_desktopmenu">
                 <ul>
-                    <li><a href="dyr.html">Vores Dyr</a></li>
-                    <li><a href="404.html">Arrangementer</a></li>
-                    <li><a href="404.html">Information</a></li>
-                    <li><a href="omos.html">Om os</a></li>
-                    <li><a href="404.html"><img src="images/flag_tilt.png"></a></li>
-                    <li><a href="priser.html">Bestil</a></li>
+                    <li><a href="">Vores Dyr</a></li>
+                    <li><a href="">Aktiviteter</a></li>
+                    <li><a href="">Information</a></li>
+                    <li><a href="">Om os</a></li>
+                    <li><a href=""><img src="images/flag_tilt.png"></a></li>
+                    <li><a href="">Bestil</a></li>
                 </ul>
 
             </div>
@@ -159,152 +158,210 @@
 
 
                 <!-- Trigger/Open The Modal -->
-        <div class="container">
-                <div class="boks">
-                    <button id="myBtn"><img src="images/ikonkamera.png" alt="billeder af dyr"></button>
-                </div>
-            <div class="overlaylama">
-    <div class="text">Se lamaen Bjarne</div></div>
-            
+                <div class="container">
+                    <div class="boks">
+                        <button id="myBtn"><img src="images/ikonkamera.png" alt="billeder af dyr"></button>
+                    </div>
+                    <div class="overlaylama">
+                        <div class="text">Se lamaen</div>
+                    </div>
+
                 </div>
 
                 <!-- The Modal -->
-                <div id="infolama" class="modal">
+                <div id="myModal" class="modal">
 
                     <!-- Modal indhold - billede af lama -->
                     <div class="modal-content">
                         <span class="close">&times;</span>
-                        <img src="images/Lamainformation.png" alt="lamalækker" width="100%">
+                        <img src="images/flerelamaer.jpeg" alt="lamalækker">
                     </div>
 
                 </div>
 
 
+                <div class="container">
+                    <div class="boks">
+                        <div id="lamalyd">
+                            <i class="lamaplay-hoj" id="spilhoj"><img src="images/ikonhoejtaler.png" alt="læs højt">
+                                <div class="overlaylama">
+                                    <div class="text">Læs højt</div>
+                                </div>
+                            </i>
 
-       <div class="container">
-    <div class="boks"><img src="images/ikonhoejtaler.png" alt="læs højt">
-     <div class="overlaylama">
-    <div class="text">Læs højt</div></div>
-    
-    </div>                  
-    </div>
+
+
+
+                        
+                    </div>
+                    </div>
+                </div>
             </div>
 
 
-    
-            
-            
-            
-        
+
+
+
+
+
 
             <div class="kasse1">
-                
-<div class="container">
-    <div class="boks"><img src="images/ikonlys.png" alt="information om dyr">
-     <div class="overlaylama">
-    <div class="text">Info om lamaen</div></div>
-    
-    </div>                  
-    </div>
-    
-                
-                
-    
-                
-        
-    <!-- Trigger/Open The Modal -->
-        <div class="container">
-                <div class="boks">
-                    <button id="myBtn1"><img src="images/ikonsmiley.png" alt="fun fact"></button>
-                </div>
-            <div class="overlaylama">
-    <div class="text">Fun fact</div></div>
-            
-                </div>
-        
-            
-                
-           <!-- Modal for fun fact om lamaen -->
-                <div id="funfactlama" class="modal">
 
-        <!-- Modal indhold - fun fact lama -->
-                    <div class="modal-content">
-                        <span class="close">&times;</span>
-                        <img src="images/funfactlama.png" alt="fun fact" width="100%">
+                <!-- Trigger/Open The Modal -->
+                <div class="container">
+                    <div class="boks">
+                        <button id="myBtn-info"><img src="images/ikonlys.png" alt="Information om lamaen"></button>
+                    </div>
+                    <div class="overlaylama">
+                        <div class="text">Informa</div>
                     </div>
 
                 </div>
 
+                <!-- The Modal -->
+                <div id="myModalInfo" class="modalInfo">
+
+                    <!-- Modal indhold - fun fact af lama -->
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <img src="images/Lamainformation.png" alt="Information om Lamaen">
+                    </div>
+
+                </div>
+
+
+
+
+                <!-- Trigger/Open The Modal -->
+                <div class="container">
+                    <div class="boks">
+                        <button id="myBtn-funfact"><img src="images/smiley.png" alt="billeder af dyr"></button>
+                    </div>
+                    <div class="overlaylama">
+                        <div class="text">Fun fact</div>
+                    </div>
+
+                </div>
+
+                <!-- The Modal -->
+                <div id="myModalFunfact" class="modalFunfact">
+
+                    <!-- Modal indhold - fun fact af lama -->
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <img src="images/funfactlama.png" alt="lama fun fact">
+                    </div>
+
+                </div>
+            </div>
         </div>
-        </div>
-        
-        
-        
-        
-        
+
+
 
         <div id="ipadflex">
             <div class="kasse1">
-                
-    <div class="container">
-    <div class="boks"><img src="images/ikonhistoriebog.png" alt="historien om lamaen"></div>
-                 <div class="overlaylama">
-    <div class="text">Historien om lamaen</div></div>
+
+
+
+                <!-- Trigger/Open The Modal -->
+                <div class="container">
+                    <div class="boks">
+                        <button id="myBtn-historie"><img src="images/ikonhistoriebog.png" alt="historie om lamaen"></button>
+                    </div>
+                    <div class="overlaylama">
+                        <div class="text">Historie om lamaen</div>
+                    </div>
+
                 </div>
-                
-                
-    <div class="container">
-    <div class="boks"><img src="images/ikongulerod.png" alt="hvad spiser lamaen"></div>
-        <div class="overlaylama">
-<div class="text">Hvad spiser lamaen</div></div>
-                
-            </div>
+
+                <!-- The Modal -->
+                <div id="myModalHistorie" class="modalHistorie">
+
+                    <!-- Modal indhold - fun fact af lama -->
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <img src="images/historienomlamaen.png" alt="Historie om lamaen">
+                    </div>
+
+                </div>
+
+
+
+
+
+                <!-- Trigger/Open The Modal -->
+                <div class="container">
+                    <div class="boks">
+                        <button id="myBtn-mad"><img src="images/ikongulerod.png" alt="mad til lamaen"></button>
+                    </div>
+                    <div class="overlaylama">
+                        <div class="text">Hvad spiser lamaen?</div>
+                    </div>
+
+                </div>
+
+                <!-- The Modal -->
+                <div id="myModalMad" class="modalMad">
+
+                    <!-- Modal indhold - fun fact af lama -->
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <img src="images/madtillama.png" alt="mad til lamaen">
+                    </div>
+
+                </div>
+
+
+
+
             </div>
 
 
             <div class="kasse1">
 
+
+
+                <!-- Trigger/Open The Modal -->
                 <div class="container">
-                <div class="boks"><img src="images/ikonjorden.png" alt="hvor kommer lamaen fra"></div>
-                <div class="overlaylama">
-    <div class="text">Hvor kommer lamaen fra</div></div>
-                </div>
-
-
-            <div class="container">
-                <div class="boks">
-                    <div id="lamalyd">
-                        <i class="lamaplay" id="spil"><img src="images/ikonnode.png" alt="lyden af en lama"> 
-                            <div class="overlaylama">
-    <div class="text">Lyden af lamaen</div></div>
-                        </i>
-                        
+                    <div class="boks">
+                        <button id="myBtn-land"><img src="images/ikonjorden.png" alt="jordklode"></button>
+                    </div>
+                    <div class="overlaylama">
+                        <div class="text">Hvor bor lamaen henne?</div>
                     </div>
 
+                </div>
+
+                <!-- The Modal -->
+                <div id="myModalLand" class="modalLand">
+
+                    <!-- Modal indhold - fun fact af lama -->
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <img src="images/hvorkommerlamaenfra.png" alt="jordklode">
+                    </div>
 
                 </div>
+
+                <div class="container">
+                    <div class="boks">
+                        <div id="lamalyd">
+                            <i class="lamaplay" id="spillyd"><img src="images/ikonnode.png" alt="lyden af en lama">
+                                <div class="overlaylama">
+                                    <div class="text">Lyden af lamaen</div>
+                                </div>
+                            </i>
+                        </div>
+
+                       
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
 
-
-
-
-
-
-
-
-
     <!–– Ipad information ––>
-
-
-
-
-
-
-
 
 
 
@@ -323,13 +380,13 @@
 
     <div id="flexikonmobile">
         <div class="footer-left">
-            <a href="404.html"><img src="images/fb-ikon.png" alt="SoMe Facebook ikon"></a>
+            <a href="#"><img src="images/fb-ikon.png" alt="SoMe Facebook ikon"></a>
         </div>
         <div class="footer-center">
-            <a href="404.html"><img src="images/ig-ikon.png" alt="SoMe Instagram ikon"></a>
+            <a href="#"><img src="images/ig-ikon.png" alt="SoMe Instagram ikon"></a>
         </div>
         <div class="footer-right">
-            <a href="lama.html"><img src="images/opknap.png" alt="Op ikon"></a>
+            <a href="#"><img src="images/opknap.png" alt="Op ikon"></a>
         </div>
 
 
@@ -350,18 +407,16 @@
 
 
             <div class="footer-rightdesktop">
-                <a href="404.html"><img src="images/fb-ikon.png" alt="SoMe Facebook ikon"></a>
-                <a href="404.html"><img src="images/ig-ikon.png" alt="SoMe Instagram ikon"></a>
-                <a href="dyr.html"><img src="images/pilhen.png" alt="Pil ikon"></a>
+                <a href="#"><img src="images/fb-ikon.png" alt="SoMe Facebook ikon"></a>
+                <a href="#"><img src="images/ig-ikon.png" alt="SoMe Instagram ikon"></a>
+                <a href="#"><img src="images/pilhen.png" alt="Pil ikon"></a>
 
             </div>
         </div>
     </div>
 
 
-    <script src="js/lama.js"></script>
-
-</footer>
+    <script src="js/lama%202.js"></script>
 
 
-</html>
+</footer></html>

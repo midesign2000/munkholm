@@ -13,7 +13,7 @@ navigation
 */
 
 
-.logo_område {
+.logo_omraade {
     display: none;
 }
 
@@ -285,7 +285,7 @@ display: block;
 width: 100%;
 position: relative; }
 
-.logo_område {
+.logo_omraade {
 width: 300px;
     height: 300px;
     position: absolute;
@@ -297,7 +297,7 @@ margin-left: -150px;
     
 }
 
-.logo_område img {
+.logo_omraade img {
 width: 12em;
 }
 
@@ -310,7 +310,7 @@ width: 12em;
         display: block;
     }
     
-    .logo_område img{
+    .logo_omraade img{
         display: block;
     }  
 
@@ -793,7 +793,7 @@ navigation breakpoint
         display: none;
     }
     
-    .logo_område img{
+    .logo_omraade img{
         display: none;
     }  
 
@@ -1103,7 +1103,7 @@ display: none;
     
 /* desktop menu bar */
     
-    .logo_område {
+    .logo_omraade {
     display: block;
 }
 
@@ -1139,7 +1139,7 @@ display: none;
        margin: 3px;
     }
     
-    .logo_område img{
+    .logo_omraade img{
         display: block;
     }  
     

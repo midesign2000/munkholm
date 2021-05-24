@@ -715,7 +715,11 @@ padding: 0.3em;
     }
 
  
-    
+    #ipadflex1 {
+        display: flex;
+        margin-left: 4%;
+    }
+  
     .kasse1 {
  margin-left: auto;
         margin-right: auto;
@@ -885,8 +889,7 @@ height: 50px;
    
 
     
-    
-    
+  
 
     
     
@@ -961,10 +964,7 @@ height: 50px;
     }
     
     
-     #ipadflex{
-        
-    margin-left: 2%;
-    }  
+    
     
     
     

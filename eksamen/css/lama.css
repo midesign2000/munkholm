@@ -398,7 +398,24 @@ margin-left: 11em;
 
 
 
-/* Modal /*
+/* Modal */
+
+
+.showtip:hover .tooltip {
+    display:block;
+}
+
+.tooltip {
+    display: none;
+    color: #be7743;
+    margin-left: 10px; /* moves the tooltip to the right */
+    margin-top: 0; /* moves it down */
+    position: absolute;
+    z-index: 1000;
+    background-color: white;
+    font-family: 'Open Sans';
+font-size: 15px;
+}
 
 
 /* The Modal (background) */

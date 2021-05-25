@@ -462,6 +462,7 @@ footer .footer-rightdesktop img {
     margin-top: 5px;
     padding: 10px;
     text-align: right;
+margin-left: 10%;
 
 }
 
@@ -700,9 +701,7 @@ Breakpoints
                 display: none;
             }
 
-            .desktop-nav-container {
-                display: unset;
-            }
+          
 
             #main-footer small {
                 font-size: 0.625rem;
@@ -740,16 +739,10 @@ Breakpoints
 
         
 
-
-
-        }
-
-        @media only screen and (min-width: 1500px) {
-
-
-            .inner_desktopmenu li:nth-child(1) {
-                float: left;
-                margin-left: 1em;
-
+            #overskrift{
+            padding-top: 7%;
             }
+
         }
+
+     

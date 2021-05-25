@@ -5,6 +5,135 @@ background-image: url("../images/natur-baggrund.webp");
 background-size: cover;  
 }
 
+
+
+/* headerdesktop */
+    
+ 
+    
+nav{
+    width: 100%;
+    height: 130px;
+    background-color: #8f9472;
+}
+    nav ul{
+        padding-top: 30px;
+    }
+nav ul li{
+    float: left;
+    list-style: none;
+    position: relative;
+}
+
+nav ul li a {
+    display: block;
+    font-size: 20px;
+    font-family: 'Montserrat';
+    color: #fff;
+    padding: 24px 14px;
+    text-decoration: none;
+
+}
+nav ul li ul {
+    display: none;
+    position: absolute;
+    background-color: #8f9472;
+    padding: 10px;
+    border-radius: 0px 0px 4px 4px;
+}
+nav ul li:hover ul {
+    display: block;
+}
+
+nav ul li ul li {
+    width: 250px;
+    border-radius: 4px;
+}
+
+nav ul li ul li a:hover {
+    background-color: #b6a58b;
+}
+nav ul li ul li a {
+    padding: 12px 20px;
+    text-align: center
+}
+
+.logo{
+    width: 170px;
+    position: absolute;
+    left: 50%;
+}
+
+header{
+    display: flex;
+    background-color: #8f9472;
+    position: relative;
+}
+    
+    .right ul{
+        float: right;
+        padding-right: 7%;
+        
+    }
+    .left ul{
+        padding-left: 5%;
+    }
+
+        nav.left {
+    display: none;
+        
+    }
+    
+    nav.right{
+    display: none;
+    }
+    
+    
+    img.logo{
+    display: none;
+    }  
+
+#bestilknap-desktop {
+border-color: #be7642;
+background-color: #8f9472; 
+border-radius: 10px;
+width: 130px;
+height: 50px;
+}
+
+
+#bestilknap-desktop a {
+font-size: 20px;
+padding: 1px;
+
+    
+}
+
+
+#bestilknap-desktop: hover {
+box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    
+}
+
+/* headerdesktop slut */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #topbillede img {
     width: 100%;
     padding-bottom: 1em;
@@ -663,9 +792,12 @@ footer #flexkontakt {
     }    
 
     
- 
+     
+  #header-desktop {
+    display: none;
+    } 
 
-    
+
     
 }
 
@@ -687,7 +819,8 @@ height: 70px;
      }
 
   
-     
+        
+  
     
     }
 
@@ -743,9 +876,9 @@ height: 118px;
         margin-right: auto;
     }
     
+   
  
-    
-
+  
 }
      
      
@@ -755,82 +888,21 @@ height: 118px;
 
 @media only screen and (min-width: 1020px) {
     
-/* headerdesktop */
-    
-nav{
-    width: 100%;
-    height: 130px;
-    background-color: #8f9472;
-}
-    nav ul{
-        padding-top: 30px;
-    }
-nav ul li{
-    float: left;
-    list-style: none;
-    position: relative;
-}
 
-nav ul li a {
+    nav.left {
     display: block;
-    font-size: 20px;
-    font-family: 'Montserrat';
-    color: #fff;
-    padding: 24px 14px;
-    text-decoration: none;
-
-}
-nav ul li ul {
-    display: none;
-    position: absolute;
-    background-color: #8f9472;
-    padding: 10px;
-    border-radius: 0px 0px 4px 4px;
-}
-nav ul li:hover ul {
-    display: block;
-}
-
-nav ul li ul li {
-    width: 250px;
-    border-radius: 4px;
-}
-
-nav ul li ul li a:hover {
-    background-color: orange;
-}
-nav ul li ul li a {
-    padding: 12px 20px;
-    text-align: center
-}
-
-.logo{
-    width: 170px;
-    position: absolute;
-    left: 50%;
-}
-
-header{
-    display: flex;
-    background-color: #8f9472;
-    position: relative;
-}
-    
-    .right ul{
-        float: right;
-        padding-right: 15%;
         
     }
-    .left ul{
-        padding-left: 5%;
+    
+    nav.right{
+    display: block;
     }
-
-    }
-
-/* headerdesktop slut */
-
-
-
+    
+    
+    img.logo{
+    display: block;
+    }  
+    
     #lamainfo {
       margin-left: 50em;
     }    
@@ -891,8 +963,7 @@ height: 50px;
     
   
 
-    
-    
+
     
     
     

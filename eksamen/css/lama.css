@@ -3,6 +3,8 @@
 body{
 background-image: url("../images/natur-baggrund.webp"); 
 background-size: cover;  
+background-repeat: no-repeat;
+
 }
 
 
@@ -636,8 +638,8 @@ background-color: rgba(247, 245, 242, 0.5); /* F7F5F2 with opacity */
 }
 
 #footerh4 {
-    font-family: 'Montserrat';
-font-size: 1em;
+    font-family: 'Montserrat regular';
+font-size: 20px;
     text-align: left;
 padding: 0.5em;
 }
@@ -704,7 +706,7 @@ footer .footer-right img {
 
 
 .kontaktinfo {
-  font-size: 0.8em;
+  font-size: 15px;
     line-height: 1.5em;
     font-family: 'Open Sans';
     padding: 2%;
@@ -745,6 +747,7 @@ footer .footer-centerdesktop img {
     max-height: 40px;
     margin-top: 5px;
     padding: 10px;
+    
   
 }
 
@@ -764,6 +767,7 @@ footer .footer-rightdesktop img {
     margin-top: 5px;
         padding: 10px;
     text-align: right;
+    margin-left: 10%;
 
 }
 
@@ -850,7 +854,7 @@ padding: 0.3em;
  
     #ipadflex1 {
         display: flex;
-        margin-left: 4%;
+    
     }
   
     .kasse1 {
@@ -923,6 +927,8 @@ display: none;
     
     body {
         background-image: url(../images/Lamabillede.webp);
+          background-repeat: no-repeat;
+
         background-size: cover;  
 
     }

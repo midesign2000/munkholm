@@ -796,10 +796,6 @@ footer #flexkontakt {
     }    
 
     
-     
-  #header-desktop {
-    display: none;
-    } 
 
 
     
@@ -998,10 +994,7 @@ height: 50px;
   #bottom-nav {
     display: none;
   }
-  .desktop-nav-container {
-    display: unset;
-  }
-
+  
   #main-footer small {
     font-size: 0.625rem;
   }
@@ -1023,38 +1016,16 @@ height: 50px;
     
     
     
-        #desktopmenu{
-        display: block;
-            padding-top: 50px;
-    }
+ 
     
-            #desktopmenu ul{
-       margin: 3px;
-    }
-    
-    .logo_område img{
-        display: block;
-    }  
-    
-    #topnavigation {
-        background-color: rgba(143, 149, 115, 0.9);
-    }
-    
-    
-    
-    
+     
     
     
 }
     
 @media only screen and (min-width: 1500px) {
     
-     
-        .inner_desktopmenu li:nth-child(1){
-   float: left;
-margin-left: 1em;
-   
-}
+    
     
     #ipadflex{
         

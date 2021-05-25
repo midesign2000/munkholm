@@ -18,7 +18,7 @@
     <meta name="description" content="This is the official page for Munkholm Zoo, Zoo, Animals, Djursland, Denmark">
     <meta name="keywords" content="Zoo, Animal, Dyr, dyreoplevelser i øjenhøjde">
     <meta name="author" content="">
-     <link rel="icon" href="../eksamen/images/Munkholmlogotop.png">
+     <link rel="icon" href="images/Munkholmlogotop.webp">
 
 <script src="js/book.js"></script>
 <body>
@@ -62,16 +62,17 @@
             <form class="formular" id="formular">
          
                 <div class="flexsektion">
-                  <input type="text" id="fornavn" class="formfelt" placeholder="Indtast dit navn">
+                  <input type="text" requried id="fornavn" class="formfelt" placeholder="Indtast dit navn">
                     
-                    <input type="text" id="efternavn" class="formfelt" placeholder="Indtast dit efternavn">
+                    <input type="text" requried id="efternavn" class="formfelt" placeholder="Indtast dit efternavn">
                     
-                    <input type="text" id="email" class="formfelt" placeholder="Indtast din email">
+                    <input type="text" requried id="email" class="formfelt" placeholder="Indtast din email">
                     
-                    <input type="text" id="adresse" class="formfelt" placeholder="Indtast din adresse">
+                    <input type="text" requried id="adresse" class="formfelt" placeholder="Indtast din adresse">
                     
                 
-                    <input type="text" id="postnr" name="postal" class="formfelt" list="postnummer" placeholder="Indtast dit postnr og by">
+                    <input type="text" requried id="postnr" name="postal" class="formfelt" list="postnummer" placeholder="Indtast dit postnr og by">
+                    
                     <datalist id="postnummer"></datalist>
                    
                 </div>
@@ -86,7 +87,8 @@
 
 
                 </div>
-
+type submit videre sende formularen til videre side 
+                
                 <a href="kvittering.html" class="videreknap" id="bookknap"><p>Bestil nu</p></a>
           
             </form>

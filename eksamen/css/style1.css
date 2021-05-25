@@ -1,7 +1,7 @@
 /* body baggrund billede*/
 
 body {
-    background-image: url("../images/paper_texture3.png");
+    background-image: url("../images/paper_texture3.webp");
     background-color: #cccccc;
     background-size: cover;
 }
@@ -88,7 +88,7 @@ hr {
 /*dyre bokse mobile */
 
 .dyrebokse-mobile {
-    background-image: url(../images/natur-baggrund.png);
+    background-image: url(../images/natur-baggrund.webp);
     background-color: #cccccc;
     background-size: cover;
     display: block;
@@ -262,7 +262,7 @@ div#herliggervi-mobile:hover {
     display: none;
     padding-bottom: 10%;
     align-content: space-between;
-    background-image: url(../images/natur-baggrund.png);
+    background-image: url(../images/natur-baggrund.webp);
     background-color: #cccccc;
     background-size: cover;
 
@@ -506,7 +506,7 @@ div#button-desktop a{
     border-radius: 15px;
     font-size: 20px;
     font-family: 'Open Sans';
-    background-image: url("../images/paper_texture3.png");
+    background-image: url("../images/paper_texture3.webp");
     background-color: #cccccc;
     color: #be7642;
     border: 5px solid;
@@ -529,7 +529,7 @@ div#button-desktop a{
     margin-left: auto;
     margin-right: auto;
     align-content: space-between;
-    background-image: url(../images/natur-baggrund.png);
+    background-image: url(../images/natur-baggrund.webp);
     background-color: #cccccc;
     background-size: cover;
 

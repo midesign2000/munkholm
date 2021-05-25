@@ -412,9 +412,10 @@ margin-left: 11em;
     margin-top: 0; /* moves it down */
     position: absolute;
     z-index: 1000;
-    background-color: white;
+    background-color: #f7f5f2;
     font-family: 'Open Sans';
 font-size: 15px;
+border-radius: 2px;
 }
 
 

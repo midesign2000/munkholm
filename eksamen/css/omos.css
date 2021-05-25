@@ -186,6 +186,14 @@ font-family: 'Montserrat';
 color: #f6f5f1;
 }
 
+#clickmenu {
+    color: white;
+font-size: 30px;
+padding: 0.3em; 
+position: absolute;
+margin-left: 90%;
+   
+}
 
 
 

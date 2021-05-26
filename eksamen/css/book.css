@@ -3,7 +3,7 @@ background-image: url("../images/natur-baggrund.png");
 }
 
 .hovedindhold {
-    margin-top: 25px;
+    margin-top: 5%;
 
   
 }
@@ -14,7 +14,9 @@ background-image: url("../images/natur-baggrund.png");
     margin: 0 auto;
     padding: 20px;
     border-radius: 10px;
-    width: 80%;
+    width: 50%;
+    margin-bottom: 10%;
+
 
 }
 
@@ -49,7 +51,11 @@ font-size: 16px;
     margin: 0 auto;
     background-color: #fefefe;
     padding: 20px;
-        border-radius: 10px;
+    border-radius: 10px;
+    width: 50%;
+    margin-bottom: 10%;
+ 
+
 
         
 }
@@ -178,6 +184,23 @@ display: flex;
 margin-top: 30%;
     
     }
+    
+    
+.dineoplysninger {
+ margin-left: 2%;
+    margin-right: 5%;
+
+    }
 
     
-}
+#valg {
+
+  margin-right: 2%;
+    margin-left: 5%;
+
+   
+    }
+
+    }
+
+

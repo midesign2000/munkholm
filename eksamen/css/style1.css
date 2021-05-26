@@ -10,6 +10,287 @@ body {
 /* body baggrund billede slut*/
 
 
+/* headerdesktop */
+*{
+    margin: 0;
+    padding: 0;
+}
+                                         
+nav{
+    width: 100%;
+    height: 130px;
+    background-color: #8f9472;
+}
+    nav ul{
+        padding-top: 30px;
+    }
+nav ul li{
+    float: left;
+    list-style: none;
+    position: relative;
+}
+
+nav ul li a {
+    display: block;
+    font-size: 20px;
+    font-family: 'Montserrat';
+    color: #fff;
+    padding: 24px 14px;
+    text-decoration: none;
+
+}
+nav ul li ul {
+    display: none;
+    position: absolute;
+    background-color: #8f9472;
+    padding: 10px;
+    border-radius: 0px 0px 4px 4px;
+        z-index: 100;
+
+}
+nav ul li:hover ul {
+    display: block;
+}
+
+nav ul li ul li {
+    width: 250px;
+    border-radius: 4px;
+        z-index: 100;
+
+}
+
+nav ul li ul li a:hover {
+    background-color: orange;
+}
+nav ul li ul li a {
+    padding: 12px 20px;
+    text-align: center;
+    z-index: 100;
+
+}
+
+.logo{
+    width: 170px;
+    position: absolute;
+    left: 50%;
+        z-index: 100;
+
+}
+
+header{
+    display: flex;
+    background-color: #8f9472;
+    position: relative;
+}
+    
+    .right ul{
+        float: right;
+        padding-right: 15%;
+        
+    }
+    .left ul{
+        padding-left: 5%;
+    }
+
+
+        nav.left {
+    display: none;
+        
+    }
+    
+    nav.right{
+    display: none;
+    }
+    
+    
+    img.logo{
+    display: none;
+    }  
+
+#bestilknap-desktop {
+border-color: #be7642;
+background-color: #8f9472; 
+border-radius: 10px;
+width: 130px;
+height: 50px;
+}
+
+
+#bestilknap-desktop a {
+font-size: 20px;
+padding: 1px;
+
+    
+}
+
+
+#bestilknap-desktop: hover {
+box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    
+}
+
+/* headerdesktop slut */
+
+
+/* Burger menu */
+
+.dropbtn img {
+    width: 1.5em;
+}
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(143,149,115);
+  background-color: rgba(143,149,115, 0.9,1);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 30px;
+  color: #f6f5f1;
+  display: block;
+  transition: 0.3s;
+font-family: 'Montserrat';
+}
+
+
+.overlay a:hover, .overlay a:focus {
+  color: #f6f5f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 0.1px;
+  right: 1px;
+  font-size: 50px;
+}
+
+#clickmobil {
+color: #f6f5f1;
+}
+
+#clickmenu {
+    color: white;
+font-size: 30px;
+padding: 0.3em; 
+position: absolute;
+margin-left: 90%;
+   
+}
+
+
+
+
+/*Dropdown menu - mobil */
+
+.navbar {
+  overflow: hidden;
+  font-family: 'Montserrat';
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+  align-content: center;
+  overflow: hidden;
+    font-family: 'Montserrat';
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 30px;
+    font-family: 'Montserrat';
+  border: none;
+  outline: none;
+  color: #f7f5f2;
+  padding: 14px 16px;
+  background-color: inherit;
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: none;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+background-color: #B6A58B;
+  width: 100%;
+    margin-bottom: 100%;
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: #f7f5f2;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+    font-family: 'Montserrat';
+font-size: 1.5em;
+    line-height: 1.5em;
+}
+
+.dropdown-content {
+    padding-bottom: 100%;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+#bestilboks {
+    background-color: #be7743;
+    border-radius: 10px;
+  margin-right: 11em;
+margin-left: 11em;
+}
+
+
+
+
+/* mobil -header slut*/
+
+
+
+
+
+
 
 /* hoved section*/
 .hoved-mobile {
@@ -943,91 +1224,32 @@ h4 {
 
 
 
-/* headerdesktop */
-*{
-    margin: 0;
-    padding: 0;
-}
-
-@media screen and (min-width: 960px) {                                           
-nav{
-    width: 100%;
-    height: 130px;
-    background-color: #8f9472;
-}
-    nav ul{
-        padding-top: 30px;
-    }
-nav ul li{
-    float: left;
-    list-style: none;
-    position: relative;
-}
-
-nav ul li a {
-    display: block;
-    font-size: 20px;
-    font-family: 'Montserrat';
-    color: #fff;
-    padding: 24px 14px;
-    text-decoration: none;
-
-}
-nav ul li ul {
-    display: none;
-    position: absolute;
-    background-color: #8f9472;
-    padding: 10px;
-    border-radius: 0px 0px 4px 4px;
-}
-nav ul li:hover ul {
-    display: block;
-}
-
-nav ul li ul li {
-    width: 250px;
-    border-radius: 4px;
-}
-
-nav ul li ul li a:hover {
-    background-color: orange;
-}
-nav ul li ul li a {
-    padding: 12px 20px;
-    text-align: center
-}
-
-.logo{
-    width: 170px;
-    position: absolute;
-    left: 50%;
-}
-
-header{
-    display: flex;
-    background-color: #8f9472;
-    position: relative;
-}
-    
-    .right ul{
-        float: right;
-        padding-right: 15%;
-        
-    }
-    .left ul{
-        padding-left: 5%;
-    }
-
-    }
-
-/* headerdesktop slut */
-
-
-
-
-
 
 @media only screen and (min-width: 1020px) {
+    
+    
+    
+    nav.left {
+    display: block;
+        
+    }
+    
+    nav.right{
+    display: block;
+    }
+    
+    
+    img.logo{
+    display: block;
+    }  
+    
+    #clickmenu {
+display: none;   
+}
+ 
+    #headerlogo img {
+        width: 20%;
+    }
 
     footer #flexikonmobile {
         display: none;

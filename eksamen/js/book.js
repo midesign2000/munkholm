@@ -38,6 +38,21 @@ BOOKKNAP.addEventListener("click", function () {
 */
 
 
+
+/* Det har morten indsat */
+const FORMULAR = document.getElementById("formular");
+FORMULAR.addEventListener("submit", function () {
+    event.preventDefault();
+    sessionStorage.setItem("fornavn", document.getElementById("fornavn").value);
+    sessionStorage.setItem("efternavn", document.getElementById("efternavn").value);
+    sessionStorage.setItem("email", document.getElementById("email").value);
+    sessionStorage.setItem("adresse", document.getElementById("adresse").value);
+    sessionStorage.setItem("postnr", document.getElementById("postnummer").value);
+    window.location.replace("kvittering.html");
+});
+/* Slut på morten indsat */
+
+
 fetch("https://api.dataforsyningen.dk/postnumre/")
     .then(function (data) {
         return data.json();

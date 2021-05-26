@@ -3,7 +3,9 @@
 body {
     background-image: url("../images/paper_texture3.webp");
     background-color: #cccccc;
+
     background-repeat: repeat;
+
 
     
     
@@ -187,6 +189,14 @@ font-family: 'Montserrat';
 color: #f6f5f1;
 }
 
+#clickmenu {
+    color: white;
+font-size: 30px;
+padding: 0.3em; 
+position: absolute;
+margin-left: 90%;
+   
+}
 
 
 
@@ -286,16 +296,13 @@ navigation slut
 
 /* generelt */
 
-h4 {
-    font-size: 1.0em;
-    color: black;
-    line-height: 1.2em;
-    padding-top: 2%;
-    font-family: montserrat;
-    padding: 2%;
-    margin: 0%;
-
+#footerh4 {
+    font-family: 'Montserrat regular';
+font-size: 20px;
+    text-align: left;
+padding: 0.5em;
 }
+
 
 
 
@@ -560,6 +567,10 @@ footer {
 
 }
 
+
+
+
+
 footer #flexikonmobile {
     display: flex;
     width: 100%;
@@ -576,8 +587,7 @@ footer .footer-left {
 }
 
 footer .footer-left img {
-    width: 40px;
-    max-height: 40px;
+    width: 30px;
     margin-top: 5px;
     padding: 10px;
 
@@ -595,8 +605,7 @@ footer .footer-center {
 
 
 footer .footer-center img {
-    width: 40px;
-    max-height: 40px;
+    width: 30px;
     margin-top: 5px;
     padding: 10px;
 }
@@ -614,8 +623,7 @@ footer .footer-right {
 
 
 footer .footer-right img {
-    width: 40px;
-    max-height: 40px;
+    width: 2em;
     margin-top: 5px;
     padding: 10px;
 
@@ -623,11 +631,12 @@ footer .footer-right img {
 
 
 .kontaktinfo {
-    font-size: 0.8em;
+    font-size: 15px;
     line-height: 1.5em;
-    font-family: 'montserrat';
+    font-family: 'Open Sans';
     padding: 2%;
     margin: 0%;
+    text-align: left;
 }
 
 
@@ -682,6 +691,7 @@ footer .footer-rightdesktop img {
     margin-top: 5px;
     padding: 10px;
     text-align: right;
+    margin-left: 10%;
 
 }
 
@@ -1045,20 +1055,8 @@ padding: 0.3em;
         /* 
 navigation desktop
 */
-            
-#clickmenu {
-display: none;   
-}
- 
-    #headerlogo img {
-        width: 20%;
-    }
-    
-    #topbillede {
-        display: none;
-    } 
-    
-  
+        
+        
       nav.left {
     display: block;
         
@@ -1073,53 +1071,21 @@ display: none;
     display: block;
     }  
  
-    
-/* desktop menu bar */
-    
-    .logo_omraade {
-    display: block;
+            
+#clickmenu {
+display: none;   
 }
-
-    
-    #logo {
-        display: none;
-    }
-    
-    li a {
-        color: white;  
-    }
-    
-    ul {
-        text-align: center;
-    }
-    
-   
-    .desktopsetup {
-        display: flex;
-    }
-    
-    
-    
  
-    
-    
-        #desktopmenu{
-        display: block;
-            padding-top: 50px;
+    #headerlogo img {
+        width: 20%;
     }
     
-            #desktopmenu ul{
-       margin: 3px;
-    }
+    #topbillede {
+        display: none;
+    } 
     
-    .logo_omraade img{
-        display: block;
-    }  
-    
-    #topnavigation {
-        background-color: rgba(143, 149, 115, 0.9);
-    }
-    
+  
+
         
         /* 
 navstyle slut
@@ -1180,17 +1146,6 @@ navstyle slut
             height: auto;
             z-index: 10;
         }
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -1273,6 +1228,51 @@ navstyle slut
             margin-top: auto;
             margin-bottom: auto;
         }
+        
+        
+     #flexkontakt {
+        font-family: 'Open Sans';
+    }
+    
+    #footerh2 {
+        margin-left: 5px;
+    }
+    
+  
+    
+    .footer-item,
+  .footer-divider {
+    display: unset;
+  }
+  .nav ul {
+    display: block;
+  }
+  .burger-container,
+  #bottom-nav {
+    display: none;
+  }
+  
+  #main-footer small {
+    font-size: 0.625rem;
+  }
+    
+    
+  footer #flexikonmobile {
+   display: none;
+    
+}
+    
+    footer #flexikondesktop {
+    display: flex;
+        
+    }
+    
+    #kontakt{
+    display: none;
+    }  
+    
+    
+    
 
 
 

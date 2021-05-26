@@ -126,7 +126,7 @@ padding: 1px;
 }
 
 
-#bestilknap-desktop: hover {
+#bestilknap-desktop:hover {
 box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
     
 }
@@ -237,7 +237,6 @@ margin-left: 90%;
 
 /* Add a red background color to navbar links on hover */
 .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: none;
 }
 
 /* Dropdown content (hidden by default) */
@@ -313,7 +312,7 @@ padding: 0.5em;
 
 .head-sectionmobile h1 {
     text-align: center;
-    margin: 10 10 10 10;
+    margin: 0;
     font-family: 'Ubuntu', sans-serif;
         font-size: 2.2em;
     color: #f7f5f2;
@@ -375,7 +374,6 @@ ipad content
 
 
 .polaroid{
-    background-color: #f7f5f2;
     margin-left: auto;
     border: 20px solid #f7f5f2;
     border-radius: 5px;
@@ -677,7 +675,6 @@ footer .footer-centerdesktop img {
 
 .footer-rightdesktop {
     width: 33.3%;
-    flex-direction: inline;
     padding-left: 2%;
     padding-top: 2%;
     text-align: center;
@@ -778,7 +775,7 @@ navigation breakpoint
 
     
         .kontaktinfo {
-    font-size: 1.em;
+    font-size: 15px;
     }
     
 

@@ -223,9 +223,6 @@ border-radius: 10px;
   align-items: center;
 }
 
-#main-header {
-  background-color: none;
-}
 
 
 .logo-container {
@@ -235,8 +232,7 @@ border-radius: 10px;
 .logo-container img{
     width: 30%;
     height: 30%;
-    margin-right: auto 0;
-    margin-left: auto 0; 
+
 }
 
 #clickmenu {
@@ -345,7 +341,6 @@ color: #f6f5f1;
 
 /* Add a red background color to navbar links on hover */
 .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: none;
 }
 
 /* Dropdown content (hidden by default) */
@@ -771,7 +766,6 @@ footer .footer-centerdesktop img {
 
 .footer-rightdesktop {
    width: 33.3%;
-    flex-direction: inline;
     padding-left: 2%;
     padding-top: 2%;
        text-align: center;
@@ -851,7 +845,7 @@ height: 70px;
 @media only screen and (min-width: 768px) {
     
     .kontaktinfo {
-    font-size: 1.em;
+    font-size: 15px;
     }
     
 
@@ -896,8 +890,6 @@ height: 118px;
     
    
  
-  
-}
      
      
     
@@ -924,8 +916,7 @@ height: 118px;
     #lamainfo {
       margin-left: 50em;
     }    
-    
-    
+
     
 #clickmenu {
 display: none;   
@@ -974,15 +965,6 @@ height: 50px;
 } 
 
     
-  
-
-
-    
-    
-    
-
-
-    
     
     #flexkontakt {
         font-family: 'Open Sans';
@@ -1024,22 +1006,7 @@ height: 50px;
     #kontakt{
     display: none;
     }  
-    
-    
-    
- 
-    
-     
-    
-    
+  
 }
+
     
-@media only screen and (min-width: 1500px) {
-    
-    
-    
-    #ipadflex{
-        
-    margin-left: 5%;
-    }
-    }

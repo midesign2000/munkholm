@@ -117,7 +117,7 @@ img.logo {
 }
 
 
-#bestilknap-desktop: hover {
+#bestilknap-desktop:hover {
     box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 
 }
@@ -144,9 +144,6 @@ h1 {
     align-items: center;
 }
 
-#main-header {
-    background-color: none;
-}
 
 
 .logo-container {
@@ -157,8 +154,7 @@ h1 {
 .logo-container img {
     width: 30%;
     height: 30%;
-    margin-right: auto 0;
-    margin-left: auto 0;
+  
 }
 
 #clickmenu {
@@ -169,7 +165,7 @@ h1 {
 
 }
 
-#ipadflex {
+.ipadflex {
     display: none;
 }
 
@@ -268,7 +264,6 @@ h1 {
 /* Add a red background color to navbar links on hover */
 .navbar a:hover,
 .dropdown:hover .dropbtn {
-    background-color: none;
 }
 
 /* Dropdown content (hidden by default) */
@@ -448,7 +443,6 @@ footer .footer-centerdesktop img {
 
 .footer-rightdesktop {
     width: 33.3%;
-    flex-direction: inline;
     padding-left: 2%;
     padding-top: 2%;
     text-align: center;
@@ -563,7 +557,7 @@ Breakpoints
     @media only screen and (min-width: 768px) {
 
         .kontaktinfo {
-            font-size: 1.em;
+            font-size: 15px;
         }
 
         h2 {
@@ -584,7 +578,7 @@ Breakpoints
             display: none;
         }
 
-        #ipadflex {
+        .ipadflex {
             display: block;
             width: 100%;
         }
@@ -631,7 +625,7 @@ Breakpoints
 
         }
 
-        @media only screen and (min-width: 1020px) {
+        @media only screen and (min-width: 1020px){
 
 
             nav.left {
@@ -742,7 +736,4 @@ Breakpoints
             #overskrift{
             padding-top: 7%;
             }
-
         }
-
-     

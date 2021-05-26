@@ -11,11 +11,11 @@ background-image: url("../images/natur-baggrund.png");
 #valg {
     background-color: #fefefe;
     border: 1px solid lightgray;
-    margin: 0 auto;
     padding: 20px;
     border-radius: 10px;
-    width: 50%;
+    width: 70%;
     margin-bottom: 10%;
+    margin-left: 10%;
 
 
 }
@@ -46,19 +46,17 @@ line-height: 1.5;
 font-size: 16px;
 }
 
+
 .dineoplysninger {
     text-align: center;
     margin: 0 auto;
     background-color: #fefefe;
     padding: 20px;
     border-radius: 10px;
-    width: 50%;
-    margin-bottom: 10%;
- 
-
-
-        
+    width: 70%;
+    margin-bottom: 10%;       
 }
+
 
 .formular {
     display: flex;
@@ -101,9 +99,7 @@ label:nth-child(2n) {
 }
 
 #bookknap:hover {
- box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-
-  
+ box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19); 
 }
 
 
@@ -121,32 +117,25 @@ font-family: 'Open Sans'
 line-height: 1.5;
 padding:2%;
 margin-bottom: 5%;  
-font-family: 'Open Sans';
-
-
-
-
-    
+font-family: 'Open Sans';    
 }
+
 
 
 #email.formfelt {
 line-height: 1.5;
 padding:2%;
 margin-bottom: 5%;    
-font-family: 'Open Sans'
-
-    
+font-family: 'Open Sans'   
 }
+
 
 
 #adresse.formfelt {
 line-height: 1.5;
 padding:2%;
 margin-bottom: 5%;    
-font-family: 'Open Sans'
-
-    
+font-family: 'Open Sans'  
 }
 
 
@@ -156,7 +145,6 @@ line-height: 1.5;
 padding:2%;
 margin-bottom: 5%;    
 font-family: 'Open Sans'
-
 }
 
 
@@ -167,7 +155,6 @@ font-family: 'Open Sans'
     line-height: 1.5;
        color: #be7743;
  margin-top:5%;
-
 }
 
 
@@ -200,7 +187,6 @@ margin-top: 30%;
 
    
     }
-
     }
 
 

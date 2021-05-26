@@ -113,6 +113,8 @@ background-color: #8f9472;
 border-radius: 10px;
 width: 130px;
 height: 50px;
+border-style: double;
+
 }
 
 
@@ -278,6 +280,8 @@ font-size: 1.5em;
     border-radius: 10px;
   margin-right: 11em;
 margin-left: 11em;
+border-style: double;
+
 }
 
 
@@ -790,6 +794,8 @@ div#button-desktop a{
     background-color: #cccccc;
     color: #be7642;
     border: 5px solid;
+
+
 
 }
 

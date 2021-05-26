@@ -7,7 +7,7 @@ window.onload = function() {
 
 
 function takTekst(){
-    document.getElementById("takTekst").innerHTML = "Tak for din bestilling " + sessionStorage.getItem("fornavn") + " vi glæder os til at se dig den " + sessionStorage.getItem("ValgAfDato");
+    document.getElementById("takTekst").innerHTML = "Tak for din bestilling " + sessionStorage.getItem("fornavn") + " <br> Vi glæder os til at byde jer velkommen den " + sessionStorage.getItem("ValgAfDato");
 }
 
 function kvitteringsTekst(){

@@ -8,12 +8,12 @@ window.onload = function() {
 
 
 function loadData(){
-    document.getElementById("pris").innerHTML = "Pris " + sessionStorage.getItem("SamletPris");
-    document.getElementById("antalVoksne").innerHTML = "Antal voksne " + sessionStorage.getItem("Voksen");
-    document.getElementById("antalBarn").innerHTML = "Antal børn " + sessionStorage.getItem("Barn");
-    document.getElementById("antalBarnU2").innerHTML = "Antal børn under 2 år " + sessionStorage.getItem("Infant");
-    document.getElementById("pensionister").innerHTML = "Antal pensionister " + sessionStorage.getItem("Pensionist");
-    document.getElementById("dato").innerHTML = "Din valgte dato " + sessionStorage.getItem("ValgAfDato");
+    document.getElementById("pris").innerHTML = "Pris: "  + sessionStorage.getItem("SamletPris");
+    document.getElementById("antalVoksne").innerHTML = "Antal voksne: " + sessionStorage.getItem("Voksen");
+    document.getElementById("antalBarn").innerHTML = "Antal børn: " + sessionStorage.getItem("Barn");
+    document.getElementById("antalBarnU2").innerHTML = "Antal børn under 2 år: " + sessionStorage.getItem("Infant");
+    document.getElementById("pensionister").innerHTML = "Antal pensionister: " + sessionStorage.getItem("Pensionist");
+    document.getElementById("dato").innerHTML = "Din valgte dato: " + sessionStorage.getItem("ValgAfDato");
 }
 
 function gemAdresse(){

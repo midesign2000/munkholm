@@ -41,7 +41,7 @@ nav ul li ul {
     position: absolute;
     background-color: #8f9472;
     padding: 10px;
-    border-radius: 0px 0px 4px 4px;
+    border-radius: 10px;
 }
 nav ul li:hover ul {
     display: block;
@@ -942,8 +942,6 @@ display: none;
     body {
         background-image: url(../images/Lamabillede.webp);
           background-repeat: no-repeat;
-
-        background-size: cover;  
 
     }
     

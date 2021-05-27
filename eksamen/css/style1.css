@@ -412,20 +412,20 @@ div#sedyr-mobile:hover {
 box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
-#fleximg-mobile {
+.fleximg-mobile {
     width: 50%;
 
 
 }
 
-#fleximg1-mobile {
+.fleximg1-mobile {
     width: 50%;
 
 
 }
 
 
-#flextekst-mobile {
+.flextekst-mobile {
     font-family: 'montserrat', sans-serif;
     font-size: 18px;
     line-height: 1.5em;
@@ -440,12 +440,12 @@ text-decoration: none;
 
 
 
-#fleximg-mobile img {
+.fleximg-mobile img {
     width: 60%;
 
 }
 
-#fleximg1-mobile img {
+.fleximg1-mobile img {
     width: 70%;
 
 }
@@ -553,9 +553,7 @@ box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 
 
 
-.dyrebokse-ipad-container div {
-    width: 100px;
-}
+
 
 
 #flexipadboks2 {
@@ -572,7 +570,7 @@ box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 
-#fleximg-ipad img {
+.fleximg-ipad img {
     width: 70%;
     text-align: center;
 
@@ -582,7 +580,7 @@ box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 
 
 
-#fleximg-ipad {
+.fleximg-ipad {
     width: 100%;
     text-align: center;
 
@@ -590,7 +588,7 @@ box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 
 
 
-#flextekst-ipad {
+.flextekst-ipad {
     font-family: 'montserrat', sans-serif;
     font-size: 20px;
     line-height: 1.5;
@@ -866,7 +864,7 @@ div#button-desktop a{
 }
 
 
-#fleximg-desktop img {
+.fleximg-desktop img {
     width: 100px;
     text-align: center;
     margin-left: 2%;
@@ -874,7 +872,7 @@ div#button-desktop a{
 
 }
 
-#fleximg1-desktop img {
+.fleximg1-desktop img {
     width: 100%;
     text-align: center;
 
@@ -883,7 +881,7 @@ div#button-desktop a{
 
 
 
-#flextekst-desktop {
+.flextekst-desktop {
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     line-height: 1.5;
@@ -894,13 +892,13 @@ div#button-desktop a{
 
 
 
-#fleximg-desktop img {
+.fleximg-desktop img {
     width: 100%;
     text-align: center;
 
 }
 
-#fleximg1-desktop img {
+.fleximg1-desktop img {
     width: 100%;
     text-align: center;
 

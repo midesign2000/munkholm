@@ -312,8 +312,8 @@ h1 {
 #bestilboks {
     background-color: #be7743;
     border-radius: 10px;
-    margin-right: 11em;
-    margin-left: 11em;
+    margin-right: 5em;
+    margin-left: 5em;
 }
 
 
@@ -569,7 +569,13 @@ Breakpoints
 
 }
 
-
+@media only screen and (min-width: 480px) {
+    
+    #bestilboks{
+    margin-left: 11em;
+    margin-right: 11em;
+    }
+}
 
 
 

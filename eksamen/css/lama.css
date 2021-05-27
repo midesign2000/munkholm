@@ -378,8 +378,8 @@ h1 {
 #bestilboks {
     background-color: #be7743;
     border-radius: 10px;
-    margin-right: 11em;
-    margin-left: 11em;
+    margin-right: 5em;
+    margin-left: 5em;
 }
 
 
@@ -815,8 +815,7 @@ footer #flexkontakt {
 @media only screen and (min-width: 480px) {
 
     .kasse1 {
-        margin-left: 20%;
-        margin-right: 20%;
+        margin-left: 16%;
     }
 
     .boks {
@@ -829,6 +828,11 @@ footer #flexkontakt {
         margin-left: 1.5em;
     }
 
+#bestilboks {
+margin-left: 11em;
+margin-right: 11em;
+    
+    }
 
 
 

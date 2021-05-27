@@ -1,4 +1,4 @@
-/* body background texture*/
+/* body baggrund texture*/
 
 body {
     background-image: url("../images/natur-baggrund.webp");
@@ -325,7 +325,7 @@ Footer
 footer {
     overflow: hidden;
     background-color: rgba(247, 245, 242, 0.5);
-    /* F7F5F2 with opacity */
+    /* F7F5F2 med opacity */
 
 }
 

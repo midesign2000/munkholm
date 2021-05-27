@@ -206,7 +206,7 @@ margin-left: 90%;
   font-family: 'Montserrat';
 }
 
-/* Links inside the navbar */
+/* Links inde i navbar */
 .navbar a {
   float: left;
   font-size: 16px;
@@ -216,7 +216,7 @@ margin-left: 90%;
   text-decoration: none;
 }
 
-/* The dropdown container */
+/* dropdown container */
 .dropdown {
   align-content: center;
   overflow: hidden;
@@ -234,11 +234,11 @@ margin-left: 90%;
   background-color: inherit;
 }
 
-/* Add a red background color to navbar links on hover */
+/* baggrund til navbar links med hover */
 .navbar a:hover, .dropdown:hover .dropbtn {
 }
 
-/* Dropdown content (hidden by default) */
+/* Dropdown indhold */
 .dropdown-content {
   display: none;
   position: absolute;
@@ -248,7 +248,7 @@ background-color: #B6A58B;
   z-index: 1;
 }
 
-/* Links inside the dropdown */
+/* Links inde i dropdown */
 .dropdown-content a {
   float: none;
   color: #f7f5f2;
@@ -265,12 +265,12 @@ font-size: 1.5em;
     padding-bottom: 100%;
 }
 
-/* Add a grey background color to dropdown links on hover */
+/* baggrund til dropdown links med hover */
 .dropdown-content a:hover {
   background-color: #ddd;
 }
 
-/* Show the dropdown menu on hover */
+/* vis dropdown menu med hover */
 .dropdown:hover .dropdown-content {
   display: block;
 }
@@ -283,9 +283,6 @@ margin-left: 11em;
 border-style: double;
 
 }
-
-
-
 
 /* mobil -header slut*/
 
@@ -318,9 +315,6 @@ hr {
     margin: 5%;
 
 }
-
-
-
 
 /* hoved section slut*/
 
@@ -1162,7 +1156,6 @@ h4 {
 
 @media only screen and (min-width: 320px) {
 
- 
     
 }
 

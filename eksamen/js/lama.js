@@ -23,34 +23,39 @@ PLAY.addEventListener("click",
 
 
 
-// Modal på information, funfact, spise og historie om lamaen//
+// modal bokse på alle knapper til lamasiden//
 
-// Get the modal
-let modal = document.getElementsByClassName("myModal");
+// Få fat på modallen
+let modal = document.getElementById("myModal");
 
-// Get the button that opens the modal
-let btn = document.getElementsByClassName("myBtn");
 
-// Get the <span> element that closes the modal
+// få fat på knappen som åbner modallen
+let btn = document.getElementById("myBtn");
+
+
+// få fat på <span> elementet som lukker modallen
 let span = document.getElementsByClassName("close")[0];
 
-// When the user clicks the button, open the modal 
+// Når brugeren klikker på knappen åbner modallen
 btn.onclick = function () {
     modal.style.display = "block";
 }
 
-// When the user clicks on <span> (x), close the modal
+
+// Når brugeren klikker på <span> (x), luk modal boksen
 span.onclick = function () {
     modal.style.display = "none";
 }
 
-// When the user clicks anywhere outside of the modal, close it
 window.onclick = function (event) {
-    if (event.target == modal) {
+    if (event.target == modal || event.target == modal2 || event.target == modal3 || event.target == modal4 || event.target == modal5 || event.target == modal6) { 
         modal.style.display = "none";
+        modal2.style.display = "none";
+        modal3.style.display = "none";
+        modal4.style.display = "none";
+        modal5.style.display = "none";
+        modal6.style.display = "none";   
     }
 }
 
-
-
-// Modal på information, funfact, spise og historie om lamaen slut//
+// modal bokse på alle knapper til lamasiden slut//

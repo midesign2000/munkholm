@@ -156,7 +156,7 @@ h1 {
 .logo-container img {
     width: 30%;
     height: 30%;
-  
+
 }
 
 #clickmenu {
@@ -235,7 +235,7 @@ h1 {
     font-family: 'Montserrat';
 }
 
-/* Links inside the navbar */
+/* Links inde i navbar */
 .navbar a {
     float: left;
     font-size: 16px;
@@ -245,7 +245,7 @@ h1 {
     text-decoration: none;
 }
 
-/* The dropdown container */
+/* dropdown container */
 .dropdown {
     align-content: center;
     overflow: hidden;
@@ -263,12 +263,11 @@ h1 {
     background-color: inherit;
 }
 
-/* Add a red background color to navbar links on hover */
+/* baggrund  hover på navbar links */
 .navbar a:hover,
-.dropdown:hover .dropbtn {
-}
+.dropdown:hover .dropbtn {}
 
-/* Dropdown content (hidden by default) */
+/* dropdown indhold */
 .dropdown-content {
     display: none;
     position: absolute;
@@ -278,7 +277,7 @@ h1 {
     z-index: 1;
 }
 
-/* Links inside the dropdown */
+/* Links inde i dropdown menuen */
 .dropdown-content a {
     float: none;
     color: #f7f5f2;
@@ -295,12 +294,12 @@ h1 {
     padding-bottom: 100%;
 }
 
-/* Add a grey background color to dropdown links on hover */
+/* baggrund til hover effekt til dropdown menu  */
 .dropdown-content a:hover {
     background-color: #ddd;
 }
 
-/* Show the dropdown menu on hover */
+/* hvis dropdown menuen med hovereffekt */
 .dropdown:hover .dropdown-content {
     display: block;
 }
@@ -458,7 +457,7 @@ footer .footer-rightdesktop img {
     margin-top: 5px;
     padding: 10px;
     text-align: right;
-margin-left: 10%;
+    margin-left: 10%;
 
 }
 
@@ -627,7 +626,7 @@ Breakpoints
 
         }
 
-        @media only screen and (min-width: 1020px){
+        @media only screen and (min-width: 1020px) {
 
 
             nav.left {
@@ -643,6 +642,7 @@ Breakpoints
             img.logo {
                 display: block;
             }
+
 
             #clickmenu {
                 display: none;
@@ -697,7 +697,7 @@ Breakpoints
                 display: none;
             }
 
-          
+
 
             #main-footer small {
                 font-size: 0.625rem;
@@ -733,9 +733,9 @@ Breakpoints
                 display: block;
             }
 
-        
 
-            #overskrift{
-            padding-top: 7%;
+
+            #overskrift {
+                padding-top: 7%;
             }
         }

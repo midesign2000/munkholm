@@ -1,7 +1,7 @@
 // modal bokse på alle knapper til lamasiden//
 
 
-// Get the modal
+// Få fat på modallen
 let modal = document.getElementById("myModal");
 
 let modal2 = document.getElementById("myModalFunfact");
@@ -15,7 +15,7 @@ let modal5 = document.getElementById("myModalLand");
 let modal6 = document.getElementById("myModalInfo");
 
 
-// Get the button that opens the modal
+// få fat på knappen som åbner modallen
 let btn = document.getElementById("myBtn");
 
 let btn2 = document.getElementById("myBtn-funfact");
@@ -30,7 +30,7 @@ let btn6 = document.getElementById("myBtn-info");
 
 
 
-// Get the <span> element that closes the modal
+// få fat på <span> elementet som lukker modallen
 let span = document.getElementsByClassName("close")[0];
 
 let span2 = document.getElementsByClassName("close")[1];
@@ -44,7 +44,7 @@ let span5 = document.getElementsByClassName("close")[4];
 let span6 = document.getElementsByClassName("close")[5];
 
 
-// When the user clicks the button, open the modal 
+// Når brugeren klikker på knappen åbner modallen
 btn.onclick = function () {
     modal.style.display = "block";
 }
@@ -76,7 +76,7 @@ btn6.onclick = function () {
 }
 
 
-// When the user clicks on <span> (x), close the modal
+// Når brugeren klikker på <span> (x), luk modal boksen
 span.onclick = function () {
     modal.style.display = "none";
 }
@@ -109,9 +109,9 @@ span6.onclick = function () {
 
 
 
-
+// Brugeren kan klikke uden for modalboksen for at lukke den modalboksen //
 window.onclick = function (event) {
-    if (event.target == modal || event.target == modal2 || event.target == modal3 || event.target == modal4 || event.target == modal5 || event.target == modal6) { //ændret af Morten
+    if (event.target == modal || event.target == modal2 || event.target == modal3 || event.target == modal4 || event.target == modal5 || event.target == modal6) { 
         modal.style.display = "none";
         modal2.style.display = "none";
         modal3.style.display = "none";
@@ -119,13 +119,14 @@ window.onclick = function (event) {
         modal5.style.display = "none";
         modal6.style.display = "none";
 
-        //Tilføjet af Morten
+        
     }
 };
 
-
-
 // modal bokse på alle knapper til lamasiden slut//
+
+
+
 
 
 

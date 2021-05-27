@@ -53,6 +53,9 @@ FORMULAR.addEventListener("submit", function () {
 /* Slut på morten indsat */
 
 
+
+/* Her har vi brugt API, som en del af vores 3 parts kode. Vi henter infomationerne fra https://api.dataforsyningen.dk/postnumre, som vi har lært i undervisningen*/
+
 fetch("https://api.dataforsyningen.dk/postnumre/")
     .then(function (data) {
         return data.json();

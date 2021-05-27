@@ -164,6 +164,7 @@ h1 {
     font-size: 30px;
     text-align: right;
     padding: 0.3em;
+    margin-left: 90%;
 
 }
 
@@ -522,6 +523,11 @@ Breakpoints
         width: 100%;
         text-align: center;
     }
+    
+     .dyrene a {
+    text-decoration: none;
+         
+    }
 
     .dyrene img {
         width: 90%;
@@ -576,6 +582,7 @@ Breakpoints
         #clickmenu {
             font-size: 50px;
             padding: 0.3em;
+            margin-left: 90%;
 
         }
 

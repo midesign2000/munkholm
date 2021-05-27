@@ -43,7 +43,7 @@ nav ul li a {
     font-size: 20px;
     font-family: 'Montserrat';
     color: #fff;
-    padding: 24px 14px;
+    padding: 20px 10px;
     text-decoration: none;
 
 }
@@ -74,7 +74,7 @@ nav ul li ul li a {
 .logo{
     width: 170px;
     position: absolute;
-    left: 50%;
+    left: 45%;
 }
 
 header{
@@ -85,7 +85,7 @@ header{
     
     .right ul{
         float: right;
-        padding-right: 7%;
+        padding-right: 10%;
         
     }
     .left ul{
@@ -96,11 +96,14 @@ header{
     display: none;
         
     }
-    
+
+ 
     nav.right{
     display: none;
     }
-    
+   
+
+
     
     img.logo{
     display: none;
@@ -306,6 +309,7 @@ padding: 0.5em;
 /* head section*/
 .head-sectionmobile {
     padding: 2%;
+    margin-top: 5%;
 }
 
 .head-sectionmobile h1 {

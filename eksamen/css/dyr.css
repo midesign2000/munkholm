@@ -33,7 +33,7 @@ nav ul li a {
     font-size: 20px;
     font-family: 'Montserrat';
     color: #fff;
-    padding: 24px 14px;
+    padding: 20px 10px;
     text-decoration: none;
 
 }
@@ -43,8 +43,12 @@ nav ul li ul {
     position: absolute;
     background-color: #8f9472;
     padding: 10px;
-    border-radius: 0px 0px 4px 4px;
+    border-radius: 10px;
 }
+
+
+
+
 
 nav ul li:hover ul {
     display: block;
@@ -67,7 +71,7 @@ nav ul li ul li a {
 .logo {
     width: 170px;
     position: absolute;
-    left: 50%;
+    left: 45%;
 }
 
 header {
@@ -78,7 +82,7 @@ header {
 
 .right ul {
     float: right;
-    padding-right: 7%;
+    padding-right: 10%;
 
 }
 
@@ -132,7 +136,7 @@ img.logo {
 
 h1 {
     color: white;
-    font-family: 'ubuntu regular';
+    font-family: 'Ubuntu';
     font-size: 35px;
     text-align: center;
     line-height: 1.5;

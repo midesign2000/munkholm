@@ -432,6 +432,9 @@ div#sedyr-mobile:hover {
 
 }
 
+#flexbokse-mobile a{
+text-decoration: none;
+}
 
 
 
@@ -598,6 +601,7 @@ div#herliggervi-mobile:hover {
 
 
 
+
 #nyheder-ipad {
     width: 30%;
     height: 400px;
@@ -611,6 +615,10 @@ div#herliggervi-mobile:hover {
     margin-top: 10%;
     margin: 5%;
 }
+
+
+
+
 
 div#nyheder-ipad:hover {
     background: -webkit-linear-gradient(#d2d5b6, #be7642);

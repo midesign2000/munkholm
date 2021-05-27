@@ -18,6 +18,7 @@ window.onload = function () {
     
 }
 
+// --------Udregning af pris på besøgende----------- //
 
 function samletpris(){
 

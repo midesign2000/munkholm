@@ -1,6 +1,4 @@
 
-// -----------------------Antal besøgende --------//
-
 
 const ANTALPAX = function (voksne, barn, børnu2, pensionister) {
     this.voksne = voksne;
@@ -29,7 +27,6 @@ const ANTALPAX = function (voksne, barn, børnu2, pensionister) {
     }
 }
 
-// --------Udregning af pris på besøgende----------- //
 
 const prisvoksen = 130;
 const prisbarn = 75;

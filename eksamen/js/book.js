@@ -24,22 +24,9 @@ function gemAdresse(){
     sessionStorage.setItem("postnummer", document.getElementById("postnr").value);
 }
 
-/*
-const BOOKKNAP = document.getElementById("bookknap");
-
-BOOKKNAP.addEventListener("click", function () {
-    sessionStorage.setItem("fornavn", document.getElementById("fornavn").value);
-    sessionStorage.setItem("efternavn", document.getElementById("efternavn").value);
-    sessionStorage.setItem("email", document.getElementById("email").value);
-    sessionStorage.setItem("adresse", document.getElementById("adresse").value);
-    sessionStorage.setItem("postnummer", document.getElementById("postnummer").value);
-})
-
-*/
 
 
 
-/* Det har morten indsat */
 const FORMULAR = document.getElementById("formular");
 FORMULAR.addEventListener("submit", function () {
     event.preventDefault();
@@ -50,11 +37,9 @@ FORMULAR.addEventListener("submit", function () {
     sessionStorage.setItem("postnr", document.getElementById("postnummer").value);
     window.location.replace("kvittering.html");
 });
-/* Slut på morten indsat */
 
 
 
-/* Her har vi brugt API, som en del af vores 3 parts kode. Vi henter infomationerne fra https://api.dataforsyningen.dk/postnumre, som vi har lært i undervisningen*/
 
 fetch("https://api.dataforsyningen.dk/postnumre/")
     .then(function (data) {

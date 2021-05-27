@@ -20,7 +20,6 @@ function kvitteringsTekst(){
     
     
     
-    /*Der er lavet en if sætning for at lave et tjek på om persontypen er valgt, og for i kvitteringen at vise brugeren hvad de har købt og betalt. Elementerne der ikke er valgt bliver dermed ikke vist */
     
     let voksne = sessionStorage.getItem("Voksen");
     if(voksne > 0){

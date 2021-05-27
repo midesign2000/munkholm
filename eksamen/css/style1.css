@@ -832,7 +832,7 @@ div#button-desktop a{
 
 
 .dyrebokse-desktop-container div {
-    width: 100px;
+    width: 120px;
 
 
 
@@ -1289,11 +1289,30 @@ display: none;
 
     }
 
-    .dyrebokse-desktop-container div {
-        margin: 25px;
+   
+    #nyheder-desktop{
+    margin-left: 6%;
+    margin-right: 2%;
     }
 
+    
+    #dyrepasser-desktop{
+     margin-left: 3%;
+    margin-right: 2%;
+    }
 
+    
+    
+    #herliggervi-desktop{
+     margin-left: 2%;
+    margin-right: 5%;
+    }
+    
+    #kort-desktop{
+     margin-left: 3%;
+    margin-right: 2%;
+    }
+    
     .dyrebokse-desktop-container {
         display: flex;
         padding-bottom: 10%;
